@@ -1,0 +1,63 @@
+AI Data Cleaning & Quality Audit Report
+=============================================
+
+Dataset Source: Default sample dataset
+Rows: 1000
+Columns: 10
+Total Cells: 10000
+Data Quality Score: 86.36/100
+
+Executive Summary:
+- The dataset contains 1000 rows, 10 columns, and 10000 total data cells.
+- The overall data quality score is 86.36/100.
+- There are 167 missing values that may affect reporting accuracy.
+- There are 24 duplicate rows that should be removed to avoid inflated reports.
+- There are 45 negative numeric values that should be reviewed before analysis.
+- There are 25 invalid date values that may impact time-based analysis.
+- There are 70 business rule violations across quantity, amount, discount, or rating columns.
+- There are 20 detected outliers. These should be reviewed instead of removed automatically.
+- There are 9 possible category inconsistencies caused by spacing or capitalization issues.
+- Overall, the dataset has good quality and may only require minor cleaning.
+
+Audit Summary:
+                      Audit Check  Count
+                       Total Rows   1000
+                    Total Columns     10
+                 Total Data Cells  10000
+                   Missing Values    167
+                   Duplicate Rows     24
+                  Negative Values     45
+                    Invalid Dates     25
+         Business Rule Violations     70
+                         Outliers     20
+Possible Category Inconsistencies      9
+
+Recommendations:
+
+Issue: Missing Values
+Recommendation: Review missing values. Fill numeric columns with median and categorical columns with 'Unknown' when business logic allows.
+Why It Matters: Missing values can affect KPIs, averages, totals, and dashboard accuracy.
+
+Issue: Duplicate Rows
+Recommendation: Remove exact duplicate rows before reporting.
+Why It Matters: Duplicate records can inflate sales, quantity, revenue, and customer counts.
+
+Issue: Negative Numeric Values
+Recommendation: Review negative values before deletion because they may represent returns, refunds, or corrections.
+Why It Matters: Negative values can reduce totals and create misleading business metrics.
+
+Issue: Invalid Dates
+Recommendation: Convert invalid dates to missing date values and flag them for source correction.
+Why It Matters: Invalid dates affect monthly trends, time-series analysis, and dashboard filters.
+
+Issue: Business Rule Violations
+Recommendation: Review quantity, amount, discount, and rating columns based on expected business rules.
+Why It Matters: Business rule violations can create incorrect KPIs and misleading analysis.
+
+Issue: Outliers
+Recommendation: Flag outliers for review instead of automatically removing them.
+Why It Matters: Some outliers may be valid high-value transactions.
+
+Issue: Inconsistent Categories
+Recommendation: Standardize category values by trimming spaces and using consistent case.
+Why It Matters: Inconsistent categories can split the same value into multiple groups in BI reports.

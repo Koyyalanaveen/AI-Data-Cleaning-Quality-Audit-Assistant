@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,Region,Product_Category,Sales_Channel,Quantity,Unit_Price,Discount_Percent,Payment_Status,Customer_Rating
+ORD1001,2025-01-01,NORTH,electronics ,Retail,12,4539.72,15.09,Refunded,1.9
+ORD1002,2025-01-02,,FURNITURE,Online,19,,3.06,PENDING,4.5
+ORD1003,2025-01-03,Central,Electronics,online ,14,3651.8,9.9,Paid,1.4
+ORD1004,2025-01-04,NORTH,Electronics,RETAIL,17,4400.47,14.65,,1.2
+ORD1005,2025-01-05,East,Electronics,Online,3,304.12,10.24,Pending,1.5
+ORD1006,2025-01-06,west ,Groceries,Online,7,2048.47,11.63,Pending,1.2
+ORD1007,2025-01-07,Central,Clothing,Distributor,17,3835.31,10.28,PENDING,4.4
+ORD1008,2025-01-08,Central,Groceries,RETAIL,12,2329.1,1.45,paid ,1.2
+ORD1009,2025-01-09,NORTH,Clothing,Retail,9,1409.54,22.3,paid ,2.1
+ORD1010,2025-01-10,North,Groceries,online ,15,1177.05,20.91,Paid,1.4
+ORD1011,2025-01-11,East,Groceries,Retail,18,744.44,22.87,PENDING,2.2
+ORD1011,2025-01-11,East,Groceries,Retail,18,744.44,22.87,PENDING,2.2
+ORD1013,2025-01-13,East,Office Supplies,Online,8,2919.24,10.35,Failed,3.7
+ORD1014,2025-01-14,East,Groceries,Online,14,474.29,21.69,PENDING,1.5
+ORD1015,2025-01-15,west ,electronics ,RETAIL,8,1974.64,20.99,Pending,4.4
+ORD1016,2025-01-16,Central,Furniture,Online,14,1901.89,17.72,Paid,4.3
+ORD1017,2025-01-17,,Office Supplies,Online,7,990.52,12.26,paid ,1.1
+ORD1018,2025-01-18,west ,Groceries,Online,12,2233.99,31.95,PENDING,4.6
+ORD1019,2025-01-19,west ,FURNITURE,online ,11,1727.29,11.89,Paid,1.1
+ORD1020,2025-01-20,East,Electronics,online ,11,1774.84,15.95,PENDING,2.0
+ORD1021,2025-01-21,,Furniture,Distributor,13,3721.23,23.73,paid ,1.1
+ORD1022,2025-01-22,Central,Furniture,Retail,18,1193.99,19.01,Refunded,2.3
+ORD1023,2025-01-23,North,electronics ,RETAIL,2,,12.14,paid ,3.1
+ORD1024,2025-01-24,west ,,RETAIL,15,2896.18,15.25,paid ,4.2
+ORD1025,2025-01-25,West,Office Supplies,RETAIL,18,-2167.79,27.81,paid ,2.4
+ORD1026,2025-01-26,south ,Groceries,Distributor,15,3348.74,9.73,PENDING,3.8
+ORD1027,2025-01-27,,Groceries,online ,19,2787.07,4.98,Failed,1.8
+ORD1028,2025-01-28,North,FURNITURE,Distributor,12,4408.35,10.96,paid ,4.0
+ORD1029,2025-01-29,west ,Electronics,RETAIL,13,3410.34,29.73,Pending,1.9
+ORD1030,2025-01-30,West,electronics ,Retail,11,2780.12,3.11,Pending,1.6
+ORD1031,2025-01-31,Central,Electronics,Online,5,4165.84,34.71,Paid,1.7
+ORD1032,invalid-date,South,Furniture,online ,1,3070.12,18.94,Failed,1.7
+ORD1033,2025-02-02,West,FURNITURE,online ,3,1526.61,34.47,Paid,3.1
+ORD1034,2025-02-03,North,,Distributor,19,1114.77,32.86,Pending,4.4
+ORD1035,2025-02-04,south ,Office Supplies,online ,7,846.41,15.85,Pending,1.3
+ORD1036,2025-02-05,Central,Groceries,RETAIL,12,4507.33,6.95,Refunded,3.8
+ORD1037,2025-02-06,West,Furniture,RETAIL,15,3579.66,5.77,paid ,3.6
+ORD1038,2025-02-07,South,FURNITURE,Distributor,5,4693.15,8.4,Pending,4.5
+ORD1039,2025-02-08,South,Electronics,RETAIL,15,3056.13,24.85,PENDING,2.0
+ORD1040,2025-02-09,,electronics ,Retail,8,2419.66,9.55,PENDING,2.8
+ORD1041,2025-02-10,East,Office Supplies,Distributor,10,392.61,11.95,Paid,4.7
+ORD1042,2025-02-11,NORTH,Office Supplies,Retail,16,3391.05,15.71,Paid,3.6
+ORD1043,2025-02-12,North,Electronics,Online,8,2952.82,31.96,paid ,2.6
+ORD1044,2025-02-13,west ,Groceries,Retail,1,4952.02,6.63,paid ,0.0
+ORD1045,2025-02-14,West,Electronics,Online,12,1271.88,0.18,Refunded,2.0
+ORD1046,2025-02-15,West,Furniture,Online,5,,2.1,Failed,3.3
+ORD1047,2025-02-16,west ,Electronics,Retail,3,3289.69,31.67,Paid,3.9
+ORD1048,2025-02-17,NORTH,Office Supplies,Distributor,1,3258.5,22.66,paid ,1.5
+ORD1049,2025-02-18,south ,FURNITURE,RETAIL,4,2850.34,9.56,,3.4
+ORD1050,2025-02-19,,Electronics,RETAIL,8,3906.95,6.2,paid ,3.2
+ORD1051,2025-02-20,NORTH,Groceries,Online,3,1104.41,10.3,Pending,3.1
+ORD1052,2025-02-21,south ,FURNITURE,Online,10,3655.57,4.02,Paid,3.8
+ORD1053,2025-02-22,East,electronics ,Distributor,2,3136.7,32.95,Pending,4.3
+ORD1054,2025-02-23,West,Clothing,online ,11,4490.77,27.45,Paid,2.3
+ORD1055,2025-02-24,NORTH,Electronics,Retail,10,4251.25,16.18,Failed,4.6
+ORD1056,invalid-date,West,Groceries,Online,14,1644.22,30.27,Refunded,1.6
+ORD1057,2025-02-26,west ,FURNITURE,RETAIL,7,66943.43,8.73,PENDING,1.7
+ORD1058,2025-02-27,South,Groceries,Distributor,2,4910.1,25.1,PENDING,2.1
+ORD1059,2025-02-28,East,electronics ,Retail,9,2683.6,29.96,PENDING,1.5
+ORD1060,2025-03-01,Central,Office Supplies,Distributor,16,4541.46,12.49,Pending,1.9
+ORD1061,2025-03-02,East,Groceries,Retail,13,903.02,26.51,paid ,1.4
+ORD1062,2025-03-03,NORTH,FURNITURE,Retail,9,3249.81,10.33,PENDING,4.3
+ORD1063,2025-03-04,Central,Groceries,Online,4,4068.31,10.46,Failed,1.6
+ORD1064,2025-03-05,South,Groceries,Distributor,10,4742.24,3.75,PENDING,0.0
+ORD1065,2025-03-06,NORTH,Groceries,Distributor,12,,15.4,Paid,1.2
+ORD1066,2025-03-07,North,Furniture,RETAIL,17,3652.41,25.54,Pending,4.8
+ORD1067,2025-03-08,,Furniture,RETAIL,14,2740.18,32.91,Paid,3.8
+ORD1068,2025-03-09,South,Office Supplies,Online,14,397.08,21.13,Paid,1.0
+ORD1069,2025-03-10,,Electronics,Online,2,3481.0,30.21,Paid,4.1
+ORD1070,2025-03-11,south ,Groceries,online ,11,3481.47,28.79,Refunded,3.1
+ORD1071,2025-03-12,North,electronics ,RETAIL,16,4659.97,6.07,Refunded,4.1
+ORD1072,2025-03-13,North,Electronics,Retail,19,2536.83,17.0,paid ,3.1
+ORD1073,2025-03-14,South,electronics ,Distributor,6,1228.23,4.09,Pending,3.6
+ORD1074,2025-03-15,North,Electronics,Online,19,318.36,23.88,Failed,4.1
+ORD1075,2025-03-16,Central,,Distributor,5,2136.65,33.25,Failed,2.6
+ORD1076,2025-03-17,North,Groceries,Distributor,4,1579.39,4.8,Failed,0.0
+ORD1077,2025-03-18,West,Groceries,online ,15,3829.33,25.69,Paid,4.4
+ORD1078,2025-03-19,West,Clothing,RETAIL,4,1835.91,22.13,Refunded,2.5
+ORD1079,2025-03-20,NORTH,electronics ,Online,10,,20.43,Pending,3.0
+ORD1080,2025-03-21,West,Electronics,Distributor,3,4815.32,13.65,Paid,1.0
+ORD1081,2025-03-22,NORTH,Electronics,Online,5,3142.45,12.43,Refunded,3.0
+ORD1082,2025-03-23,West,Furniture,Retail,6,4650.44,1.58,Refunded,4.9
+ORD1083,2025-03-24,Central,Clothing,online ,8,3828.19,7.63,PENDING,2.1
+ORD1084,2025-03-25,west ,FURNITURE,Retail,7,2779.61,0.53,PENDING,2.6
+ORD1085,2025-03-26,NORTH,FURNITURE,Online,10,983.51,20.35,Pending,3.7
+ORD1086,2025-03-27,East,Furniture,Online,6,2347.13,3.7,Pending,7.0
+ORD1087,2025-03-28,,Furniture,RETAIL,14,2848.28,30.56,Pending,2.7
+ORD1088,2025-03-29,South,Furniture,Distributor,4,4333.41,18.31,Paid,2.2
+ORD1089,2025-03-30,West,electronics ,Distributor,13,2458.53,24.49,paid ,4.8
+ORD1090,2025-03-31,North,electronics ,Retail,17,4498.61,14.38,Pending,3.7
+ORD1091,2025-04-01,west ,Office Supplies,online ,7,3404.31,19.62,PENDING,1.5
+ORD1092,2025-04-02,West,Office Supplies,Distributor,4,771.3,32.99,paid ,1.3
+ORD1093,2025-04-03,North,Furniture,RETAIL,14,4975.41,2.9,Paid,2.9
+ORD1094,2025-04-04,south ,Clothing,Retail,3,2683.44,8.89,paid ,1.9
+ORD1095,2025-04-05,,Electronics,Retail,5,2020.11,27.3,Failed,2.0
+ORD1096,2025-04-06,south ,electronics ,RETAIL,16,3329.66,3.46,paid ,4.5
+ORD1097,2025-04-07,North,Clothing,online ,4,633.58,2.65,Pending,1.4
+ORD1098,2025-04-08,,Groceries,RETAIL,2,3219.04,12.65,Paid,3.9
+ORD1099,2025-04-09,south ,electronics ,online ,18,2541.36,3.23,Pending,2.1
+ORD1100,2025-04-10,Central,electronics ,RETAIL,19,2092.7,20.48,PENDING,4.0
+ORD1101,2025-04-11,NORTH,Office Supplies,RETAIL,19,4769.8,7.92,Failed,3.9
+ORD1101,2025-04-11,NORTH,Office Supplies,RETAIL,19,4769.8,7.92,Failed,3.9
+ORD1103,invalid-date,North,Electronics,Retail,14,1173.68,27.42,Pending,3.0
+ORD1104,2025-04-14,West,FURNITURE,RETAIL,19,2348.92,24.49,Pending,1.6
+ORD1105,2025-04-15,North,FURNITURE,RETAIL,13,4605.0,21.59,Pending,4.5
+ORD1106,2025-04-16,North,FURNITURE,Distributor,12,962.87,30.22,Refunded,4.5
+ORD1107,2025-04-17,south ,FURNITURE,Retail,6,1148.39,7.81,Failed,2.7
+ORD1108,2025-04-18,West,Groceries,Distributor,4,163.84,30.56,Pending,2.8
+ORD1109,2025-04-19,south ,Groceries,Retail,19,169.53,27.63,Pending,2.2
+ORD1110,2025-04-20,NORTH,electronics ,Distributor,16,4164.02,26.19,PENDING,3.9
+ORD1111,2025-04-21,west ,Furniture,RETAIL,13,3687.4,19.64,PENDING,2.4
+ORD1112,2025-04-22,NORTH,Office Supplies,RETAIL,4,1839.7,8.62,Pending,2.1
+ORD1113,2025-04-23,west ,Office Supplies,Online,17,3521.72,14.82,Paid,2.7
+ORD1114,2025-04-24,south ,FURNITURE,Distributor,1,2036.51,27.77,Refunded,1.4
+ORD1115,2025-04-25,NORTH,electronics ,online ,18,4769.19,1.11,PENDING,4.0
+ORD1116,2025-04-26,West,Clothing,Online,17,4838.56,27.37,Paid,1.1
+ORD1117,2025-04-27,South,Furniture,Distributor,15,2024.69,8.4,Refunded,3.6
+ORD1118,2025-04-28,south ,electronics ,Distributor,11,4285.69,5.05,Pending,1.7
+ORD1119,2025-04-29,west ,,Online,13,78105.08,4.05,Failed,1.9
+ORD1120,2025-04-30,Central,Furniture,RETAIL,1,1619.0,0.95,paid ,3.5
+ORD1121,2025-05-01,,Furniture,Distributor,17,1237.0,18.33,paid ,5.0
+ORD1122,2025-05-02,Central,electronics ,RETAIL,6,2345.35,7.64,Pending,4.1
+ORD1123,2025-05-03,North,FURNITURE,Online,4,3928.61,34.63,PENDING,1.9
+ORD1124,2025-05-04,NORTH,Office Supplies,RETAIL,16,57469.85,20.11,Paid,1.7
+ORD1125,2025-05-05,Central,Office Supplies,Retail,15,3841.54,4.83,Failed,4.5
+ORD1126,2025-05-06,west ,FURNITURE,online ,15,4290.51,24.11,Refunded,2.8
+ORD1127,2025-05-07,North,Furniture,Distributor,6,3055.02,31.42,,1.5
+ORD1128,2025-05-08,South,Clothing,online ,15,4193.5,26.08,Failed,4.4
+ORD1129,2025-05-09,West,Electronics,RETAIL,14,3943.66,2.68,Failed,4.3
+ORD1130,2025-05-10,West,electronics ,Distributor,11,1947.23,31.36,PENDING,4.9
+ORD1131,2025-05-11,,Electronics,RETAIL,7,2804.75,27.79,Refunded,4.6
+ORD1132,2025-05-12,Central,FURNITURE,Retail,9,4043.29,5.54,Failed,4.4
+ORD1133,2025-05-13,South,Clothing,Online,16,325.68,1.81,PENDING,1.2
+ORD1134,2025-05-14,Central,electronics ,Distributor,5,4059.59,19.51,Paid,1.4
+ORD1135,2025-05-15,,FURNITURE,Retail,10,971.65,5.46,PENDING,3.3
+ORD1136,2025-05-16,Central,Furniture,Retail,18,2621.95,29.21,Paid,3.1
+ORD1137,2025-05-17,South,Office Supplies,Distributor,-9,4060.55,12.54,Paid,2.8
+ORD1138,2025-05-18,South,Electronics,RETAIL,13,1343.72,31.95,Failed,2.6
+ORD1139,2025-05-19,NORTH,Groceries,Retail,11,1304.46,19.8,,2.7
+ORD1140,2025-05-20,South,,online ,17,2073.55,6.39,Paid,3.3
+ORD1141,2025-05-21,west ,Clothing,Retail,13,4483.75,4.89,Refunded,1.0
+ORD1142,2025-05-22,South,Furniture,RETAIL,6,102.17,20.18,Failed,2.0
+ORD1143,2025-05-23,West,Electronics,RETAIL,17,4516.78,26.67,PENDING,3.1
+ORD1144,2025-05-24,west ,Furniture,online ,13,853.65,27.35,PENDING,3.9
+ORD1145,2025-05-25,west ,Electronics,Retail,19,4951.42,9.65,paid ,1.7
+ORD1146,2025-05-26,NORTH,Clothing,RETAIL,19,4778.75,7.15,PENDING,3.2
+ORD1147,2025-05-27,East,Clothing,Distributor,10,2523.91,0.59,Failed,3.9
+ORD1148,2025-05-28,East,Groceries,Online,3,2612.33,23.77,Refunded,2.8
+ORD1148,2025-05-28,East,Groceries,Online,3,2612.33,23.77,Refunded,2.8
+ORD1148,2025-05-28,East,Groceries,Online,3,2612.33,23.77,Refunded,2.8
+ORD1151,2025-05-31,East,Groceries,Retail,5,544.54,21.06,Failed,2.2
+ORD1152,2025-06-01,East,Furniture,online ,5,,32.8,Paid,4.7
+ORD1153,2025-06-02,South,Groceries,RETAIL,17,382.74,10.91,Pending,1.5
+ORD1154,2025-06-03,East,electronics ,Distributor,10,2277.39,8.74,,3.6
+ORD1155,2025-06-04,Central,,Distributor,5,1450.18,22.9,Paid,1.2
+ORD1156,2025-06-05,North,Office Supplies,Retail,4,3147.99,21.67,PENDING,2.8
+ORD1157,2025-06-06,,Office Supplies,Online,6,4962.97,11.62,Pending,0.0
+ORD1158,2025-06-07,North,Office Supplies,Retail,4,1992.98,32.48,Pending,2.2
+ORD1159,2025-06-08,South,FURNITURE,online ,7,2911.82,29.57,Paid,2.8
+ORD1160,2025-06-09,West,Electronics,online ,7,2136.46,7.84,PENDING,1.7
+ORD1161,2025-06-10,NORTH,FURNITURE,RETAIL,18,4251.63,8.37,PENDING,2.2
+ORD1162,2025-06-11,South,FURNITURE,RETAIL,3,4520.96,17.93,Paid,3.5
+ORD1163,2025-06-12,west ,FURNITURE,online ,1,4399.04,27.08,PENDING,7.0
+ORD1164,2025-06-13,West,Office Supplies,online ,4,4874.42,1.54,PENDING,4.6
+ORD1165,2025-06-14,North,electronics ,online ,6,234.84,24.27,Failed,3.5
+ORD1166,2025-06-15,South,Clothing,Retail,9,4215.1,22.69,Failed,2.8
+ORD1167,2025-06-16,west ,Clothing,online ,14,3783.68,8.1,Paid,1.2
+ORD1168,2025-06-17,NORTH,Electronics,Distributor,12,1220.6,23.85,Refunded,3.0
+ORD1169,2025-06-18,NORTH,Office Supplies,Online,4,4785.97,32.91,Pending,4.1
+ORD1170,2025-06-19,south ,Office Supplies,online ,12,826.07,1.64,Failed,2.1
+ORD1171,2025-06-20,west ,Office Supplies,Online,10,3429.79,11.19,Pending,4.2
+ORD1172,2025-06-21,Central,Groceries,Retail,7,1201.96,15.34,paid ,2.0
+ORD1173,2025-06-22,East,Furniture,Online,3,2213.77,31.47,Paid,4.3
+ORD1174,2025-06-23,West,Groceries,Retail,14,3623.88,33.68,Refunded,1.3
+ORD1175,2025-06-24,west ,Furniture,Distributor,10,-1022.23,15.54,paid ,4.5
+ORD1176,2025-06-25,south ,Office Supplies,Retail,16,2194.76,26.25,paid ,6.0
+ORD1177,invalid-date,East,Office Supplies,Retail,16,1699.06,18.61,PENDING,2.2
+ORD1178,2025-06-27,East,Groceries,RETAIL,10,4214.33,18.82,paid ,2.1
+ORD1179,2025-06-28,South,Groceries,online ,13,804.69,9.73,Paid,2.7
+ORD1180,2025-06-29,East,Furniture,online ,6,2207.5,7.59,Failed,5.0
+ORD1181,2025-06-30,Central,Clothing,Distributor,12,4528.41,10.08,Paid,1.9
+ORD1182,2025-07-01,NORTH,Furniture,Distributor,9,4244.66,19.47,Failed,1.4
+ORD1183,2025-07-02,south ,Groceries,online ,13,2064.61,1.02,paid ,3.3
+ORD1184,2025-07-03,East,electronics ,RETAIL,4,3839.23,31.75,paid ,3.0
+ORD1185,2025-07-04,South,Groceries,online ,11,4133.49,5.47,Refunded,3.1
+ORD1186,2025-07-05,Central,electronics ,RETAIL,18,4455.55,7.7,Failed,3.7
+ORD1187,2025-07-06,North,Electronics,Distributor,11,2768.08,18.14,paid ,2.1
+ORD1188,2025-07-07,NORTH,Groceries,Online,4,1101.86,24.85,PENDING,4.6
+ORD1189,2025-07-08,NORTH,Electronics,Distributor,18,1351.01,3.35,Pending,2.7
+ORD1190,2025-07-09,south ,Clothing,Distributor,1,1548.9,11.12,Refunded,1.5
+ORD1190,2025-07-09,south ,Clothing,Distributor,1,1548.9,11.12,Refunded,1.5
+ORD1192,2025-07-11,East,electronics ,Retail,6,260.77,9.18,Refunded,3.6
+ORD1193,2025-07-12,South,,Retail,15,3216.61,10.96,Pending,2.3
+ORD1194,2025-07-13,NORTH,Electronics,Retail,18,1885.34,29.28,Failed,3.5
+ORD1195,invalid-date,NORTH,electronics ,RETAIL,11,1546.68,1.76,Paid,1.9
+ORD1196,2025-07-15,North,Furniture,online ,15,4409.53,16.26,Paid,2.8
+ORD1197,invalid-date,North,Groceries,Online,16,2354.01,13.29,Failed,4.6
+ORD1198,2025-07-17,West,Office Supplies,Distributor,7,565.76,11.08,Refunded,1.5
+ORD1199,2025-07-18,Central,Electronics,RETAIL,10,4151.06,10.0,paid ,2.5
+ORD1200,2025-07-19,East,Furniture,Online,12,333.44,3.2,Refunded,4.3
+ORD1201,2025-07-20,NORTH,Electronics,RETAIL,14,3661.07,11.02,Pending,4.9
+ORD1202,2025-07-21,west ,FURNITURE,RETAIL,5,3892.14,1.51,PENDING,2.8
+ORD1203,2025-07-22,NORTH,Electronics,Distributor,18,,27.33,paid ,3.0
+ORD1204,2025-07-23,South,electronics ,online ,5,4141.46,13.94,Refunded,3.3
+ORD1205,2025-07-24,West,FURNITURE,Retail,3,2626.73,15.54,PENDING,4.7
+ORD1206,2025-07-25,,electronics ,online ,5,2370.14,31.28,PENDING,4.4
+ORD1207,2025-07-26,west ,Office Supplies,Distributor,17,322.48,23.03,Failed,1.7
+ORD1208,2025-07-27,West,FURNITURE,Distributor,19,1521.14,0.28,Pending,2.7
+ORD1209,2025-07-28,south ,Groceries,Distributor,19,4661.95,33.01,Pending,2.9
+ORD1210,2025-07-29,Central,Electronics,Online,12,2019.94,8.3,Pending,4.2
+ORD1211,2025-07-30,NORTH,Furniture,online ,-9,2778.83,3.77,paid ,3.4
+ORD1212,2025-07-31,NORTH,Clothing,online ,1,2706.91,26.88,Paid,3.6
+ORD1213,2025-08-01,Central,Electronics,RETAIL,18,2993.11,17.52,paid ,5.0
+ORD1213,2025-08-01,Central,Electronics,RETAIL,18,2993.11,17.52,paid ,5.0
+ORD1215,2025-08-03,East,Office Supplies,RETAIL,10,1874.66,8.73,PENDING,1.9
+ORD1216,2025-08-04,Central,Groceries,Distributor,7,3643.33,19.16,PENDING,2.6
+ORD1217,2025-08-05,West,Clothing,online ,1,1082.75,9.6,Paid,2.4
+ORD1218,2025-08-06,Central,FURNITURE,Distributor,17,1097.53,31.56,Refunded,1.1
+ORD1219,2025-08-07,west ,FURNITURE,Online,2,149.44,7.53,Paid,1.4
+ORD1220,2025-08-08,NORTH,FURNITURE,RETAIL,11,2243.66,30.95,PENDING,3.7
+ORD1221,2025-08-09,East,electronics ,Distributor,9,4425.4,19.58,paid ,4.5
+ORD1222,2025-08-10,East,electronics ,Distributor,7,354.31,29.0,Pending,3.1
+ORD1223,2025-08-11,south ,Furniture,Online,17,1036.48,24.95,PENDING,3.2
+ORD1224,2025-08-12,West,Clothing,Retail,17,,24.38,Failed,2.0
+ORD1225,2025-08-13,North,FURNITURE,online ,2,3685.45,11.35,Pending,4.1
+ORD1226,2025-08-14,North,electronics ,Retail,6,3239.11,8.19,PENDING,4.0
+ORD1227,2025-08-15,Central,Furniture,RETAIL,14,2138.13,7.38,paid ,3.4
+ORD1228,2025-08-16,south ,Groceries,Distributor,6,3819.44,30.0,Paid,1.9
+ORD1229,2025-08-17,South,Furniture,Online,2,3087.19,28.71,Pending,1.4
+ORD1230,2025-08-18,Central,electronics ,Online,1,4490.6,15.42,paid ,1.3
+ORD1231,2025-08-19,south ,Office Supplies,online ,10,,4.63,Refunded,3.4
+ORD1232,2025-08-20,West,Office Supplies,Retail,5,1338.79,13.38,Failed,4.3
+ORD1233,2025-08-21,West,FURNITURE,online ,2,-1712.57,21.68,Pending,4.4
+ORD1234,2025-08-22,West,Office Supplies,Distributor,16,714.25,15.9,Paid,2.9
+ORD1235,2025-08-23,West,FURNITURE,online ,2,1751.13,27.31,Refunded,4.1
+ORD1236,2025-08-24,West,,Online,10,4997.77,34.92,paid ,4.8
+ORD1237,2025-08-25,south ,electronics ,Online,2,2088.18,6.69,Failed,2.1
+ORD1238,2025-08-26,south ,Office Supplies,RETAIL,16,,16.09,Paid,2.6
+ORD1239,2025-08-27,East,FURNITURE,RETAIL,16,3836.17,15.08,paid ,4.7
+ORD1240,2025-08-28,west ,Clothing,Distributor,19,2758.11,10.66,paid ,2.4
+ORD1241,invalid-date,North,Groceries,Retail,7,833.05,6.93,Pending,4.7
+ORD1242,2025-08-30,NORTH,Furniture,online ,12,1965.38,2.3,Pending,4.9
+ORD1243,2025-08-31,West,,Distributor,15,2130.9,31.05,Paid,3.6
+ORD1244,2025-09-01,South,electronics ,RETAIL,8,3793.77,14.69,PENDING,4.3
+ORD1245,2025-09-02,NORTH,Office Supplies,online ,6,201.29,17.39,PENDING,4.0
+ORD1246,2025-09-03,south ,Office Supplies,RETAIL,10,1418.2,32.09,paid ,3.8
+ORD1247,2025-09-04,South,FURNITURE,online ,3,2636.22,27.17,Pending,2.2
+ORD1248,2025-09-05,South,Electronics,Retail,19,1417.35,4.57,Failed,1.2
+ORD1249,2025-09-06,South,,Distributor,17,60682.44,19.79,Failed,2.4
+ORD1250,2025-09-07,East,Groceries,online ,7,2461.15,15.48,paid ,3.7
+ORD1251,2025-09-08,,Clothing,Online,4,1872.38,27.9,Pending,0.0
+ORD1252,2025-09-09,South,Furniture,Online,14,4751.12,25.35,Paid,1.0
+ORD1253,2025-09-10,West,FURNITURE,online ,15,3197.58,24.16,Paid,1.6
+ORD1254,2025-09-11,Central,Electronics,online ,8,736.71,11.92,Paid,3.9
+ORD1255,2025-09-12,South,Electronics,online ,15,2844.45,28.17,Failed,4.9
+ORD1255,2025-09-12,South,Electronics,online ,15,2844.45,28.17,Failed,4.9
+ORD1257,2025-09-14,NORTH,electronics ,Online,9,3571.6,5.59,Pending,3.0
+ORD1258,2025-09-15,south ,Furniture,online ,8,943.24,11.75,Failed,4.5
+ORD1259,2025-09-16,,electronics ,RETAIL,17,4864.86,2.69,Paid,3.9
+ORD1260,2025-09-17,East,Clothing,RETAIL,2,2299.19,8.22,Paid,3.0
+ORD1261,2025-09-18,South,Electronics,Retail,3,879.22,29.06,paid ,3.3
+ORD1262,2025-09-19,south ,Electronics,Distributor,8,982.96,33.19,PENDING,1.5
+ORD1263,2025-09-20,Central,Groceries,RETAIL,12,581.35,10.66,Refunded,4.8
+ORD1264,2025-09-21,South,Clothing,Online,1,4037.24,9.26,PENDING,2.4
+ORD1265,2025-09-22,East,Electronics,RETAIL,10,697.95,9.8,Pending,2.8
+ORD1266,2025-09-23,North,Clothing,Retail,3,713.11,9.72,Pending,3.7
+ORD1267,2025-09-24,West,Furniture,Retail,6,4267.31,1.26,Pending,2.3
+ORD1268,2025-09-25,west ,Office Supplies,Distributor,7,1788.56,32.44,PENDING,2.0
+ORD1269,2025-09-26,NORTH,Electronics,RETAIL,18,251.2,7.48,Refunded,3.5
+ORD1270,2025-09-27,East,Groceries,Online,11,354.29,14.7,paid ,1.1
+ORD1271,2025-09-28,south ,Furniture,Online,19,796.64,0.34,PENDING,3.9
+ORD1272,2025-09-29,west ,FURNITURE,online ,5,1145.63,30.03,Refunded,3.1
+ORD1273,2025-09-30,west ,Clothing,Online,19,3359.22,25.59,Paid,3.4
+ORD1274,2025-10-01,west ,FURNITURE,Distributor,11,870.9,33.14,Paid,3.5
+ORD1275,2025-10-02,South,electronics ,Distributor,12,682.48,27.36,Pending,3.1
+ORD1276,2025-10-03,West,Furniture,Online,10,3847.12,10.98,Failed,3.3
+ORD1277,2025-10-04,South,FURNITURE,Online,8,,8.68,Pending,3.7
+ORD1278,2025-10-05,south ,Electronics,online ,9,2233.09,24.42,Failed,4.0
+ORD1279,2025-10-06,South,Clothing,Online,4,2791.62,12.74,Refunded,3.9
+ORD1280,2025-10-07,,Office Supplies,online ,5,1628.72,19.82,Paid,4.5
+ORD1281,2025-10-08,West,Furniture,online ,8,2464.25,0.22,,1.8
+ORD1282,2025-10-09,West,Electronics,Online,9,2582.7,2.17,Failed,2.6
+ORD1283,2025-10-10,south ,Groceries,Retail,15,-2409.27,18.74,Refunded,4.8
+ORD1284,2025-10-11,NORTH,,Retail,15,4542.2,19.81,Paid,2.6
+ORD1285,2025-10-12,North,Clothing,online ,16,178.7,26.3,PENDING,1.5
+ORD1286,2025-10-13,East,Furniture,Online,14,3932.64,4.62,Failed,3.1
+ORD1287,2025-10-14,South,Furniture,Retail,8,709.48,17.96,Pending,1.4
+ORD1288,2025-10-15,Central,Office Supplies,Online,18,4007.98,6.81,Pending,1.8
+ORD1289,2025-10-16,South,Office Supplies,Online,10,3117.97,3.26,Pending,5.0
+ORD1290,2025-10-17,west ,Groceries,Online,6,4232.06,14.37,Refunded,3.2
+ORD1291,2025-10-18,,electronics ,RETAIL,12,577.82,5.72,Pending,2.1
+ORD1292,2025-10-19,East,Groceries,Online,2,2839.01,7.76,paid ,5.0
+ORD1293,2025-10-20,South,Electronics,RETAIL,7,2555.33,11.11,Paid,4.9
+ORD1294,2025-10-21,North,Electronics,online ,16,3560.35,9.08,Refunded,2.8
+ORD1295,2025-10-22,North,Groceries,Retail,3,2718.02,3.07,PENDING,2.0
+ORD1296,2025-10-23,West,electronics ,Retail,13,2749.6,3.15,Pending,4.4
+ORD1297,2025-10-24,south ,Groceries,Retail,3,2205.02,6.76,,3.9
+ORD1298,2025-10-25,NORTH,electronics ,Retail,18,1613.29,1.77,Failed,3.7
+ORD1299,2025-10-26,Central,electronics ,Retail,11,2463.1,21.93,Pending,4.6
+ORD1300,2025-10-27,west ,FURNITURE,Retail,8,680.61,10.06,Paid,3.8
+ORD1301,2025-10-28,South,Clothing,Retail,6,4811.42,9.79,paid ,2.1
+ORD1302,2025-10-29,South,,online ,1,3600.61,11.62,Failed,3.8
+ORD1303,2025-10-30,East,Office Supplies,Online,1,4767.09,23.2,paid ,2.2
+ORD1304,2025-10-31,,,Distributor,8,1210.96,30.47,PENDING,4.0
+ORD1305,2025-11-01,North,electronics ,RETAIL,5,4408.77,26.57,Paid,3.5
+ORD1305,2025-11-01,North,electronics ,RETAIL,5,4408.77,26.57,Paid,3.5
+ORD1307,2025-11-03,West,FURNITURE,Distributor,11,3418.05,16.95,PENDING,3.1
+ORD1308,2025-11-04,North,FURNITURE,Online,5,3162.64,24.28,Paid,2.4
+ORD1309,2025-11-05,,Electronics,Online,4,1651.09,19.35,Paid,2.3
+ORD1310,2025-11-06,south ,FURNITURE,Online,6,4100.41,7.57,paid ,3.4
+ORD1311,2025-11-07,west ,Office Supplies,Retail,14,2557.43,7.3,Paid,6.0
+ORD1312,2025-11-08,NORTH,Office Supplies,online ,19,447.37,10.37,Pending,4.1
+ORD1313,2025-11-09,West,FURNITURE,Retail,9,1633.03,31.88,Paid,1.3
+ORD1314,2025-11-10,NORTH,Groceries,online ,-2,,19.16,Refunded,3.6
+ORD1315,2025-11-11,East,Clothing,online ,11,4268.33,25.69,PENDING,4.2
+ORD1316,2025-11-12,west ,FURNITURE,Distributor,14,4911.34,12.13,Paid,3.7
+ORD1317,2025-11-13,East,electronics ,Distributor,16,3177.17,14.27,Refunded,3.0
+ORD1318,2025-11-14,South,Furniture,online ,1,87710.88,4.39,Paid,4.8
+ORD1319,2025-11-15,NORTH,Clothing,online ,13,897.79,6.0,Paid,2.2
+ORD1320,2025-11-16,south ,Clothing,Retail,13,1015.88,28.96,paid ,1.1
+ORD1321,2025-11-17,west ,Office Supplies,Retail,2,197.0,20.47,Pending,2.7
+ORD1322,2025-11-18,Central,Clothing,Distributor,4,2014.34,11.81,PENDING,1.1
+ORD1323,2025-11-19,West,FURNITURE,Online,6,1038.0,28.1,Pending,4.8
+ORD1324,2025-11-20,North,electronics ,online ,5,2117.11,8.63,Failed,1.8
+ORD1325,2025-11-21,south ,electronics ,Retail,3,4681.47,34.16,paid ,4.2
+ORD1326,2025-11-22,south ,Electronics,Distributor,1,2209.65,12.07,paid ,4.1
+ORD1327,2025-11-23,East,electronics ,Retail,4,4402.12,11.81,Pending,1.9
+ORD1328,2025-11-24,NORTH,electronics ,online ,2,3066.97,10.92,paid ,3.5
+ORD1329,2025-11-25,west ,Office Supplies,online ,5,1310.94,4.27,Pending,1.2
+ORD1330,2025-11-26,west ,electronics ,RETAIL,3,1843.69,3.89,paid ,2.9
+ORD1331,2025-11-27,South,Electronics,Online,9,511.21,22.68,Paid,1.1
+ORD1332,2025-11-28,South,Furniture,RETAIL,6,1733.97,30.63,Pending,4.7
+ORD1333,2025-11-29,West,FURNITURE,Distributor,18,3419.95,27.67,Pending,4.9
+ORD1334,2025-11-30,East,Office Supplies,Retail,6,453.34,4.94,Refunded,1.9
+ORD1335,2025-12-01,south ,Furniture,Distributor,19,1106.47,19.1,paid ,1.8
+ORD1336,2025-12-02,west ,Office Supplies,online ,12,1969.06,3.7,paid ,4.0
+ORD1337,2025-12-03,Central,Groceries,RETAIL,11,,1.59,Pending,2.0
+ORD1338,2025-12-04,East,Clothing,RETAIL,2,3945.82,22.97,Paid,4.6
+ORD1339,2025-12-05,West,Groceries,RETAIL,15,3694.09,18.73,Paid,7.0
+ORD1340,2025-12-06,West,electronics ,Distributor,12,669.34,2.87,PENDING,2.4
+ORD1341,invalid-date,East,Furniture,online ,12,3926.88,1.22,Paid,4.3
+ORD1342,2025-12-08,,electronics ,Retail,9,3947.82,34.64,paid ,3.0
+ORD1343,2025-12-09,East,Clothing,Retail,2,3045.4,1.05,Refunded,4.6
+ORD1344,2025-12-10,North,Office Supplies,Distributor,3,4952.77,15.56,Pending,4.7
+ORD1345,2025-12-11,East,Clothing,RETAIL,12,1693.74,17.66,Failed,1.7
+ORD1346,2025-12-12,NORTH,Electronics,Online,16,4712.23,4.1,Refunded,1.0
+ORD1347,2025-12-13,East,Clothing,Distributor,1,,5.92,Failed,4.9
+ORD1348,2025-12-14,West,Electronics,Distributor,3,156.26,12.31,Refunded,4.6
+ORD1349,2025-12-15,west ,Clothing,online ,2,2305.57,26.66,,1.2
+ORD1350,2025-12-16,NORTH,FURNITURE,Retail,9,4887.81,17.75,paid ,4.3
+ORD1351,2025-12-17,West,Electronics,Distributor,19,605.29,22.33,Failed,2.8
+ORD1352,2025-12-18,South,Furniture,Distributor,15,2784.15,34.48,Refunded,2.0
+ORD1353,2025-12-19,South,electronics ,RETAIL,18,4896.89,26.88,paid ,4.5
+ORD1354,2025-12-20,west ,electronics ,RETAIL,11,2821.93,15.2,Failed,1.8
+ORD1355,2025-12-21,,Groceries,Online,16,1030.09,15.63,,4.8
+ORD1356,2025-12-22,NORTH,electronics ,online ,-9,2952.7,21.66,Refunded,1.8
+ORD1357,2025-12-23,North,Office Supplies,Online,5,1101.76,23.29,Pending,3.5
+ORD1357,2025-12-23,North,Office Supplies,Online,5,1101.76,23.29,Pending,3.5
+ORD1359,2025-12-25,South,Clothing,Retail,11,462.81,22.57,Pending,3.2
+ORD1360,2025-12-26,East,Groceries,RETAIL,15,3066.87,0.82,Pending,3.7
+ORD1361,2025-12-27,,,online ,3,2632.27,15.04,PENDING,1.8
+ORD1362,2025-12-28,South,Office Supplies,RETAIL,1,3726.79,9.76,Refunded,3.1
+ORD1363,2025-12-29,South,,online ,16,3190.43,4.52,Paid,2.9
+ORD1364,2025-12-30,North,electronics ,online ,2,2793.07,3.48,Pending,1.3
+ORD1365,2025-12-31,NORTH,Furniture,online ,2,3479.92,21.11,paid ,6.0
+ORD1366,2026-01-01,,Furniture,online ,3,805.32,18.33,Failed,2.3
+ORD1367,2026-01-02,south ,,online ,8,3017.26,8.88,Pending,3.3
+ORD1368,2026-01-03,North,,Retail,15,943.34,16.48,Paid,3.1
+ORD1369,2026-01-04,East,Furniture,Online,7,,17.23,Pending,3.1
+ORD1370,2026-01-05,NORTH,Clothing,Distributor,6,434.84,6.83,Failed,1.4
+ORD1370,2026-01-05,NORTH,Clothing,Distributor,6,434.84,6.83,Failed,1.4
+ORD1372,2026-01-07,west ,Groceries,online ,1,3509.41,27.33,Refunded,2.8
+ORD1373,2026-01-08,North,Furniture,Retail,8,2344.31,27.7,Paid,3.9
+ORD1374,2026-01-09,west ,Clothing,RETAIL,3,551.27,21.09,Refunded,4.4
+ORD1375,2026-01-10,South,Electronics,Retail,4,2811.56,17.91,Paid,3.2
+ORD1376,2026-01-11,West,FURNITURE,online ,15,,2.14,Failed,1.3
+ORD1377,2026-01-12,West,Groceries,Retail,6,3548.58,10.07,Failed,1.9
+ORD1378,2026-01-13,South,Electronics,Retail,15,1928.97,3.26,Paid,1.7
+ORD1379,2026-01-14,North,Electronics,online ,3,2861.93,33.73,Pending,1.5
+ORD1380,2026-01-15,South,Electronics,Retail,-6,2308.36,4.73,Failed,2.5
+ORD1381,2026-01-16,west ,Office Supplies,Distributor,14,3393.07,5.31,Refunded,1.9
+ORD1382,2026-01-17,south ,FURNITURE,Distributor,4,2959.43,31.14,Refunded,1.9
+ORD1383,2026-01-18,West,electronics ,Retail,12,2676.21,33.04,paid ,1.2
+ORD1384,2026-01-19,Central,FURNITURE,RETAIL,-4,1322.67,26.8,PENDING,1.1
+ORD1385,2026-01-20,Central,Office Supplies,online ,7,109.89,0.19,PENDING,1.4
+ORD1386,2026-01-21,west ,electronics ,Distributor,9,953.0,0.05,PENDING,1.7
+ORD1387,2026-01-22,East,FURNITURE,RETAIL,3,673.62,13.23,Refunded,2.7
+ORD1388,2026-01-23,NORTH,Electronics,Retail,13,2300.52,5.02,paid ,3.0
+ORD1389,2026-01-24,South,Groceries,RETAIL,15,3100.06,0.64,PENDING,1.6
+ORD1390,2026-01-25,South,electronics ,Online,18,1144.12,16.24,PENDING,2.7
+ORD1391,2026-01-26,,Clothing,Distributor,19,4701.38,33.01,Paid,2.4
+ORD1392,invalid-date,East,Clothing,Retail,1,132.74,11.33,Paid,1.7
+ORD1393,2026-01-28,west ,Furniture,online ,6,3884.27,23.14,Paid,1.0
+ORD1393,2026-01-28,west ,Furniture,online ,6,3884.27,23.14,Paid,1.0
+ORD1395,2026-01-30,East,Groceries,online ,14,-452.6,8.79,PENDING,3.7
+ORD1395,2026-01-30,East,Groceries,online ,14,-452.6,8.79,PENDING,3.7
+ORD1397,2026-02-01,west ,Electronics,RETAIL,14,3174.68,7.43,paid ,1.5
+ORD1398,2026-02-02,south ,Furniture,RETAIL,4,1989.51,4.27,Refunded,4.5
+ORD1399,2026-02-03,west ,Clothing,RETAIL,8,4687.71,24.55,PENDING,2.1
+ORD1400,2026-02-04,,Office Supplies,Online,3,-1048.24,3.97,Refunded,1.9
+ORD1401,2026-02-05,west ,Office Supplies,online ,19,4704.29,34.89,Paid,4.4
+ORD1402,2026-02-06,West,Electronics,RETAIL,14,1180.37,6.42,PENDING,4.3
+ORD1403,2026-02-07,East,electronics ,Online,17,3656.06,20.79,Failed,2.8
+ORD1404,2026-02-08,South,Clothing,online ,8,,14.4,Pending,3.0
+ORD1405,2026-02-09,west ,Groceries,Retail,14,3723.1,4.42,Pending,1.9
+ORD1406,2026-02-10,West,Office Supplies,Online,6,1151.87,0.97,PENDING,1.3
+ORD1407,2026-02-11,south ,Electronics,Distributor,16,3358.47,21.8,Paid,3.3
+ORD1408,2026-02-12,west ,Groceries,Online,-4,2540.4,28.24,Pending,1.4
+ORD1408,2026-02-12,west ,Groceries,Online,-4,2540.4,28.24,Pending,1.4
+ORD1410,2026-02-14,south ,Clothing,online ,19,1702.52,16.89,paid ,4.8
+ORD1411,2026-02-15,East,electronics ,Retail,3,-1352.03,27.21,Refunded,4.8
+ORD1412,2026-02-16,west ,Office Supplies,Distributor,10,513.08,23.55,Failed,2.0
+ORD1413,2026-02-17,south ,Groceries,RETAIL,19,4055.23,25.35,Refunded,3.5
+ORD1413,2026-02-17,south ,Groceries,RETAIL,19,4055.23,25.35,Refunded,3.5
+ORD1415,2026-02-19,East,Groceries,Online,13,4104.54,22.17,paid ,6.0
+ORD1416,2026-02-20,South,Office Supplies,online ,7,2612.36,28.19,Pending,2.1
+ORD1417,2026-02-21,Central,Office Supplies,online ,14,2248.09,13.93,Failed,1.0
+ORD1418,2026-02-22,North,electronics ,RETAIL,9,-1587.36,28.21,,1.7
+ORD1419,2026-02-23,west ,Furniture,Distributor,19,1222.94,20.72,PENDING,2.4
+ORD1420,2026-02-24,south ,electronics ,Retail,15,2779.69,5.81,Refunded,2.3
+ORD1421,2026-02-25,,Clothing,Distributor,14,,0.86,PENDING,4.2
+ORD1422,2026-02-26,North,Electronics,Retail,6,3534.25,12.7,Paid,3.7
+ORD1423,2026-02-27,south ,Groceries,RETAIL,4,1099.72,19.13,Refunded,2.2
+ORD1424,2026-02-28,East,Furniture,Retail,8,3304.57,29.39,Pending,2.8
+ORD1425,2026-03-01,west ,,online ,17,4110.01,4.46,Refunded,1.4
+ORD1426,2026-03-02,Central,Furniture,Online,9,345.09,28.01,Paid,4.6
+ORD1427,2026-03-03,South,FURNITURE,Online,1,4566.45,30.21,paid ,4.7
+ORD1428,2026-03-04,West,electronics ,RETAIL,14,244.57,5.27,PENDING,4.9
+ORD1429,2026-03-05,South,Office Supplies,online ,11,1844.26,29.81,PENDING,4.5
+ORD1430,2026-03-06,West,Groceries,Distributor,3,177.48,34.7,Pending,1.7
+ORD1431,2026-03-07,South,electronics ,online ,9,478.01,25.44,Refunded,1.2
+ORD1432,2026-03-08,south ,Electronics,Online,14,4564.72,27.47,,3.3
+ORD1433,2026-03-09,Central,FURNITURE,Online,9,1838.82,34.8,paid ,4.7
+ORD1434,2026-03-10,west ,FURNITURE,online ,4,2181.38,21.19,,1.7
+ORD1435,2026-03-11,West,FURNITURE,online ,4,1155.19,10.78,Refunded,1.0
+ORD1436,2026-03-12,west ,Electronics,Online,-4,3025.77,29.31,,4.2
+ORD1437,invalid-date,west ,Electronics,Distributor,2,3014.54,21.51,Pending,1.3
+ORD1438,2026-03-14,west ,Electronics,RETAIL,9,1923.78,20.34,Paid,2.7
+ORD1439,2026-03-15,NORTH,,RETAIL,14,1731.87,8.88,paid ,3.7
+ORD1439,2026-03-15,NORTH,,RETAIL,14,1731.87,8.88,paid ,3.7
+ORD1441,2026-03-17,South,FURNITURE,RETAIL,16,1978.09,2.86,PENDING,1.3
+ORD1442,2026-03-18,west ,Furniture,Online,17,2518.15,32.35,,4.1
+ORD1443,2026-03-19,South,electronics ,Online,16,1488.19,11.4,Pending,3.5
+ORD1444,2026-03-20,west ,Groceries,online ,12,3955.17,4.47,Refunded,5.0
+ORD1445,2026-03-21,West,,online ,3,2047.5,15.48,Refunded,2.4
+ORD1446,2026-03-22,,FURNITURE,online ,11,2616.69,1.49,Failed,1.2
+ORD1447,2026-03-23,East,Office Supplies,Distributor,14,1341.45,23.96,PENDING,3.9
+ORD1448,2026-03-24,south ,electronics ,RETAIL,18,4939.53,31.59,Failed,3.1
+ORD1449,2026-03-25,NORTH,electronics ,online ,5,1528.33,29.3,Refunded,1.9
+ORD1450,2026-03-26,south ,Office Supplies,Retail,16,3876.64,4.46,Pending,4.1
+ORD1451,2026-03-27,south ,,Retail,5,2194.73,4.42,Refunded,1.8
+ORD1452,2026-03-28,south ,Office Supplies,Online,3,1110.47,28.47,,2.0
+ORD1453,2026-03-29,south ,Furniture,RETAIL,12,4018.62,32.35,Failed,1.4
+ORD1454,2026-03-30,south ,Clothing,online ,1,1734.67,16.12,Pending,2.6
+ORD1455,2026-03-31,Central,FURNITURE,Retail,9,,17.46,Refunded,2.7
+ORD1456,2026-04-01,East,FURNITURE,RETAIL,9,4584.76,11.14,paid ,3.1
+ORD1457,2026-04-02,south ,Groceries,Online,4,4313.14,31.3,PENDING,3.8
+ORD1458,2026-04-03,west ,Electronics,Distributor,3,271.54,22.57,PENDING,4.6
+ORD1459,2026-04-04,East,Clothing,RETAIL,17,3958.13,10.09,,1.6
+ORD1460,2026-04-05,East,electronics ,RETAIL,2,2115.56,10.46,Refunded,1.2
+ORD1461,2026-04-06,North,FURNITURE,Distributor,1,,31.19,PENDING,1.1
+ORD1462,2026-04-07,Central,Office Supplies,RETAIL,8,3225.98,0.48,Pending,1.6
+ORD1463,2026-04-08,south ,Clothing,Online,13,4184.85,11.3,Refunded,3.6
+ORD1464,2026-04-09,South,Groceries,Online,15,2547.22,19.4,Refunded,3.9
+ORD1465,2026-04-10,West,electronics ,Distributor,8,2721.62,5.19,Failed,4.1
+ORD1466,2026-04-11,NORTH,Electronics,online ,12,807.5,3.22,PENDING,2.0
+ORD1467,2026-04-12,west ,Electronics,Retail,12,3941.54,28.53,PENDING,2.2
+ORD1468,invalid-date,South,Groceries,online ,14,2155.01,31.3,paid ,2.9
+ORD1469,2026-04-14,Central,Groceries,RETAIL,15,2550.39,28.83,Failed,1.3
+ORD1470,2026-04-15,West,Office Supplies,Retail,15,3946.98,31.46,Failed,3.4
+ORD1471,2026-04-16,Central,FURNITURE,Distributor,9,3034.34,19.36,PENDING,4.9
+ORD1472,2026-04-17,west ,Electronics,Distributor,19,1085.38,28.43,Refunded,2.4
+ORD1473,2026-04-18,East,electronics ,Retail,8,2992.14,13.44,Failed,4.0
+ORD1474,2026-04-19,West,Clothing,Online,19,2097.4,23.32,paid ,3.0
+ORD1475,2026-04-20,East,electronics ,Retail,6,2400.68,34.61,Failed,1.5
+ORD1476,2026-04-21,west ,Furniture,RETAIL,19,238.73,7.9,paid ,3.3
+ORD1477,2026-04-22,South,,Online,4,1129.14,13.65,Failed,2.2
+ORD1478,2026-04-23,west ,Groceries,Distributor,7,1477.09,16.8,paid ,1.1
+ORD1479,2026-04-24,South,Office Supplies,Retail,4,3593.5,4.83,Failed,3.5
+ORD1480,2026-04-25,West,Furniture,online ,12,156.31,2.84,Failed,4.4
+ORD1481,2026-04-26,West,Electronics,online ,13,2103.01,29.04,Pending,2.4
+ORD1482,2026-04-27,south ,electronics ,RETAIL,3,4627.73,34.19,paid ,2.6
+ORD1483,2026-04-28,Central,electronics ,online ,12,648.22,14.17,paid ,4.6
+ORD1484,2026-04-29,south ,Groceries,Retail,2,2630.48,3.07,paid ,4.3
+ORD1485,2026-04-30,Central,FURNITURE,Retail,2,3953.96,2.3,Paid,3.9
+ORD1486,2026-05-01,south ,FURNITURE,online ,9,4718.4,31.2,Failed,2.0
+ORD1487,2026-05-02,East,Clothing,Retail,1,3759.21,16.23,paid ,4.6
+ORD1488,2026-05-03,West,Groceries,RETAIL,8,3630.77,11.2,PENDING,1.6
+ORD1489,2026-05-04,South,,Online,6,4149.79,16.68,Paid,3.5
+ORD1490,2026-05-05,Central,FURNITURE,RETAIL,-1,2286.39,11.14,Pending,1.1
+ORD1491,2026-05-06,west ,Groceries,RETAIL,18,4048.64,17.12,paid ,3.6
+ORD1492,2026-05-07,Central,Groceries,Retail,17,139.03,30.08,paid ,2.1
+ORD1493,2026-05-08,South,Groceries,Online,12,4630.35,20.73,Paid,2.8
+ORD1494,2026-05-09,south ,FURNITURE,Retail,6,2272.2,24.31,Failed,2.4
+ORD1495,2026-05-10,Central,Clothing,Distributor,8,2811.56,12.76,PENDING,1.7
+ORD1496,2026-05-11,NORTH,Clothing,Retail,19,1348.92,25.85,,3.5
+ORD1497,2026-05-12,East,Groceries,Retail,10,3738.4,23.33,paid ,4.5
+ORD1498,2026-05-13,West,Furniture,Retail,1,475.52,4.18,Failed,4.8
+ORD1499,2026-05-14,South,,Online,13,4375.92,20.04,PENDING,1.8
+ORD1500,2026-05-15,West,FURNITURE,Retail,17,4157.77,8.99,PENDING,3.9
+ORD1501,2026-05-16,NORTH,Office Supplies,Online,3,1158.69,28.14,Pending,3.7
+ORD1502,2026-05-17,Central,Office Supplies,online ,8,4065.69,14.91,Refunded,6.0
+ORD1503,2026-05-18,Central,Clothing,Distributor,14,3953.15,34.81,PENDING,1.1
+ORD1504,2026-05-19,west ,Clothing,Online,3,,3.24,,3.8
+ORD1505,2026-05-20,NORTH,Furniture,online ,16,1930.25,27.31,PENDING,4.8
+ORD1506,2026-05-21,South,Office Supplies,Online,13,1430.34,23.58,Pending,3.5
+ORD1507,2026-05-22,west ,Office Supplies,Online,17,1235.74,26.86,Paid,2.7
+ORD1508,2026-05-23,East,,Distributor,13,1661.18,10.76,Pending,3.1
+ORD1509,2026-05-24,west ,,RETAIL,6,4527.44,17.22,Pending,1.8
+ORD1510,2026-05-25,North,Office Supplies,RETAIL,-5,480.44,27.88,Paid,4.0
+ORD1511,2026-05-26,South,electronics ,Online,14,4161.47,8.14,Paid,4.0
+ORD1512,2026-05-27,North,Furniture,Retail,17,1809.56,7.91,Failed,1.6
+ORD1513,2026-05-28,NORTH,electronics ,online ,8,2655.84,19.29,,4.5
+ORD1514,2026-05-29,south ,electronics ,Retail,11,3992.98,18.32,Failed,2.1
+ORD1515,2026-05-30,North,,Retail,1,4433.45,9.88,Paid,4.9
+ORD1516,2026-05-31,East,FURNITURE,Online,-2,1789.43,10.43,Refunded,2.5
+ORD1517,2026-06-01,west ,Furniture,Online,17,2363.03,9.72,Refunded,1.7
+ORD1518,2026-06-02,south ,electronics ,Online,10,-176.41,27.0,Pending,2.4
+ORD1519,2026-06-03,west ,Office Supplies,Online,11,164.93,22.82,paid ,2.8
+ORD1520,2026-06-04,North,Clothing,RETAIL,9,1550.12,29.13,Pending,1.3
+ORD1521,2026-06-05,west ,Furniture,Online,9,2350.03,34.14,Pending,3.3
+ORD1522,2026-06-06,NORTH,Groceries,RETAIL,5,2114.36,16.6,paid ,3.4
+ORD1523,2026-06-07,south ,electronics ,RETAIL,17,3637.45,2.33,PENDING,4.0
+ORD1524,2026-06-08,NORTH,Furniture,Online,9,1985.54,1.68,Paid,1.1
+ORD1525,2026-06-09,North,Electronics,Distributor,17,2497.94,10.35,Refunded,3.2
+ORD1526,2026-06-10,,Electronics,online ,19,2205.08,32.64,Pending,1.2
+ORD1527,2026-06-11,East,FURNITURE,Retail,7,3729.07,18.31,paid ,3.8
+ORD1528,2026-06-12,North,Clothing,RETAIL,9,4328.56,9.51,Failed,1.2
+ORD1529,2026-06-13,North,Office Supplies,online ,7,2706.26,13.97,Pending,4.6
+ORD1530,2026-06-14,North,Clothing,Distributor,13,3968.22,20.95,Refunded,3.8
+ORD1531,2026-06-15,South,Clothing,Retail,11,1554.25,22.85,Paid,3.0
+ORD1532,2026-06-16,west ,Clothing,Retail,14,2752.71,5.39,Pending,2.8
+ORD1533,2026-06-17,South,Clothing,RETAIL,19,1791.63,34.2,Pending,1.5
+ORD1534,2026-06-18,South,Groceries,Online,11,-1633.03,19.07,PENDING,2.2
+ORD1535,2026-06-19,East,Groceries,Distributor,13,3688.83,4.75,paid ,4.5
+ORD1536,2026-06-20,south ,FURNITURE,RETAIL,14,4420.15,31.28,Failed,4.6
+ORD1537,2026-06-21,west ,Furniture,Distributor,13,695.33,2.61,Failed,1.0
+ORD1538,2026-06-22,NORTH,Electronics,Online,1,3209.73,31.77,Paid,3.4
+ORD1539,2026-06-23,,Clothing,Online,8,2952.5,34.88,Refunded,3.9
+ORD1540,2026-06-24,North,FURNITURE,RETAIL,12,680.23,24.52,Paid,3.5
+ORD1541,2026-06-25,NORTH,Furniture,Online,19,1138.28,26.97,Pending,1.3
+ORD1542,2026-06-26,North,Electronics,online ,12,1623.91,11.81,Pending,1.9
+ORD1543,2026-06-27,East,electronics ,Retail,8,917.96,32.96,Failed,2.0
+ORD1544,2026-06-28,North,Office Supplies,RETAIL,8,1294.27,18.54,Refunded,4.3
+ORD1545,2026-06-29,South,Groceries,Distributor,13,1411.24,25.63,paid ,2.9
+ORD1546,2026-06-30,west ,electronics ,online ,12,1744.8,32.34,Refunded,2.9
+ORD1547,2026-07-01,Central,Electronics,RETAIL,16,3772.01,34.13,Pending,4.7
+ORD1548,2026-07-02,West,electronics ,Online,1,2902.37,29.16,paid ,3.5
+ORD1549,2026-07-03,North,Office Supplies,Online,13,4932.61,10.61,Refunded,4.6
+ORD1550,2026-07-04,NORTH,FURNITURE,Online,7,2132.21,33.83,Refunded,2.8
+ORD1551,2026-07-05,South,Electronics,Online,5,3793.94,21.98,paid ,1.6
+ORD1552,2026-07-06,West,electronics ,Distributor,8,4370.2,32.57,Pending,4.7
+ORD1553,2026-07-07,Central,Groceries,online ,14,3426.99,23.66,Refunded,2.8
+ORD1554,2026-07-08,West,Groceries,Retail,13,2118.14,10.75,paid ,1.7
+ORD1555,2026-07-09,South,Furniture,Distributor,15,3792.61,12.95,PENDING,2.2
+ORD1556,2026-07-10,west ,electronics ,Distributor,17,1097.97,19.27,PENDING,1.2
+ORD1557,2026-07-11,west ,,Retail,15,-1383.22,27.65,Pending,2.9
+ORD1558,2026-07-12,south ,electronics ,Retail,18,2778.76,11.13,paid ,4.4
+ORD1559,2026-07-13,west ,FURNITURE,Online,18,2919.51,20.29,PENDING,4.7
+ORD1560,2026-07-14,south ,Electronics,Distributor,2,208.49,12.1,paid ,4.7
+ORD1561,2026-07-15,West,Electronics,RETAIL,4,4731.06,28.55,Refunded,1.5
+ORD1562,2026-07-16,East,FURNITURE,Retail,1,3513.47,16.34,Pending,2.5
+ORD1563,2026-07-17,,,Retail,4,74387.74,2.69,PENDING,1.1
+ORD1564,2026-07-18,NORTH,FURNITURE,online ,18,4672.32,5.81,Refunded,4.4
+ORD1565,2026-07-19,West,Office Supplies,RETAIL,5,2251.57,2.14,Paid,2.4
+ORD1566,2026-07-20,North,FURNITURE,RETAIL,19,4904.13,17.48,Paid,3.5
+ORD1566,2026-07-20,North,FURNITURE,RETAIL,19,4904.13,17.48,Paid,3.5
+ORD1568,2026-07-22,west ,FURNITURE,Online,8,660.0,3.99,PENDING,2.7
+ORD1569,2026-07-23,NORTH,Electronics,online ,17,3847.52,32.94,PENDING,2.2
+ORD1570,2026-07-24,NORTH,Groceries,RETAIL,1,3426.6,30.54,PENDING,4.8
+ORD1571,2026-07-25,south ,Electronics,Retail,12,3887.63,15.82,paid ,4.9
+ORD1572,2026-07-26,East,Furniture,RETAIL,19,54423.45,34.5,Refunded,2.2
+ORD1573,2026-07-27,South,Clothing,online ,15,3904.8,0.01,PENDING,2.9
+ORD1574,invalid-date,North,Electronics,online ,9,3095.55,21.49,Refunded,4.9
+ORD1575,2026-07-29,NORTH,Groceries,Distributor,7,4300.81,21.57,Pending,1.0
+ORD1576,2026-07-30,south ,Furniture,Retail,-5,3398.91,16.01,PENDING,2.7
+ORD1577,2026-07-31,Central,Electronics,online ,9,2099.78,13.89,Pending,1.4
+ORD1578,2026-08-01,south ,Office Supplies,Distributor,10,4439.54,15.94,PENDING,3.0
+ORD1579,2026-08-02,North,FURNITURE,Distributor,2,1187.31,14.52,Paid,1.1
+ORD1580,2026-08-03,,Clothing,RETAIL,19,3601.74,25.57,Failed,2.6
+ORD1581,2026-08-04,south ,Electronics,RETAIL,11,4419.66,4.74,Pending,1.9
+ORD1582,2026-08-05,South,Furniture,Distributor,13,3683.45,6.92,PENDING,3.1
+ORD1583,2026-08-06,West,Office Supplies,RETAIL,10,3516.65,6.32,Failed,5.0
+ORD1584,2026-08-07,North,electronics ,online ,14,3787.93,9.19,Pending,4.2
+ORD1585,2026-08-08,south ,Furniture,Online,18,2378.77,18.38,paid ,4.4
+ORD1586,2026-08-09,NORTH,FURNITURE,online ,19,4383.44,3.89,PENDING,3.5
+ORD1587,2026-08-10,south ,Furniture,Distributor,9,1096.84,30.39,paid ,1.2
+ORD1587,2026-08-10,south ,Furniture,Distributor,9,1096.84,30.39,paid ,1.2
+ORD1588,2026-08-11,East,Office Supplies,Distributor,7,724.19,10.41,Paid,1.8
+ORD1590,2026-08-13,Central,Office Supplies,RETAIL,6,2704.73,23.65,Paid,2.5
+ORD1591,2026-08-14,South,Electronics,RETAIL,2,2601.75,1.33,Failed,1.4
+ORD1592,2026-08-15,west ,Office Supplies,Distributor,6,4120.93,21.7,Pending,3.8
+ORD1593,2026-08-16,Central,Office Supplies,Retail,3,2082.39,24.44,Refunded,2.2
+ORD1594,2026-08-17,West,Clothing,RETAIL,16,2473.29,7.52,Paid,2.1
+ORD1595,2026-08-18,West,Office Supplies,online ,8,165.5,1.47,Refunded,5.0
+ORD1596,2026-08-19,West,Office Supplies,RETAIL,2,2107.72,12.73,Refunded,6.0
+ORD1597,2026-08-20,Central,electronics ,online ,17,3274.09,3.45,Pending,2.6
+ORD1598,2026-08-21,NORTH,Electronics,Distributor,9,175.99,4.08,Failed,4.9
+ORD1599,invalid-date,West,FURNITURE,RETAIL,12,1476.32,8.9,Pending,3.6
+ORD1600,2026-08-23,south ,Clothing,online ,3,1118.99,10.34,PENDING,4.0
+ORD1601,2026-08-24,Central,electronics ,Distributor,11,305.73,18.55,Paid,1.1
+ORD1602,2026-08-25,west ,Groceries,Retail,1,2448.37,23.74,Refunded,1.5
+ORD1603,2026-08-26,West,Electronics,online ,13,990.44,20.75,Pending,3.5
+ORD1603,2026-08-26,West,Electronics,online ,13,990.44,20.75,Pending,3.5
+ORD1605,2026-08-28,NORTH,Groceries,Retail,5,4254.85,6.02,Pending,3.5
+ORD1606,2026-08-29,East,FURNITURE,Online,17,2773.37,30.76,Paid,1.5
+ORD1607,2026-08-30,NORTH,Office Supplies,RETAIL,6,4910.37,19.54,Failed,1.5
+ORD1608,2026-08-31,west ,,online ,11,2307.35,30.45,Pending,4.4
+ORD1609,2026-09-01,West,Furniture,Retail,18,2615.5,13.0,Paid,1.6
+ORD1610,2026-09-02,west ,Clothing,Online,4,4947.17,21.5,Refunded,3.1
+ORD1611,2026-09-03,Central,Furniture,Distributor,3,1234.59,18.33,PENDING,1.1
+ORD1612,2026-09-04,North,Groceries,online ,13,4718.48,11.17,paid ,1.3
+ORD1613,2026-09-05,West,Electronics,Retail,9,309.9,16.45,Paid,3.7
+ORD1614,2026-09-06,North,FURNITURE,RETAIL,6,2287.3,17.59,paid ,3.8
+ORD1615,2026-09-07,south ,Electronics,Online,12,443.02,7.03,Pending,2.4
+ORD1616,2026-09-08,East,Clothing,Retail,2,3673.25,11.03,Pending,1.9
+ORD1617,2026-09-09,South,Electronics,RETAIL,3,3081.2,27.7,Paid,4.3
+ORD1618,2026-09-10,west ,Electronics,Retail,3,3562.51,32.05,paid ,1.9
+ORD1619,2026-09-11,NORTH,Clothing,online ,12,1934.95,12.59,Pending,3.2
+ORD1620,2026-09-12,East,electronics ,online ,15,1910.46,10.74,Refunded,4.9
+ORD1621,2026-09-13,West,electronics ,online ,9,322.06,6.83,Failed,6.0
+ORD1622,2026-09-14,North,Clothing,Online,8,1814.73,23.75,Failed,4.8
+ORD1623,2026-09-15,NORTH,FURNITURE,online ,11,4653.51,11.31,Pending,1.7
+ORD1624,2026-09-16,North,Groceries,RETAIL,-1,1958.21,34.57,paid ,3.3
+ORD1625,2026-09-17,Central,Electronics,Retail,4,4173.7,11.4,PENDING,2.5
+ORD1626,2026-09-18,North,FURNITURE,Distributor,1,4227.39,13.79,Pending,4.9
+ORD1627,2026-09-19,Central,Electronics,RETAIL,7,1928.88,21.12,PENDING,2.1
+ORD1628,2026-09-20,south ,Groceries,RETAIL,2,-1875.28,28.06,PENDING,2.6
+ORD1629,2026-09-21,NORTH,electronics ,online ,5,567.32,16.43,paid ,4.9
+ORD1630,2026-09-22,NORTH,FURNITURE,Online,7,608.03,14.79,PENDING,3.1
+ORD1631,2026-09-23,South,Office Supplies,Retail,4,338.42,34.85,Refunded,3.0
+ORD1632,2026-09-24,West,Office Supplies,Online,5,2946.97,0.37,paid ,2.0
+ORD1633,2026-09-25,Central,Office Supplies,Retail,1,2187.75,31.33,Pending,3.8
+ORD1634,2026-09-26,South,electronics ,Retail,-8,2785.36,5.22,Refunded,1.1
+ORD1635,2026-09-27,North,electronics ,Online,15,75109.31,27.51,Paid,1.2
+ORD1636,2026-09-28,North,Groceries,RETAIL,19,1815.99,21.63,Failed,3.4
+ORD1637,2026-09-29,South,Electronics,Retail,10,3419.62,11.96,,2.4
+ORD1638,2026-09-30,NORTH,,Online,18,3816.66,30.59,Pending,4.8
+ORD1639,2026-10-01,North,Groceries,Retail,3,81838.93,0.45,Pending,4.6
+ORD1640,2026-10-02,west ,electronics ,Distributor,11,,7.93,Refunded,3.9
+ORD1641,2026-10-03,south ,,RETAIL,15,3594.86,19.84,Paid,4.3
+ORD1642,2026-10-04,south ,Furniture,online ,11,1994.44,12.3,paid ,3.7
+ORD1643,2026-10-05,west ,Electronics,Retail,17,3346.17,21.36,Paid,1.5
+ORD1644,2026-10-06,South,electronics ,Distributor,17,1800.12,0.84,Refunded,4.1
+ORD1645,2026-10-07,west ,Office Supplies,online ,6,2014.7,4.08,Pending,1.8
+ORD1646,2026-10-08,Central,FURNITURE,online ,5,877.53,4.45,Failed,2.3
+ORD1647,2026-10-09,Central,Furniture,Retail,8,1365.33,6.62,Pending,4.3
+ORD1648,2026-10-10,South,Furniture,Online,2,3066.52,16.08,paid ,3.1
+ORD1649,2026-10-11,west ,electronics ,Retail,16,2222.5,26.32,,4.4
+ORD1650,2026-10-12,Central,Clothing,Distributor,12,3894.08,31.69,Failed,1.9
+ORD1651,2026-10-13,NORTH,Electronics,online ,6,4277.67,29.24,Pending,3.4
+ORD1652,2026-10-14,west ,Furniture,Retail,1,,6.89,Failed,1.3
+ORD1653,2026-10-15,NORTH,electronics ,Online,4,3815.51,15.44,PENDING,3.6
+ORD1654,2026-10-16,Central,electronics ,Retail,17,1603.83,6.98,Paid,4.1
+ORD1655,2026-10-17,south ,Office Supplies,RETAIL,13,2133.36,9.26,Refunded,3.3
+ORD1656,2026-10-18,Central,FURNITURE,Online,18,3592.61,17.62,Pending,2.1
+ORD1657,2026-10-19,NORTH,Clothing,Distributor,5,1992.44,2.38,,1.1
+ORD1658,2026-10-20,East,Electronics,online ,3,2983.67,7.64,Paid,1.5
+ORD1659,2026-10-21,West,Groceries,Retail,11,1008.33,32.74,Pending,3.5
+ORD1660,2026-10-22,North,FURNITURE,Online,13,3038.88,16.31,Paid,4.7
+ORD1661,2026-10-23,west ,FURNITURE,RETAIL,4,4321.42,15.59,paid ,1.8
+ORD1662,2026-10-24,East,,Online,14,4356.33,0.51,Pending,3.9
+ORD1663,2026-10-25,Central,Furniture,RETAIL,11,3649.29,8.66,PENDING,4.5
+ORD1664,2026-10-26,south ,Furniture,Distributor,10,3754.19,30.32,PENDING,3.1
+ORD1665,2026-10-27,South,Office Supplies,online ,19,2833.84,5.76,paid ,3.7
+ORD1666,2026-10-28,Central,electronics ,Distributor,18,2964.87,14.53,Failed,4.3
+ORD1667,2026-10-29,south ,Furniture,Retail,6,754.89,0.5,paid ,2.0
+ORD1668,2026-10-30,West,Clothing,Online,15,2274.91,16.74,Failed,2.2
+ORD1669,2026-10-31,Central,Electronics,RETAIL,10,2308.8,0.74,Pending,1.0
+ORD1670,2026-11-01,NORTH,FURNITURE,RETAIL,5,4796.64,28.69,Failed,4.9
+ORD1671,2026-11-02,South,FURNITURE,Online,5,-582.98,28.87,Pending,4.7
+ORD1672,2026-11-03,south ,Clothing,Online,10,2791.78,27.57,Pending,4.1
+ORD1673,invalid-date,south ,Furniture,Retail,5,2712.93,9.92,Refunded,1.3
+ORD1674,2026-11-05,south ,FURNITURE,Distributor,3,3220.13,29.3,Pending,2.8
+ORD1675,2026-11-06,West,Groceries,RETAIL,6,3766.34,19.0,Failed,1.4
+ORD1676,2026-11-07,Central,Electronics,Retail,4,1202.71,13.08,Refunded,1.1
+ORD1677,2026-11-08,West,Electronics,Distributor,18,2690.75,21.89,Refunded,3.5
+ORD1678,2026-11-09,west ,FURNITURE,Retail,9,4147.0,0.43,Pending,4.8
+ORD1679,2026-11-10,North,Office Supplies,RETAIL,17,2369.26,5.0,paid ,4.6
+ORD1680,2026-11-11,North,FURNITURE,Online,13,,25.98,paid ,3.8
+ORD1681,2026-11-12,west ,Office Supplies,Online,15,-2243.46,8.55,PENDING,1.4
+ORD1682,2026-11-13,Central,FURNITURE,Distributor,17,4136.46,20.93,Refunded,2.1
+ORD1683,2026-11-14,NORTH,Groceries,online ,13,409.39,13.48,Pending,2.3
+ORD1684,2026-11-15,West,electronics ,Distributor,16,3906.27,29.92,paid ,4.1
+ORD1685,2026-11-16,South,Electronics,online ,4,4126.07,33.33,Pending,4.2
+ORD1686,2026-11-17,south ,FURNITURE,Retail,5,2361.46,30.92,Pending,2.5
+ORD1687,2026-11-18,south ,Groceries,Retail,5,,9.47,Refunded,2.7
+ORD1688,2026-11-19,Central,Office Supplies,RETAIL,9,3954.87,6.8,PENDING,1.2
+ORD1689,2026-11-20,NORTH,Office Supplies,online ,17,3890.95,16.61,Refunded,2.2
+ORD1690,2026-11-21,North,Electronics,RETAIL,13,3764.41,0.26,Paid,2.8
+ORD1691,2026-11-22,North,Clothing,Online,2,837.98,0.9,paid ,1.5
+ORD1692,2026-11-23,south ,FURNITURE,online ,13,,19.37,paid ,2.8
+ORD1693,2026-11-24,Central,Furniture,Distributor,19,2373.55,18.22,paid ,4.4
+ORD1694,2026-11-25,West,Office Supplies,Online,3,1393.62,34.81,Failed,3.3
+ORD1695,2026-11-26,North,electronics ,Online,10,2134.68,7.06,Pending,1.3
+ORD1696,2026-11-27,West,electronics ,Distributor,2,4453.47,9.03,Refunded,1.8
+ORD1697,2026-11-28,NORTH,Office Supplies,Online,13,4139.2,3.97,paid ,2.9
+ORD1698,2026-11-29,North,Clothing,online ,19,3187.2,32.11,Paid,2.4
+ORD1699,2026-11-30,North,Clothing,RETAIL,17,4304.79,27.22,paid ,2.4
+ORD1700,2026-12-01,East,Groceries,Online,14,3940.48,28.78,PENDING,3.1
+ORD1701,2026-12-02,North,electronics ,online ,12,2202.03,31.6,Pending,3.3
+ORD1702,2026-12-03,west ,Groceries,Retail,12,-964.32,18.37,Pending,4.2
+ORD1703,2026-12-04,South,electronics ,online ,11,2619.59,15.79,Refunded,2.4
+ORD1704,2026-12-05,west ,FURNITURE,RETAIL,7,-201.69,11.56,Failed,4.2
+ORD1705,2026-12-06,Central,FURNITURE,online ,4,2238.46,20.62,Refunded,2.4
+ORD1706,2026-12-07,Central,Furniture,Distributor,19,3367.18,15.9,paid ,1.2
+ORD1707,2026-12-08,West,,RETAIL,-9,562.2,15.8,PENDING,3.2
+ORD1708,2026-12-09,west ,Furniture,Retail,3,3765.22,32.79,Paid,3.4
+ORD1709,2026-12-10,west ,FURNITURE,Distributor,-4,4082.3,34.44,Refunded,4.7
+ORD1710,2026-12-11,west ,Electronics,online ,15,3563.51,27.88,Failed,3.9
+ORD1711,2026-12-12,,FURNITURE,RETAIL,2,4839.59,26.49,Refunded,4.7
+ORD1712,2026-12-13,North,Groceries,Retail,11,4150.6,23.82,Pending,7.0
+ORD1713,2026-12-14,South,Office Supplies,Distributor,4,4525.16,5.81,paid ,3.4
+ORD1714,2026-12-15,West,,Retail,19,4674.5,2.07,paid ,3.1
+ORD1715,2026-12-16,west ,Office Supplies,online ,17,4026.61,24.18,paid ,3.2
+ORD1716,2026-12-17,west ,Clothing,Retail,3,,25.51,paid ,4.9
+ORD1717,2026-12-18,East,Groceries,Online,18,128.02,1.64,paid ,4.1
+ORD1718,2026-12-19,West,Clothing,Distributor,8,2382.55,32.48,paid ,1.4
+ORD1719,2026-12-20,west ,Furniture,Retail,19,2898.7,3.19,Paid,4.1
+ORD1720,2026-12-21,,Furniture,online ,5,1589.75,10.01,Failed,1.7
+ORD1721,2026-12-22,North,Electronics,online ,7,1658.71,23.53,paid ,2.8
+ORD1722,2026-12-23,East,FURNITURE,Retail,8,4809.68,5.95,Failed,1.8
+ORD1723,2026-12-24,,Groceries,online ,5,4469.38,1.94,PENDING,3.8
+ORD1724,2026-12-25,South,Clothing,RETAIL,17,4260.98,11.59,paid ,4.5
+ORD1725,2026-12-26,South,Office Supplies,RETAIL,5,2089.46,26.81,Refunded,2.2
+ORD1726,2026-12-27,Central,Furniture,RETAIL,4,167.12,14.48,paid ,1.3
+ORD1727,2026-12-28,East,FURNITURE,Online,19,493.09,22.85,Pending,2.2
+ORD1728,2026-12-29,,Furniture,Retail,2,1629.76,20.29,Paid,3.7
+ORD1729,2026-12-30,Central,Office Supplies,Online,11,177.14,0.78,Refunded,2.3
+ORD1730,2026-12-31,West,FURNITURE,online ,13,184.03,34.6,Refunded,2.1
+ORD1731,2027-01-01,East,FURNITURE,Online,15,4591.36,1.45,Pending,6.0
+ORD1732,2027-01-02,South,Clothing,online ,12,3560.18,33.87,,3.0
+ORD1733,2027-01-03,South,Clothing,online ,11,1613.88,19.25,Paid,2.1
+ORD1734,2027-01-04,west ,Groceries,Distributor,7,749.96,33.71,Refunded,3.9
+ORD1734,2027-01-04,west ,Groceries,Distributor,7,749.96,33.71,Refunded,3.9
+ORD1736,2027-01-06,East,electronics ,online ,17,126.2,17.16,Refunded,3.7
+ORD1737,2027-01-07,West,electronics ,Distributor,9,4698.23,5.93,paid ,2.0
+ORD1738,2027-01-08,Central,Electronics,RETAIL,14,2132.59,1.78,PENDING,3.0
+ORD1739,2027-01-09,Central,Furniture,online ,12,2071.44,21.61,Refunded,2.1
+ORD1740,2027-01-10,West,Groceries,online ,6,2013.91,7.27,,3.9
+ORD1741,2027-01-11,NORTH,Clothing,Online,17,439.71,20.57,,4.8
+ORD1742,2027-01-12,south ,Office Supplies,Online,19,3227.78,3.93,Failed,4.7
+ORD1743,2027-01-13,North,Clothing,RETAIL,19,3691.72,11.62,paid ,3.3
+ORD1744,2027-01-14,Central,Furniture,online ,16,3413.01,27.36,,2.9
+ORD1745,2027-01-15,East,electronics ,Retail,12,778.33,15.3,,4.3
+ORD1746,2027-01-16,North,Clothing,Online,12,2936.32,21.97,Pending,3.7
+ORD1747,2027-01-17,East,Electronics,RETAIL,6,2890.47,22.66,paid ,1.7
+ORD1748,2027-01-18,NORTH,Furniture,online ,4,4355.21,29.53,Pending,4.3
+ORD1749,2027-01-19,South,electronics ,online ,6,1957.73,11.37,paid ,2.7
+ORD1749,2027-01-19,South,electronics ,online ,6,1957.73,11.37,paid ,2.7
+ORD1751,2027-01-21,west ,electronics ,RETAIL,1,3130.78,33.66,PENDING,2.1
+ORD1752,2027-01-22,Central,FURNITURE,online ,15,3202.06,25.56,Failed,2.1
+ORD1753,2027-01-23,North,Electronics,Online,11,2399.5,17.15,Pending,3.1
+ORD1754,2027-01-24,North,Furniture,Retail,19,2270.99,22.08,PENDING,1.9
+ORD1755,2027-01-25,,Office Supplies,RETAIL,18,2521.32,25.89,Refunded,1.5
+ORD1756,2027-01-26,south ,Electronics,Retail,17,4319.12,21.43,paid ,1.5
+ORD1757,invalid-date,North,electronics ,Online,19,2359.72,0.58,Paid,3.3
+ORD1758,2027-01-28,East,Electronics,RETAIL,14,4705.67,6.82,Paid,3.9
+ORD1759,2027-01-29,South,Furniture,Retail,-9,2569.62,28.37,paid ,2.3
+ORD1760,2027-01-30,NORTH,Groceries,Distributor,19,4751.08,9.54,Failed,1.1
+ORD1761,2027-01-31,West,Electronics,Online,15,4180.88,25.6,Pending,1.5
+ORD1762,2027-02-01,North,FURNITURE,Online,15,1875.91,13.02,Failed,4.7
+ORD1763,2027-02-02,Central,Electronics,Online,4,4331.84,18.27,Paid,3.0
+ORD1764,2027-02-03,North,electronics ,Distributor,7,71164.13,2.38,PENDING,2.8
+ORD1765,2027-02-04,Central,electronics ,Distributor,13,4632.73,6.34,paid ,1.2
+ORD1766,2027-02-05,East,Office Supplies,online ,3,3195.05,33.5,paid ,3.9
+ORD1767,2027-02-06,Central,electronics ,Retail,16,366.51,31.15,Failed,3.1
+ORD1768,2027-02-07,,Clothing,online ,9,3256.86,22.83,PENDING,1.8
+ORD1769,2027-02-08,West,Furniture,Retail,8,4873.81,16.09,Failed,1.4
+ORD1770,2027-02-09,South,Furniture,Distributor,13,442.02,23.65,Pending,6.0
+ORD1771,2027-02-10,Central,Groceries,Distributor,17,2817.97,21.65,Refunded,4.3
+ORD1772,2027-02-11,Central,Groceries,online ,17,3764.19,19.9,PENDING,4.5
+ORD1773,2027-02-12,South,Furniture,RETAIL,17,4070.27,2.07,Refunded,3.4
+ORD1774,2027-02-13,West,FURNITURE,online ,1,2127.75,22.15,Pending,3.9
+ORD1775,invalid-date,North,Groceries,Retail,8,1100.42,26.91,Refunded,1.5
+ORD1776,2027-02-15,Central,Office Supplies,online ,19,307.48,34.79,Paid,3.4
+ORD1777,2027-02-16,South,electronics ,Online,6,-208.04,0.39,Refunded,3.7
+ORD1778,2027-02-17,west ,Furniture,Retail,-3,2319.26,25.56,,1.8
+ORD1779,2027-02-18,west ,Groceries,Retail,5,86607.05,20.01,Refunded,4.5
+ORD1780,2027-02-19,East,Furniture,RETAIL,13,396.96,15.19,paid ,1.8
+ORD1781,2027-02-20,,Clothing,Distributor,15,3458.44,4.46,Failed,2.3
+ORD1782,2027-02-21,East,Electronics,Retail,-1,222.33,14.32,Paid,3.5
+ORD1783,2027-02-22,west ,electronics ,Distributor,16,940.03,12.4,paid ,3.6
+ORD1784,2027-02-23,West,Furniture,online ,18,2322.54,10.6,paid ,3.8
+ORD1785,2027-02-24,North,Electronics,Online,11,,25.58,Pending,1.4
+ORD1786,2027-02-25,,Groceries,RETAIL,3,3459.93,24.53,Failed,4.4
+ORD1787,2027-02-26,NORTH,Electronics,Distributor,10,4560.04,20.62,Failed,3.1
+ORD1788,2027-02-27,west ,electronics ,Retail,10,3231.26,32.85,PENDING,2.9
+ORD1789,2027-02-28,west ,Furniture,Distributor,16,4772.32,12.24,Paid,4.9
+ORD1790,2027-03-01,NORTH,,Retail,12,4419.92,8.53,Pending,4.0
+ORD1791,2027-03-02,south ,FURNITURE,Distributor,2,2964.05,22.96,Paid,1.5
+ORD1792,2027-03-03,west ,Groceries,Retail,-9,4185.58,6.96,PENDING,4.0
+ORD1793,2027-03-04,Central,Furniture,online ,3,3248.63,11.03,Refunded,1.4
+ORD1794,2027-03-05,West,electronics ,Retail,15,484.93,7.86,paid ,1.1
+ORD1795,2027-03-06,,Groceries,Retail,3,3728.77,2.42,Paid,2.6
+ORD1796,2027-03-07,NORTH,Office Supplies,Online,19,565.05,28.96,paid ,5.0
+ORD1797,2027-03-08,Central,Electronics,Retail,18,3011.01,8.91,Pending,1.7
+ORD1798,2027-03-09,NORTH,FURNITURE,Online,8,3542.94,16.56,Refunded,3.7
+ORD1799,2027-03-10,South,electronics ,RETAIL,17,425.99,1.52,Pending,1.7
+ORD1800,2027-03-11,East,Office Supplies,Online,8,1230.89,24.48,Refunded,3.9
+ORD1801,2027-03-12,South,Furniture,online ,7,4586.79,11.57,Refunded,3.0
+ORD1801,2027-03-12,South,Furniture,online ,7,4586.79,11.57,Refunded,3.0
+ORD1803,2027-03-14,South,Groceries,RETAIL,3,1306.8,14.43,Pending,1.8
+ORD1804,2027-03-15,South,Electronics,online ,1,3484.33,6.85,Pending,4.0
+ORD1805,2027-03-16,south ,Groceries,Distributor,4,3024.2,17.96,Paid,5.0
+ORD1806,2027-03-17,West,FURNITURE,Distributor,5,2557.72,4.57,Pending,3.7
+ORD1807,2027-03-18,west ,Furniture,Online,1,4883.32,15.42,Paid,3.0
+ORD1808,2027-03-19,South,,Online,15,3448.92,11.11,Failed,4.7
+ORD1809,2027-03-20,,Electronics,RETAIL,5,1939.66,31.92,Failed,1.1
+ORD1810,2027-03-21,Central,Furniture,RETAIL,13,4020.36,2.13,Failed,0.0
+ORD1811,2027-03-22,East,Groceries,Retail,8,4434.46,24.29,PENDING,4.6
+ORD1812,2027-03-23,East,Clothing,RETAIL,8,713.58,6.4,Pending,1.2
+ORD1813,2027-03-24,South,electronics ,Retail,5,1082.71,11.17,PENDING,2.8
+ORD1814,2027-03-25,West,Furniture,online ,9,1159.51,14.54,Pending,1.8
+ORD1815,2027-03-26,West,electronics ,Online,1,3486.94,31.78,Paid,3.3
+ORD1816,2027-03-27,Central,Furniture,online ,4,3054.89,8.49,PENDING,3.6
+ORD1817,2027-03-28,South,Clothing,RETAIL,3,3133.06,3.2,PENDING,2.2
+ORD1818,2027-03-29,East,electronics ,online ,2,4709.79,11.15,,2.8
+ORD1819,2027-03-30,West,Office Supplies,online ,8,3901.97,3.66,Refunded,2.1
+ORD1820,2027-03-31,South,Electronics,online ,9,726.89,4.5,Paid,2.5
+ORD1821,2027-04-01,NORTH,Office Supplies,RETAIL,-1,1802.78,20.08,Failed,1.6
+ORD1822,2027-04-02,West,Groceries,online ,14,2233.43,2.13,Paid,4.5
+ORD1823,2027-04-03,south ,Clothing,Retail,14,2040.21,1.08,Refunded,1.0
+ORD1824,2027-04-04,NORTH,Office Supplies,RETAIL,4,3379.61,25.0,Pending,4.5
+ORD1825,2027-04-05,west ,Furniture,online ,6,4470.28,12.66,Paid,3.3
+ORD1826,2027-04-06,West,Groceries,RETAIL,11,1599.65,4.39,PENDING,2.3
+ORD1827,2027-04-07,East,Groceries,Distributor,-4,,8.88,Failed,3.9
+ORD1828,2027-04-08,North,Office Supplies,Retail,8,3968.11,22.47,Failed,3.0
+ORD1829,2027-04-09,NORTH,Office Supplies,online ,3,2139.47,9.64,,3.0
+ORD1830,2027-04-10,west ,Clothing,Distributor,14,923.78,17.31,Paid,1.4
+ORD1831,2027-04-11,Central,Electronics,Distributor,13,2427.26,4.26,,2.6
+ORD1832,2027-04-12,Central,,RETAIL,13,370.59,20.58,Pending,2.0
+ORD1833,2027-04-13,East,FURNITURE,Distributor,2,4717.68,11.06,Paid,1.1
+ORD1834,2027-04-14,West,Office Supplies,Retail,13,466.62,21.94,paid ,2.4
+ORD1835,2027-04-15,,electronics ,Retail,19,,28.29,Failed,1.4
+ORD1836,2027-04-16,West,Furniture,Online,6,2696.42,21.41,Refunded,2.0
+ORD1837,2027-04-17,East,FURNITURE,Retail,16,4927.99,10.35,PENDING,1.4
+ORD1838,2027-04-18,Central,FURNITURE,Distributor,2,913.51,8.95,Refunded,1.4
+ORD1839,2027-04-19,West,electronics ,Retail,8,660.71,11.46,PENDING,1.8
+ORD1840,2027-04-20,Central,electronics ,RETAIL,17,142.66,5.76,Refunded,5.0
+ORD1841,2027-04-21,NORTH,Groceries,Online,2,862.3,6.34,Failed,1.0
+ORD1842,2027-04-22,west ,Electronics,Distributor,10,1115.64,27.67,PENDING,3.6
+ORD1842,2027-04-22,west ,Electronics,Distributor,10,1115.64,27.67,PENDING,3.6
+ORD1844,2027-04-24,NORTH,Clothing,Distributor,6,1176.56,15.26,PENDING,4.7
+ORD1845,2027-04-25,Central,FURNITURE,RETAIL,2,200.55,20.79,Pending,1.4
+ORD1846,2027-04-26,,Clothing,Online,2,4150.43,20.64,Paid,4.8
+ORD1847,2027-04-27,North,Office Supplies,online ,-4,1891.42,2.36,Pending,3.4
+ORD1848,2027-04-28,North,Office Supplies,Distributor,15,,29.1,Refunded,1.0
+ORD1849,2027-04-29,NORTH,Clothing,online ,2,1582.15,6.21,Paid,4.6
+ORD1850,2027-04-30,south ,Office Supplies,Online,7,4879.33,25.31,Refunded,3.1
+ORD1851,2027-05-01,NORTH,Electronics,online ,3,933.57,27.04,paid ,2.1
+ORD1852,2027-05-02,North,electronics ,online ,8,4501.37,25.02,Refunded,4.1
+ORD1853,2027-05-03,Central,Office Supplies,Online,14,3906.34,20.26,Refunded,4.7
+ORD1854,2027-05-04,East,Groceries,RETAIL,7,474.75,0.51,Pending,2.9
+ORD1855,2027-05-05,NORTH,Office Supplies,online ,7,4934.97,12.61,PENDING,2.3
+ORD1856,2027-05-06,Central,Furniture,online ,1,1429.69,21.17,paid ,4.2
+ORD1857,2027-05-07,East,Electronics,RETAIL,17,583.06,13.56,Refunded,3.7
+ORD1858,2027-05-08,East,Furniture,online ,9,4163.64,30.22,Refunded,0.0
+ORD1859,2027-05-09,North,Furniture,online ,13,3562.71,10.81,paid ,3.8
+ORD1860,2027-05-10,NORTH,Groceries,online ,19,80593.92,10.27,paid ,2.0
+ORD1861,invalid-date,West,Electronics,Retail,19,864.31,9.31,Paid,0.0
+ORD1862,2027-05-12,South,Electronics,RETAIL,17,2444.63,11.65,Pending,1.4
+ORD1863,2027-05-13,North,,online ,10,3924.72,19.51,paid ,2.1
+ORD1864,2027-05-14,North,Electronics,RETAIL,10,1587.76,24.75,paid ,3.1
+ORD1865,2027-05-15,West,Electronics,Distributor,4,1627.28,23.19,Failed,3.3
+ORD1866,invalid-date,South,Groceries,Distributor,8,115.39,28.27,PENDING,1.1
+ORD1867,2027-05-17,Central,Office Supplies,online ,18,953.79,31.01,paid ,4.1
+ORD1868,2027-05-18,south ,Furniture,RETAIL,14,4389.49,28.56,Pending,2.4
+ORD1869,2027-05-19,NORTH,Electronics,RETAIL,18,-1811.34,0.66,PENDING,2.6
+ORD1870,invalid-date,south ,FURNITURE,RETAIL,14,4922.75,25.76,PENDING,4.2
+ORD1871,invalid-date,Central,Office Supplies,Retail,15,2038.97,7.29,Refunded,2.5
+ORD1872,2027-05-22,west ,Office Supplies,Distributor,4,3604.41,4.65,Refunded,1.2
+ORD1873,2027-05-23,North,Furniture,RETAIL,13,1481.4,22.35,Refunded,6.0
+ORD1874,2027-05-24,South,Groceries,RETAIL,8,1882.67,11.19,Refunded,4.8
+ORD1875,2027-05-25,North,Clothing,Retail,18,1034.56,2.0,Failed,1.3
+ORD1876,2027-05-26,East,Clothing,Retail,12,1800.61,4.82,paid ,2.4
+ORD1877,2027-05-27,,Office Supplies,RETAIL,14,2781.46,0.03,Refunded,3.0
+ORD1878,2027-05-28,,electronics ,Online,2,4959.69,31.61,Paid,3.0
+ORD1879,2027-05-29,Central,electronics ,RETAIL,18,3354.59,0.86,Refunded,1.0
+ORD1880,2027-05-30,Central,,RETAIL,2,1076.31,7.33,paid ,3.0
+ORD1881,2027-05-31,Central,Clothing,Retail,11,320.31,14.57,Refunded,2.5
+ORD1882,2027-06-01,south ,Office Supplies,Retail,9,719.15,12.48,Failed,4.9
+ORD1883,2027-06-02,East,Groceries,RETAIL,12,2856.52,31.91,,1.6
+ORD1884,2027-06-03,,Clothing,RETAIL,17,3849.29,1.41,Pending,2.4
+ORD1885,2027-06-04,west ,Office Supplies,RETAIL,15,4708.05,17.93,paid ,2.7
+ORD1886,2027-06-05,Central,Office Supplies,Retail,17,,23.82,,2.6
+ORD1887,2027-06-06,South,Electronics,RETAIL,18,2661.52,32.61,Pending,3.7
+ORD1888,2027-06-07,south ,Groceries,RETAIL,6,2407.25,21.71,Paid,1.9
+ORD1889,2027-06-08,West,Electronics,online ,17,3314.67,28.13,paid ,1.9
+ORD1890,2027-06-09,South,Furniture,Online,18,2841.94,2.93,paid ,3.9
+ORD1891,2027-06-10,NORTH,Electronics,Distributor,8,3466.49,13.51,Pending,3.0
+ORD1892,2027-06-11,,FURNITURE,Online,-5,3324.6,13.09,Pending,2.7
+ORD1893,2027-06-12,South,,online ,6,673.36,31.02,Pending,1.7
+ORD1894,invalid-date,Central,FURNITURE,Distributor,5,4018.62,5.3,PENDING,1.8
+ORD1895,2027-06-14,West,Clothing,RETAIL,12,703.84,5.32,Failed,1.0
+ORD1896,2027-06-15,West,electronics ,online ,11,3522.8,11.5,Refunded,1.4
+ORD1897,2027-06-16,south ,Office Supplies,RETAIL,1,2139.11,1.91,Failed,3.2
+ORD1898,2027-06-17,West,FURNITURE,Retail,11,2617.87,6.39,paid ,4.6
+ORD1899,2027-06-18,NORTH,Groceries,online ,19,4526.16,33.78,Paid,2.1
+ORD1900,2027-06-19,East,Electronics,Retail,9,4460.43,14.99,Refunded,2.3
+ORD1901,2027-06-20,Central,FURNITURE,online ,2,4107.5,22.12,Paid,1.5
+ORD1901,2027-06-20,Central,FURNITURE,online ,2,4107.5,22.12,Paid,1.5
+ORD1903,2027-06-22,south ,electronics ,Retail,4,67605.77,12.84,paid ,1.1
+ORD1904,2027-06-23,NORTH,electronics ,Distributor,4,2613.2,5.15,PENDING,4.7
+ORD1905,2027-06-24,East,Electronics,Online,18,4361.07,7.23,paid ,3.7
+ORD1906,2027-06-25,North,Furniture,RETAIL,15,2073.6,10.96,Paid,6.0
+ORD1907,2027-06-26,North,Electronics,online ,19,4854.15,22.26,Paid,4.5
+ORD1908,2027-06-27,East,Clothing,RETAIL,13,4668.38,13.94,Paid,2.9
+ORD1909,2027-06-28,NORTH,FURNITURE,Retail,19,3733.85,0.24,paid ,3.1
+ORD1910,2027-06-29,south ,Office Supplies,RETAIL,17,1469.14,18.32,Pending,7.0
+ORD1911,2027-06-30,East,Furniture,Retail,6,745.1,32.25,Paid,2.8
+ORD1912,2027-07-01,Central,Electronics,RETAIL,16,4288.05,28.42,PENDING,4.6
+ORD1913,2027-07-02,Central,Groceries,Online,12,909.98,28.88,Refunded,1.2
+ORD1914,invalid-date,North,Furniture,Online,19,4285.88,27.83,paid ,4.5
+ORD1915,2027-07-04,West,FURNITURE,Online,5,2504.75,11.33,PENDING,2.4
+ORD1915,2027-07-04,West,FURNITURE,Online,5,2504.75,11.33,PENDING,2.4
+ORD1917,2027-07-06,North,FURNITURE,Online,1,4525.63,5.01,Failed,4.8
+ORD1918,2027-07-07,West,Electronics,Online,10,3058.87,23.02,Refunded,3.7
+ORD1919,2027-07-08,West,FURNITURE,Retail,15,2925.41,22.45,Pending,3.7
+ORD1920,2027-07-09,west ,,online ,11,2837.95,0.89,Paid,2.8
+ORD1921,2027-07-10,Central,Groceries,RETAIL,13,1918.73,27.58,paid ,4.3
+ORD1922,2027-07-11,NORTH,electronics ,Online,5,3949.65,31.61,PENDING,4.8
+ORD1923,2027-07-12,South,Furniture,Retail,1,1338.71,9.36,Paid,4.1
+ORD1924,2027-07-13,NORTH,FURNITURE,Retail,12,4700.59,28.43,PENDING,3.5
+ORD1925,2027-07-14,South,electronics ,Retail,11,-893.16,2.88,paid ,3.4
+ORD1926,2027-07-15,East,FURNITURE,online ,17,,21.0,Failed,4.4
+ORD1927,2027-07-16,Central,Groceries,RETAIL,4,3674.37,17.0,Paid,3.2
+ORD1928,2027-07-17,West,FURNITURE,online ,15,2908.79,19.11,Refunded,4.2
+ORD1929,2027-07-18,south ,Electronics,Distributor,9,1754.48,32.42,Pending,3.0
+ORD1930,2027-07-19,South,Office Supplies,Retail,19,4943.76,30.5,Refunded,1.2
+ORD1931,2027-07-20,NORTH,Furniture,Distributor,19,223.66,27.48,Pending,2.5
+ORD1932,2027-07-21,West,Office Supplies,Online,12,1337.97,9.58,PENDING,2.8
+ORD1933,2027-07-22,South,FURNITURE,Online,5,2648.36,31.91,Paid,1.6
+ORD1934,2027-07-23,,Groceries,online ,10,2657.57,3.41,Paid,1.4
+ORD1935,invalid-date,west ,Furniture,RETAIL,17,70408.64,29.87,Pending,3.1
+ORD1936,2027-07-25,South,FURNITURE,Distributor,5,3783.21,11.49,Failed,1.3
+ORD1937,2027-07-26,south ,electronics ,RETAIL,16,3155.04,1.88,paid ,2.2
+ORD1938,2027-07-27,Central,Clothing,online ,7,3041.38,23.43,Refunded,4.0
+ORD1939,2027-07-28,south ,FURNITURE,Online,9,362.22,8.09,PENDING,4.9
+ORD1940,2027-07-29,North,Office Supplies,RETAIL,3,1945.0,8.52,Refunded,3.9
+ORD1941,2027-07-30,West,Furniture,RETAIL,15,1237.07,10.71,,5.0
+ORD1942,2027-07-31,Central,Office Supplies,Online,16,1400.31,2.23,PENDING,3.8
+ORD1943,2027-08-01,west ,Furniture,Distributor,18,2816.25,6.2,,2.2
+ORD1944,2027-08-02,Central,FURNITURE,Online,14,1077.58,0.18,Paid,3.7
+ORD1945,2027-08-03,Central,Electronics,RETAIL,3,1540.35,15.59,Refunded,3.8
+ORD1946,2027-08-04,NORTH,electronics ,Distributor,12,,2.95,paid ,2.5
+ORD1947,2027-08-05,Central,FURNITURE,Distributor,9,4747.66,23.89,paid ,1.1
+ORD1948,2027-08-06,west ,Office Supplies,Online,7,4728.86,8.25,Pending,3.8
+ORD1949,2027-08-07,south ,Clothing,RETAIL,9,3088.71,33.03,PENDING,1.1
+ORD1950,2027-08-08,Central,Clothing,online ,13,4630.16,30.49,Paid,3.5
+ORD1951,2027-08-09,East,Groceries,RETAIL,18,3950.48,10.13,paid ,1.7
+ORD1952,2027-08-10,West,Furniture,Retail,5,2990.74,27.41,Failed,3.3
+ORD1953,2027-08-11,Central,Office Supplies,online ,13,131.53,28.11,Paid,3.0
+ORD1954,2027-08-12,West,Groceries,Distributor,4,3885.33,34.53,Paid,1.1
+ORD1955,invalid-date,East,Office Supplies,online ,2,3542.19,20.92,paid ,2.5
+ORD1956,2027-08-14,East,Furniture,Distributor,16,3114.74,2.87,Failed,3.4
+ORD1957,2027-08-15,West,FURNITURE,Distributor,9,3826.08,22.64,Pending,4.4
+ORD1958,2027-08-16,South,FURNITURE,online ,9,2613.32,21.87,paid ,4.6
+ORD1959,2027-08-17,North,Clothing,Distributor,6,3550.01,22.34,Failed,2.9
+ORD1960,2027-08-18,NORTH,FURNITURE,Distributor,11,4682.34,10.75,Paid,3.9
+ORD1961,2027-08-19,South,FURNITURE,Retail,1,1941.44,30.09,Failed,0.0
+ORD1962,2027-08-20,South,Electronics,RETAIL,4,3569.8,33.58,Paid,2.4
+ORD1963,2027-08-21,south ,Clothing,RETAIL,13,2430.87,7.62,paid ,1.8
+ORD1964,2027-08-22,NORTH,Groceries,Retail,13,3404.56,3.09,PENDING,3.2
+ORD1965,2027-08-23,NORTH,electronics ,online ,13,3838.18,6.81,paid ,2.3
+ORD1966,2027-08-24,South,,Online,2,322.72,28.72,Refunded,1.3
+ORD1967,2027-08-25,Central,Groceries,Online,9,3268.34,23.68,Refunded,3.7
+ORD1968,2027-08-26,south ,Furniture,Online,8,1211.03,22.26,Refunded,3.8
+ORD1969,2027-08-27,,Electronics,Retail,7,3383.16,14.06,paid ,2.4
+ORD1970,2027-08-28,East,Groceries,Retail,4,2394.82,20.22,Pending,1.3
+ORD1971,2027-08-29,west ,Furniture,Distributor,18,3890.41,10.78,paid ,2.7
+ORD1972,2027-08-30,NORTH,Clothing,Online,3,704.66,16.7,PENDING,2.8
+ORD1973,2027-08-31,South,electronics ,online ,6,3168.98,27.76,Failed,3.7
+ORD1974,2027-09-01,East,Furniture,online ,12,1464.51,34.34,paid ,2.3
+ORD1975,2027-09-02,West,FURNITURE,Online,12,4279.61,32.64,paid ,3.7
+ORD1976,2027-09-03,North,Office Supplies,Online,8,66539.89,32.69,Paid,4.5
+ORD1977,2027-09-04,west ,Furniture,Online,1,4982.35,14.08,Paid,1.9
+ORD1978,2027-09-05,west ,Furniture,Retail,4,4000.44,16.41,Paid,4.9
+ORD1979,2027-09-06,west ,electronics ,Retail,11,3793.3,24.7,paid ,2.5
+ORD1980,2027-09-07,south ,Office Supplies,Retail,3,1155.95,32.28,Pending,2.1
+ORD1981,2027-09-08,West,FURNITURE,RETAIL,13,1746.43,4.97,Failed,2.7
+ORD1982,2027-09-09,west ,Groceries,online ,17,2381.84,10.65,Failed,1.4
+ORD1983,2027-09-10,West,Groceries,online ,10,3889.57,4.87,PENDING,1.5
+ORD1984,invalid-date,Central,Furniture,Distributor,12,4583.33,21.42,Pending,2.7
+ORD1985,2027-09-12,west ,Office Supplies,Retail,15,1026.78,10.72,Pending,4.0
+ORD1986,2027-09-13,North,Office Supplies,RETAIL,10,4619.6,11.41,Failed,4.6
+ORD1987,2027-09-14,West,FURNITURE,RETAIL,14,3508.56,2.48,Refunded,3.7
+ORD1988,2027-09-15,West,electronics ,online ,13,3092.78,12.24,Paid,1.4
+ORD1989,2027-09-16,North,Clothing,Retail,5,1079.22,30.19,Paid,3.7
+ORD1990,2027-09-17,west ,Groceries,Distributor,6,372.07,8.16,Failed,3.5
+ORD1991,2027-09-18,North,electronics ,Retail,2,2885.48,24.33,Pending,4.2
+ORD1992,2027-09-19,West,Electronics,Online,17,3292.43,22.04,PENDING,4.3
+ORD1993,2027-09-20,North,Groceries,Retail,4,,30.22,Refunded,4.5
+ORD1994,2027-09-21,West,electronics ,Online,14,2826.64,4.63,Failed,2.7
+ORD1995,2027-09-22,,Groceries,Online,10,4296.82,34.22,Paid,3.8
+ORD1996,2027-09-23,Central,Clothing,Distributor,3,4191.82,20.39,paid ,2.1
+ORD1997,2027-09-24,South,Electronics,online ,3,4644.04,34.84,Pending,5.0
+ORD1998,2027-09-25,West,Clothing,Retail,15,1892.84,31.9,paid ,1.7
+ORD1999,2027-09-26,west ,FURNITURE,Online,6,1658.44,7.75,PENDING,1.0
+ORD2000,2027-09-27,East,Electronics,Retail,17,3772.19,1.97,Failed,1.6

@@ -1,0 +1,977 @@
+Order_ID,Order_Date,Region,Product_Category,Sales_Channel,Quantity,Unit_Price,Discount_Percent,Payment_Status,Customer_Rating,Order_Date_Invalid_Flag,Quantity_Invalid_Quantity_Flag,Unit_Price_Negative_Amount_Flag,Discount_Percent_Invalid_Discount_Flag,Customer_Rating_Invalid_Rating_Flag,Quantity_Outlier_Flag,Unit_Price_Outlier_Flag,Discount_Percent_Outlier_Flag,Customer_Rating_Outlier_Flag
+ORD1001,2025-01-01,North,Electronics,Retail,12,4539.72,15.09,Refunded,1.9,False,False,False,False,False,False,False,False,False
+ORD1002,2025-01-02,Unknown,Furniture,Online,19,2696.42,3.06,Pending,4.5,False,False,False,False,False,False,False,False,False
+ORD1003,2025-01-03,Central,Electronics,Online,14,3651.8,9.9,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1004,2025-01-04,North,Electronics,Retail,17,4400.47,14.65,Unknown,1.2,False,False,False,False,False,False,False,False,False
+ORD1005,2025-01-05,East,Electronics,Online,3,304.12,10.24,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1006,2025-01-06,West,Groceries,Online,7,2048.47,11.63,Pending,1.2,False,False,False,False,False,False,False,False,False
+ORD1007,2025-01-07,Central,Clothing,Distributor,17,3835.31,10.28,Pending,4.4,False,False,False,False,False,False,False,False,False
+ORD1008,2025-01-08,Central,Groceries,Retail,12,2329.1,1.45,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1009,2025-01-09,North,Clothing,Retail,9,1409.54,22.3,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1010,2025-01-10,North,Groceries,Online,15,1177.05,20.91,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1011,2025-01-11,East,Groceries,Retail,18,744.44,22.87,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1013,2025-01-13,East,Office Supplies,Online,8,2919.24,10.35,Failed,3.7,False,False,False,False,False,False,False,False,False
+ORD1014,2025-01-14,East,Groceries,Online,14,474.29,21.69,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1015,2025-01-15,West,Electronics,Retail,8,1974.64,20.99,Pending,4.4,False,False,False,False,False,False,False,False,False
+ORD1016,2025-01-16,Central,Furniture,Online,14,1901.89,17.72,Paid,4.3,False,False,False,False,False,False,False,False,False
+ORD1017,2025-01-17,Unknown,Office Supplies,Online,7,990.52,12.26,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1018,2025-01-18,West,Groceries,Online,12,2233.99,31.95,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1019,2025-01-19,West,Furniture,Online,11,1727.29,11.89,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1020,2025-01-20,East,Electronics,Online,11,1774.84,15.95,Pending,2.0,False,False,False,False,False,False,False,False,False
+ORD1021,2025-01-21,Unknown,Furniture,Distributor,13,3721.23,23.73,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1022,2025-01-22,Central,Furniture,Retail,18,1193.99,19.01,Refunded,2.3,False,False,False,False,False,False,False,False,False
+ORD1023,2025-01-23,North,Electronics,Retail,2,2696.42,12.14,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1024,2025-01-24,West,Unknown,Retail,15,2896.18,15.25,Paid,4.2,False,False,False,False,False,False,False,False,False
+ORD1025,2025-01-25,West,Office Supplies,Retail,18,-2167.79,27.81,Paid,2.4,False,False,True,False,False,False,True,False,False
+ORD1026,2025-01-26,South,Groceries,Distributor,15,3348.74,9.73,Pending,3.8,False,False,False,False,False,False,False,False,False
+ORD1027,2025-01-27,Unknown,Groceries,Online,19,2787.07,4.98,Failed,1.8,False,False,False,False,False,False,False,False,False
+ORD1028,2025-01-28,North,Furniture,Distributor,12,4408.35,10.96,Paid,4.0,False,False,False,False,False,False,False,False,False
+ORD1029,2025-01-29,West,Electronics,Retail,13,3410.34,29.73,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1030,2025-01-30,West,Electronics,Retail,11,2780.12,3.11,Pending,1.6,False,False,False,False,False,False,False,False,False
+ORD1031,2025-01-31,Central,Electronics,Online,5,4165.84,34.71,Paid,1.7,False,False,False,False,False,False,False,False,False
+ORD1032,,South,Furniture,Online,1,3070.12,18.94,Failed,1.7,True,False,False,False,False,False,False,False,False
+ORD1033,2025-02-02,West,Furniture,Online,3,1526.61,34.47,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1034,2025-02-03,North,Unknown,Distributor,19,1114.77,32.86,Pending,4.4,False,False,False,False,False,False,False,False,False
+ORD1035,2025-02-04,South,Office Supplies,Online,7,846.41,15.85,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1036,2025-02-05,Central,Groceries,Retail,12,4507.33,6.95,Refunded,3.8,False,False,False,False,False,False,False,False,False
+ORD1037,2025-02-06,West,Furniture,Retail,15,3579.66,5.77,Paid,3.6,False,False,False,False,False,False,False,False,False
+ORD1038,2025-02-07,South,Furniture,Distributor,5,4693.15,8.4,Pending,4.5,False,False,False,False,False,False,False,False,False
+ORD1039,2025-02-08,South,Electronics,Retail,15,3056.13,24.85,Pending,2.0,False,False,False,False,False,False,False,False,False
+ORD1040,2025-02-09,Unknown,Electronics,Retail,8,2419.66,9.55,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1041,2025-02-10,East,Office Supplies,Distributor,10,392.61,11.95,Paid,4.7,False,False,False,False,False,False,False,False,False
+ORD1042,2025-02-11,North,Office Supplies,Retail,16,3391.05,15.71,Paid,3.6,False,False,False,False,False,False,False,False,False
+ORD1043,2025-02-12,North,Electronics,Online,8,2952.82,31.96,Paid,2.6,False,False,False,False,False,False,False,False,False
+ORD1044,2025-02-13,West,Groceries,Retail,1,4952.02,6.63,Paid,2.9,False,False,False,False,True,False,False,False,False
+ORD1045,2025-02-14,West,Electronics,Online,12,1271.88,0.18,Refunded,2.0,False,False,False,False,False,False,False,False,False
+ORD1046,2025-02-15,West,Furniture,Online,5,2696.42,2.1,Failed,3.3,False,False,False,False,False,False,False,False,False
+ORD1047,2025-02-16,West,Electronics,Retail,3,3289.69,31.67,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1048,2025-02-17,North,Office Supplies,Distributor,1,3258.5,22.66,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1049,2025-02-18,South,Furniture,Retail,4,2850.34,9.56,Unknown,3.4,False,False,False,False,False,False,False,False,False
+ORD1050,2025-02-19,Unknown,Electronics,Retail,8,3906.95,6.2,Paid,3.2,False,False,False,False,False,False,False,False,False
+ORD1051,2025-02-20,North,Groceries,Online,3,1104.41,10.3,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1052,2025-02-21,South,Furniture,Online,10,3655.57,4.02,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1053,2025-02-22,East,Electronics,Distributor,2,3136.7,32.95,Pending,4.3,False,False,False,False,False,False,False,False,False
+ORD1054,2025-02-23,West,Clothing,Online,11,4490.77,27.45,Paid,2.3,False,False,False,False,False,False,False,False,False
+ORD1055,2025-02-24,North,Electronics,Retail,10,4251.25,16.18,Failed,4.6,False,False,False,False,False,False,False,False,False
+ORD1056,,West,Groceries,Online,14,1644.22,30.27,Refunded,1.6,True,False,False,False,False,False,False,False,False
+ORD1057,2025-02-26,West,Furniture,Retail,7,66943.43,8.73,Pending,1.7,False,False,False,False,False,False,True,False,False
+ORD1058,2025-02-27,South,Groceries,Distributor,2,4910.1,25.1,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1059,2025-02-28,East,Electronics,Retail,9,2683.6,29.96,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1060,2025-03-01,Central,Office Supplies,Distributor,16,4541.46,12.49,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1061,2025-03-02,East,Groceries,Retail,13,903.02,26.51,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1062,2025-03-03,North,Furniture,Retail,9,3249.81,10.33,Pending,4.3,False,False,False,False,False,False,False,False,False
+ORD1063,2025-03-04,Central,Groceries,Online,4,4068.31,10.46,Failed,1.6,False,False,False,False,False,False,False,False,False
+ORD1064,2025-03-05,South,Groceries,Distributor,10,4742.24,3.75,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1065,2025-03-06,North,Groceries,Distributor,12,2696.42,15.4,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1066,2025-03-07,North,Furniture,Retail,17,3652.41,25.54,Pending,4.8,False,False,False,False,False,False,False,False,False
+ORD1067,2025-03-08,Unknown,Furniture,Retail,14,2740.18,32.91,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1068,2025-03-09,South,Office Supplies,Online,14,397.08,21.13,Paid,1.0,False,False,False,False,False,False,False,False,False
+ORD1069,2025-03-10,Unknown,Electronics,Online,2,3481.0,30.21,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1070,2025-03-11,South,Groceries,Online,11,3481.47,28.79,Refunded,3.1,False,False,False,False,False,False,False,False,False
+ORD1071,2025-03-12,North,Electronics,Retail,16,4659.97,6.07,Refunded,4.1,False,False,False,False,False,False,False,False,False
+ORD1072,2025-03-13,North,Electronics,Retail,19,2536.83,17.0,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1073,2025-03-14,South,Electronics,Distributor,6,1228.23,4.09,Pending,3.6,False,False,False,False,False,False,False,False,False
+ORD1074,2025-03-15,North,Electronics,Online,19,318.36,23.88,Failed,4.1,False,False,False,False,False,False,False,False,False
+ORD1075,2025-03-16,Central,Unknown,Distributor,5,2136.65,33.25,Failed,2.6,False,False,False,False,False,False,False,False,False
+ORD1076,2025-03-17,North,Groceries,Distributor,4,1579.39,4.8,Failed,2.9,False,False,False,False,True,False,False,False,False
+ORD1077,2025-03-18,West,Groceries,Online,15,3829.33,25.69,Paid,4.4,False,False,False,False,False,False,False,False,False
+ORD1078,2025-03-19,West,Clothing,Retail,4,1835.91,22.13,Refunded,2.5,False,False,False,False,False,False,False,False,False
+ORD1079,2025-03-20,North,Electronics,Online,10,2696.42,20.43,Pending,3.0,False,False,False,False,False,False,False,False,False
+ORD1080,2025-03-21,West,Electronics,Distributor,3,4815.32,13.65,Paid,1.0,False,False,False,False,False,False,False,False,False
+ORD1081,2025-03-22,North,Electronics,Online,5,3142.45,12.43,Refunded,3.0,False,False,False,False,False,False,False,False,False
+ORD1082,2025-03-23,West,Furniture,Retail,6,4650.44,1.58,Refunded,4.9,False,False,False,False,False,False,False,False,False
+ORD1083,2025-03-24,Central,Clothing,Online,8,3828.19,7.63,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1084,2025-03-25,West,Furniture,Retail,7,2779.61,0.53,Pending,2.6,False,False,False,False,False,False,False,False,False
+ORD1085,2025-03-26,North,Furniture,Online,10,983.51,20.35,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1086,2025-03-27,East,Furniture,Online,6,2347.13,3.7,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1087,2025-03-28,Unknown,Furniture,Retail,14,2848.28,30.56,Pending,2.7,False,False,False,False,False,False,False,False,False
+ORD1088,2025-03-29,South,Furniture,Distributor,4,4333.41,18.31,Paid,2.2,False,False,False,False,False,False,False,False,False
+ORD1089,2025-03-30,West,Electronics,Distributor,13,2458.53,24.49,Paid,4.8,False,False,False,False,False,False,False,False,False
+ORD1090,2025-03-31,North,Electronics,Retail,17,4498.61,14.38,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1091,2025-04-01,West,Office Supplies,Online,7,3404.31,19.62,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1092,2025-04-02,West,Office Supplies,Distributor,4,771.3,32.99,Paid,1.3,False,False,False,False,False,False,False,False,False
+ORD1093,2025-04-03,North,Furniture,Retail,14,4975.41,2.9,Paid,2.9,False,False,False,False,False,False,False,False,False
+ORD1094,2025-04-04,South,Clothing,Retail,3,2683.44,8.89,Paid,1.9,False,False,False,False,False,False,False,False,False
+ORD1095,2025-04-05,Unknown,Electronics,Retail,5,2020.11,27.3,Failed,2.0,False,False,False,False,False,False,False,False,False
+ORD1096,2025-04-06,South,Electronics,Retail,16,3329.66,3.46,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1097,2025-04-07,North,Clothing,Online,4,633.58,2.65,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1098,2025-04-08,Unknown,Groceries,Retail,2,3219.04,12.65,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1099,2025-04-09,South,Electronics,Online,18,2541.36,3.23,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1100,2025-04-10,Central,Electronics,Retail,19,2092.7,20.48,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1101,2025-04-11,North,Office Supplies,Retail,19,4769.8,7.92,Failed,3.9,False,False,False,False,False,False,False,False,False
+ORD1103,,North,Electronics,Retail,14,1173.68,27.42,Pending,3.0,True,False,False,False,False,False,False,False,False
+ORD1104,2025-04-14,West,Furniture,Retail,19,2348.92,24.49,Pending,1.6,False,False,False,False,False,False,False,False,False
+ORD1105,2025-04-15,North,Furniture,Retail,13,4605.0,21.59,Pending,4.5,False,False,False,False,False,False,False,False,False
+ORD1106,2025-04-16,North,Furniture,Distributor,12,962.87,30.22,Refunded,4.5,False,False,False,False,False,False,False,False,False
+ORD1107,2025-04-17,South,Furniture,Retail,6,1148.39,7.81,Failed,2.7,False,False,False,False,False,False,False,False,False
+ORD1108,2025-04-18,West,Groceries,Distributor,4,163.84,30.56,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1109,2025-04-19,South,Groceries,Retail,19,169.53,27.63,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1110,2025-04-20,North,Electronics,Distributor,16,4164.02,26.19,Pending,3.9,False,False,False,False,False,False,False,False,False
+ORD1111,2025-04-21,West,Furniture,Retail,13,3687.4,19.64,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1112,2025-04-22,North,Office Supplies,Retail,4,1839.7,8.62,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1113,2025-04-23,West,Office Supplies,Online,17,3521.72,14.82,Paid,2.7,False,False,False,False,False,False,False,False,False
+ORD1114,2025-04-24,South,Furniture,Distributor,1,2036.51,27.77,Refunded,1.4,False,False,False,False,False,False,False,False,False
+ORD1115,2025-04-25,North,Electronics,Online,18,4769.19,1.11,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1116,2025-04-26,West,Clothing,Online,17,4838.56,27.37,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1117,2025-04-27,South,Furniture,Distributor,15,2024.69,8.4,Refunded,3.6,False,False,False,False,False,False,False,False,False
+ORD1118,2025-04-28,South,Electronics,Distributor,11,4285.69,5.05,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1119,2025-04-29,West,Unknown,Online,13,78105.08,4.05,Failed,1.9,False,False,False,False,False,False,True,False,False
+ORD1120,2025-04-30,Central,Furniture,Retail,1,1619.0,0.95,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1121,2025-05-01,Unknown,Furniture,Distributor,17,1237.0,18.33,Paid,5.0,False,False,False,False,False,False,False,False,False
+ORD1122,2025-05-02,Central,Electronics,Retail,6,2345.35,7.64,Pending,4.1,False,False,False,False,False,False,False,False,False
+ORD1123,2025-05-03,North,Furniture,Online,4,3928.61,34.63,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1124,2025-05-04,North,Office Supplies,Retail,16,57469.85,20.11,Paid,1.7,False,False,False,False,False,False,True,False,False
+ORD1125,2025-05-05,Central,Office Supplies,Retail,15,3841.54,4.83,Failed,4.5,False,False,False,False,False,False,False,False,False
+ORD1126,2025-05-06,West,Furniture,Online,15,4290.51,24.11,Refunded,2.8,False,False,False,False,False,False,False,False,False
+ORD1127,2025-05-07,North,Furniture,Distributor,6,3055.02,31.42,Unknown,1.5,False,False,False,False,False,False,False,False,False
+ORD1128,2025-05-08,South,Clothing,Online,15,4193.5,26.08,Failed,4.4,False,False,False,False,False,False,False,False,False
+ORD1129,2025-05-09,West,Electronics,Retail,14,3943.66,2.68,Failed,4.3,False,False,False,False,False,False,False,False,False
+ORD1130,2025-05-10,West,Electronics,Distributor,11,1947.23,31.36,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1131,2025-05-11,Unknown,Electronics,Retail,7,2804.75,27.79,Refunded,4.6,False,False,False,False,False,False,False,False,False
+ORD1132,2025-05-12,Central,Furniture,Retail,9,4043.29,5.54,Failed,4.4,False,False,False,False,False,False,False,False,False
+ORD1133,2025-05-13,South,Clothing,Online,16,325.68,1.81,Pending,1.2,False,False,False,False,False,False,False,False,False
+ORD1134,2025-05-14,Central,Electronics,Distributor,5,4059.59,19.51,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1135,2025-05-15,Unknown,Furniture,Retail,10,971.65,5.46,Pending,3.3,False,False,False,False,False,False,False,False,False
+ORD1136,2025-05-16,Central,Furniture,Retail,18,2621.95,29.21,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1137,2025-05-17,South,Office Supplies,Distributor,-9,4060.55,12.54,Paid,2.8,False,True,False,False,False,False,False,False,False
+ORD1138,2025-05-18,South,Electronics,Retail,13,1343.72,31.95,Failed,2.6,False,False,False,False,False,False,False,False,False
+ORD1139,2025-05-19,North,Groceries,Retail,11,1304.46,19.8,Unknown,2.7,False,False,False,False,False,False,False,False,False
+ORD1140,2025-05-20,South,Unknown,Online,17,2073.55,6.39,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1141,2025-05-21,West,Clothing,Retail,13,4483.75,4.89,Refunded,1.0,False,False,False,False,False,False,False,False,False
+ORD1142,2025-05-22,South,Furniture,Retail,6,102.17,20.18,Failed,2.0,False,False,False,False,False,False,False,False,False
+ORD1143,2025-05-23,West,Electronics,Retail,17,4516.78,26.67,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1144,2025-05-24,West,Furniture,Online,13,853.65,27.35,Pending,3.9,False,False,False,False,False,False,False,False,False
+ORD1145,2025-05-25,West,Electronics,Retail,19,4951.42,9.65,Paid,1.7,False,False,False,False,False,False,False,False,False
+ORD1146,2025-05-26,North,Clothing,Retail,19,4778.75,7.15,Pending,3.2,False,False,False,False,False,False,False,False,False
+ORD1147,2025-05-27,East,Clothing,Distributor,10,2523.91,0.59,Failed,3.9,False,False,False,False,False,False,False,False,False
+ORD1148,2025-05-28,East,Groceries,Online,3,2612.33,23.77,Refunded,2.8,False,False,False,False,False,False,False,False,False
+ORD1151,2025-05-31,East,Groceries,Retail,5,544.54,21.06,Failed,2.2,False,False,False,False,False,False,False,False,False
+ORD1152,2025-06-01,East,Furniture,Online,5,2696.42,32.8,Paid,4.7,False,False,False,False,False,False,False,False,False
+ORD1153,2025-06-02,South,Groceries,Retail,17,382.74,10.91,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1154,2025-06-03,East,Electronics,Distributor,10,2277.39,8.74,Unknown,3.6,False,False,False,False,False,False,False,False,False
+ORD1155,2025-06-04,Central,Unknown,Distributor,5,1450.18,22.9,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1156,2025-06-05,North,Office Supplies,Retail,4,3147.99,21.67,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1157,2025-06-06,Unknown,Office Supplies,Online,6,4962.97,11.62,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1158,2025-06-07,North,Office Supplies,Retail,4,1992.98,32.48,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1159,2025-06-08,South,Furniture,Online,7,2911.82,29.57,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1160,2025-06-09,West,Electronics,Online,7,2136.46,7.84,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1161,2025-06-10,North,Furniture,Retail,18,4251.63,8.37,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1162,2025-06-11,South,Furniture,Retail,3,4520.96,17.93,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1163,2025-06-12,West,Furniture,Online,1,4399.04,27.08,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1164,2025-06-13,West,Office Supplies,Online,4,4874.42,1.54,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1165,2025-06-14,North,Electronics,Online,6,234.84,24.27,Failed,3.5,False,False,False,False,False,False,False,False,False
+ORD1166,2025-06-15,South,Clothing,Retail,9,4215.1,22.69,Failed,2.8,False,False,False,False,False,False,False,False,False
+ORD1167,2025-06-16,West,Clothing,Online,14,3783.68,8.1,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1168,2025-06-17,North,Electronics,Distributor,12,1220.6,23.85,Refunded,3.0,False,False,False,False,False,False,False,False,False
+ORD1169,2025-06-18,North,Office Supplies,Online,4,4785.97,32.91,Pending,4.1,False,False,False,False,False,False,False,False,False
+ORD1170,2025-06-19,South,Office Supplies,Online,12,826.07,1.64,Failed,2.1,False,False,False,False,False,False,False,False,False
+ORD1171,2025-06-20,West,Office Supplies,Online,10,3429.79,11.19,Pending,4.2,False,False,False,False,False,False,False,False,False
+ORD1172,2025-06-21,Central,Groceries,Retail,7,1201.96,15.34,Paid,2.0,False,False,False,False,False,False,False,False,False
+ORD1173,2025-06-22,East,Furniture,Online,3,2213.77,31.47,Paid,4.3,False,False,False,False,False,False,False,False,False
+ORD1174,2025-06-23,West,Groceries,Retail,14,3623.88,33.68,Refunded,1.3,False,False,False,False,False,False,False,False,False
+ORD1175,2025-06-24,West,Furniture,Distributor,10,-1022.23,15.54,Paid,4.5,False,False,True,False,False,False,False,False,False
+ORD1176,2025-06-25,South,Office Supplies,Retail,16,2194.76,26.25,Paid,2.9,False,False,False,False,True,False,False,False,False
+ORD1177,,East,Office Supplies,Retail,16,1699.06,18.61,Pending,2.2,True,False,False,False,False,False,False,False,False
+ORD1178,2025-06-27,East,Groceries,Retail,10,4214.33,18.82,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1179,2025-06-28,South,Groceries,Online,13,804.69,9.73,Paid,2.7,False,False,False,False,False,False,False,False,False
+ORD1180,2025-06-29,East,Furniture,Online,6,2207.5,7.59,Failed,5.0,False,False,False,False,False,False,False,False,False
+ORD1181,2025-06-30,Central,Clothing,Distributor,12,4528.41,10.08,Paid,1.9,False,False,False,False,False,False,False,False,False
+ORD1182,2025-07-01,North,Furniture,Distributor,9,4244.66,19.47,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1183,2025-07-02,South,Groceries,Online,13,2064.61,1.02,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1184,2025-07-03,East,Electronics,Retail,4,3839.23,31.75,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1185,2025-07-04,South,Groceries,Online,11,4133.49,5.47,Refunded,3.1,False,False,False,False,False,False,False,False,False
+ORD1186,2025-07-05,Central,Electronics,Retail,18,4455.55,7.7,Failed,3.7,False,False,False,False,False,False,False,False,False
+ORD1187,2025-07-06,North,Electronics,Distributor,11,2768.08,18.14,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1188,2025-07-07,North,Groceries,Online,4,1101.86,24.85,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1189,2025-07-08,North,Electronics,Distributor,18,1351.01,3.35,Pending,2.7,False,False,False,False,False,False,False,False,False
+ORD1190,2025-07-09,South,Clothing,Distributor,1,1548.9,11.12,Refunded,1.5,False,False,False,False,False,False,False,False,False
+ORD1192,2025-07-11,East,Electronics,Retail,6,260.77,9.18,Refunded,3.6,False,False,False,False,False,False,False,False,False
+ORD1193,2025-07-12,South,Unknown,Retail,15,3216.61,10.96,Pending,2.3,False,False,False,False,False,False,False,False,False
+ORD1194,2025-07-13,North,Electronics,Retail,18,1885.34,29.28,Failed,3.5,False,False,False,False,False,False,False,False,False
+ORD1195,,North,Electronics,Retail,11,1546.68,1.76,Paid,1.9,True,False,False,False,False,False,False,False,False
+ORD1196,2025-07-15,North,Furniture,Online,15,4409.53,16.26,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1197,,North,Groceries,Online,16,2354.01,13.29,Failed,4.6,True,False,False,False,False,False,False,False,False
+ORD1198,2025-07-17,West,Office Supplies,Distributor,7,565.76,11.08,Refunded,1.5,False,False,False,False,False,False,False,False,False
+ORD1199,2025-07-18,Central,Electronics,Retail,10,4151.06,10.0,Paid,2.5,False,False,False,False,False,False,False,False,False
+ORD1200,2025-07-19,East,Furniture,Online,12,333.44,3.2,Refunded,4.3,False,False,False,False,False,False,False,False,False
+ORD1201,2025-07-20,North,Electronics,Retail,14,3661.07,11.02,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1202,2025-07-21,West,Furniture,Retail,5,3892.14,1.51,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1203,2025-07-22,North,Electronics,Distributor,18,2696.42,27.33,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1204,2025-07-23,South,Electronics,Online,5,4141.46,13.94,Refunded,3.3,False,False,False,False,False,False,False,False,False
+ORD1205,2025-07-24,West,Furniture,Retail,3,2626.73,15.54,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1206,2025-07-25,Unknown,Electronics,Online,5,2370.14,31.28,Pending,4.4,False,False,False,False,False,False,False,False,False
+ORD1207,2025-07-26,West,Office Supplies,Distributor,17,322.48,23.03,Failed,1.7,False,False,False,False,False,False,False,False,False
+ORD1208,2025-07-27,West,Furniture,Distributor,19,1521.14,0.28,Pending,2.7,False,False,False,False,False,False,False,False,False
+ORD1209,2025-07-28,South,Groceries,Distributor,19,4661.95,33.01,Pending,2.9,False,False,False,False,False,False,False,False,False
+ORD1210,2025-07-29,Central,Electronics,Online,12,2019.94,8.3,Pending,4.2,False,False,False,False,False,False,False,False,False
+ORD1211,2025-07-30,North,Furniture,Online,-9,2778.83,3.77,Paid,3.4,False,True,False,False,False,False,False,False,False
+ORD1212,2025-07-31,North,Clothing,Online,1,2706.91,26.88,Paid,3.6,False,False,False,False,False,False,False,False,False
+ORD1213,2025-08-01,Central,Electronics,Retail,18,2993.11,17.52,Paid,5.0,False,False,False,False,False,False,False,False,False
+ORD1215,2025-08-03,East,Office Supplies,Retail,10,1874.66,8.73,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1216,2025-08-04,Central,Groceries,Distributor,7,3643.33,19.16,Pending,2.6,False,False,False,False,False,False,False,False,False
+ORD1217,2025-08-05,West,Clothing,Online,1,1082.75,9.6,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1218,2025-08-06,Central,Furniture,Distributor,17,1097.53,31.56,Refunded,1.1,False,False,False,False,False,False,False,False,False
+ORD1219,2025-08-07,West,Furniture,Online,2,149.44,7.53,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1220,2025-08-08,North,Furniture,Retail,11,2243.66,30.95,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1221,2025-08-09,East,Electronics,Distributor,9,4425.4,19.58,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1222,2025-08-10,East,Electronics,Distributor,7,354.31,29.0,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1223,2025-08-11,South,Furniture,Online,17,1036.48,24.95,Pending,3.2,False,False,False,False,False,False,False,False,False
+ORD1224,2025-08-12,West,Clothing,Retail,17,2696.42,24.38,Failed,2.0,False,False,False,False,False,False,False,False,False
+ORD1225,2025-08-13,North,Furniture,Online,2,3685.45,11.35,Pending,4.1,False,False,False,False,False,False,False,False,False
+ORD1226,2025-08-14,North,Electronics,Retail,6,3239.11,8.19,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1227,2025-08-15,Central,Furniture,Retail,14,2138.13,7.38,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1228,2025-08-16,South,Groceries,Distributor,6,3819.44,30.0,Paid,1.9,False,False,False,False,False,False,False,False,False
+ORD1229,2025-08-17,South,Furniture,Online,2,3087.19,28.71,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1230,2025-08-18,Central,Electronics,Online,1,4490.6,15.42,Paid,1.3,False,False,False,False,False,False,False,False,False
+ORD1231,2025-08-19,South,Office Supplies,Online,10,2696.42,4.63,Refunded,3.4,False,False,False,False,False,False,False,False,False
+ORD1232,2025-08-20,West,Office Supplies,Retail,5,1338.79,13.38,Failed,4.3,False,False,False,False,False,False,False,False,False
+ORD1233,2025-08-21,West,Furniture,Online,2,-1712.57,21.68,Pending,4.4,False,False,True,False,False,False,False,False,False
+ORD1234,2025-08-22,West,Office Supplies,Distributor,16,714.25,15.9,Paid,2.9,False,False,False,False,False,False,False,False,False
+ORD1235,2025-08-23,West,Furniture,Online,2,1751.13,27.31,Refunded,4.1,False,False,False,False,False,False,False,False,False
+ORD1236,2025-08-24,West,Unknown,Online,10,4997.77,34.92,Paid,4.8,False,False,False,False,False,False,False,False,False
+ORD1237,2025-08-25,South,Electronics,Online,2,2088.18,6.69,Failed,2.1,False,False,False,False,False,False,False,False,False
+ORD1238,2025-08-26,South,Office Supplies,Retail,16,2696.42,16.09,Paid,2.6,False,False,False,False,False,False,False,False,False
+ORD1239,2025-08-27,East,Furniture,Retail,16,3836.17,15.08,Paid,4.7,False,False,False,False,False,False,False,False,False
+ORD1240,2025-08-28,West,Clothing,Distributor,19,2758.11,10.66,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1241,,North,Groceries,Retail,7,833.05,6.93,Pending,4.7,True,False,False,False,False,False,False,False,False
+ORD1242,2025-08-30,North,Furniture,Online,12,1965.38,2.3,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1243,2025-08-31,West,Unknown,Distributor,15,2130.9,31.05,Paid,3.6,False,False,False,False,False,False,False,False,False
+ORD1244,2025-09-01,South,Electronics,Retail,8,3793.77,14.69,Pending,4.3,False,False,False,False,False,False,False,False,False
+ORD1245,2025-09-02,North,Office Supplies,Online,6,201.29,17.39,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1246,2025-09-03,South,Office Supplies,Retail,10,1418.2,32.09,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1247,2025-09-04,South,Furniture,Online,3,2636.22,27.17,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1248,2025-09-05,South,Electronics,Retail,19,1417.35,4.57,Failed,1.2,False,False,False,False,False,False,False,False,False
+ORD1249,2025-09-06,South,Unknown,Distributor,17,60682.44,19.79,Failed,2.4,False,False,False,False,False,False,True,False,False
+ORD1250,2025-09-07,East,Groceries,Online,7,2461.15,15.48,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1251,2025-09-08,Unknown,Clothing,Online,4,1872.38,27.9,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1252,2025-09-09,South,Furniture,Online,14,4751.12,25.35,Paid,1.0,False,False,False,False,False,False,False,False,False
+ORD1253,2025-09-10,West,Furniture,Online,15,3197.58,24.16,Paid,1.6,False,False,False,False,False,False,False,False,False
+ORD1254,2025-09-11,Central,Electronics,Online,8,736.71,11.92,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1255,2025-09-12,South,Electronics,Online,15,2844.45,28.17,Failed,4.9,False,False,False,False,False,False,False,False,False
+ORD1257,2025-09-14,North,Electronics,Online,9,3571.6,5.59,Pending,3.0,False,False,False,False,False,False,False,False,False
+ORD1258,2025-09-15,South,Furniture,Online,8,943.24,11.75,Failed,4.5,False,False,False,False,False,False,False,False,False
+ORD1259,2025-09-16,Unknown,Electronics,Retail,17,4864.86,2.69,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1260,2025-09-17,East,Clothing,Retail,2,2299.19,8.22,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1261,2025-09-18,South,Electronics,Retail,3,879.22,29.06,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1262,2025-09-19,South,Electronics,Distributor,8,982.96,33.19,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1263,2025-09-20,Central,Groceries,Retail,12,581.35,10.66,Refunded,4.8,False,False,False,False,False,False,False,False,False
+ORD1264,2025-09-21,South,Clothing,Online,1,4037.24,9.26,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1265,2025-09-22,East,Electronics,Retail,10,697.95,9.8,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1266,2025-09-23,North,Clothing,Retail,3,713.11,9.72,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1267,2025-09-24,West,Furniture,Retail,6,4267.31,1.26,Pending,2.3,False,False,False,False,False,False,False,False,False
+ORD1268,2025-09-25,West,Office Supplies,Distributor,7,1788.56,32.44,Pending,2.0,False,False,False,False,False,False,False,False,False
+ORD1269,2025-09-26,North,Electronics,Retail,18,251.2,7.48,Refunded,3.5,False,False,False,False,False,False,False,False,False
+ORD1270,2025-09-27,East,Groceries,Online,11,354.29,14.7,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1271,2025-09-28,South,Furniture,Online,19,796.64,0.34,Pending,3.9,False,False,False,False,False,False,False,False,False
+ORD1272,2025-09-29,West,Furniture,Online,5,1145.63,30.03,Refunded,3.1,False,False,False,False,False,False,False,False,False
+ORD1273,2025-09-30,West,Clothing,Online,19,3359.22,25.59,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1274,2025-10-01,West,Furniture,Distributor,11,870.9,33.14,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1275,2025-10-02,South,Electronics,Distributor,12,682.48,27.36,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1276,2025-10-03,West,Furniture,Online,10,3847.12,10.98,Failed,3.3,False,False,False,False,False,False,False,False,False
+ORD1277,2025-10-04,South,Furniture,Online,8,2696.42,8.68,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1278,2025-10-05,South,Electronics,Online,9,2233.09,24.42,Failed,4.0,False,False,False,False,False,False,False,False,False
+ORD1279,2025-10-06,South,Clothing,Online,4,2791.62,12.74,Refunded,3.9,False,False,False,False,False,False,False,False,False
+ORD1280,2025-10-07,Unknown,Office Supplies,Online,5,1628.72,19.82,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1281,2025-10-08,West,Furniture,Online,8,2464.25,0.22,Unknown,1.8,False,False,False,False,False,False,False,False,False
+ORD1282,2025-10-09,West,Electronics,Online,9,2582.7,2.17,Failed,2.6,False,False,False,False,False,False,False,False,False
+ORD1283,2025-10-10,South,Groceries,Retail,15,-2409.27,18.74,Refunded,4.8,False,False,True,False,False,False,True,False,False
+ORD1284,2025-10-11,North,Unknown,Retail,15,4542.2,19.81,Paid,2.6,False,False,False,False,False,False,False,False,False
+ORD1285,2025-10-12,North,Clothing,Online,16,178.7,26.3,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1286,2025-10-13,East,Furniture,Online,14,3932.64,4.62,Failed,3.1,False,False,False,False,False,False,False,False,False
+ORD1287,2025-10-14,South,Furniture,Retail,8,709.48,17.96,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1288,2025-10-15,Central,Office Supplies,Online,18,4007.98,6.81,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1289,2025-10-16,South,Office Supplies,Online,10,3117.97,3.26,Pending,5.0,False,False,False,False,False,False,False,False,False
+ORD1290,2025-10-17,West,Groceries,Online,6,4232.06,14.37,Refunded,3.2,False,False,False,False,False,False,False,False,False
+ORD1291,2025-10-18,Unknown,Electronics,Retail,12,577.82,5.72,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1292,2025-10-19,East,Groceries,Online,2,2839.01,7.76,Paid,5.0,False,False,False,False,False,False,False,False,False
+ORD1293,2025-10-20,South,Electronics,Retail,7,2555.33,11.11,Paid,4.9,False,False,False,False,False,False,False,False,False
+ORD1294,2025-10-21,North,Electronics,Online,16,3560.35,9.08,Refunded,2.8,False,False,False,False,False,False,False,False,False
+ORD1295,2025-10-22,North,Groceries,Retail,3,2718.02,3.07,Pending,2.0,False,False,False,False,False,False,False,False,False
+ORD1296,2025-10-23,West,Electronics,Retail,13,2749.6,3.15,Pending,4.4,False,False,False,False,False,False,False,False,False
+ORD1297,2025-10-24,South,Groceries,Retail,3,2205.02,6.76,Unknown,3.9,False,False,False,False,False,False,False,False,False
+ORD1298,2025-10-25,North,Electronics,Retail,18,1613.29,1.77,Failed,3.7,False,False,False,False,False,False,False,False,False
+ORD1299,2025-10-26,Central,Electronics,Retail,11,2463.1,21.93,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1300,2025-10-27,West,Furniture,Retail,8,680.61,10.06,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1301,2025-10-28,South,Clothing,Retail,6,4811.42,9.79,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1302,2025-10-29,South,Unknown,Online,1,3600.61,11.62,Failed,3.8,False,False,False,False,False,False,False,False,False
+ORD1303,2025-10-30,East,Office Supplies,Online,1,4767.09,23.2,Paid,2.2,False,False,False,False,False,False,False,False,False
+ORD1304,2025-10-31,Unknown,Unknown,Distributor,8,1210.96,30.47,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1305,2025-11-01,North,Electronics,Retail,5,4408.77,26.57,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1307,2025-11-03,West,Furniture,Distributor,11,3418.05,16.95,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1308,2025-11-04,North,Furniture,Online,5,3162.64,24.28,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1309,2025-11-05,Unknown,Electronics,Online,4,1651.09,19.35,Paid,2.3,False,False,False,False,False,False,False,False,False
+ORD1310,2025-11-06,South,Furniture,Online,6,4100.41,7.57,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1311,2025-11-07,West,Office Supplies,Retail,14,2557.43,7.3,Paid,2.9,False,False,False,False,True,False,False,False,False
+ORD1312,2025-11-08,North,Office Supplies,Online,19,447.37,10.37,Pending,4.1,False,False,False,False,False,False,False,False,False
+ORD1313,2025-11-09,West,Furniture,Retail,9,1633.03,31.88,Paid,1.3,False,False,False,False,False,False,False,False,False
+ORD1314,2025-11-10,North,Groceries,Online,-2,2696.42,19.16,Refunded,3.6,False,True,False,False,False,False,False,False,False
+ORD1315,2025-11-11,East,Clothing,Online,11,4268.33,25.69,Pending,4.2,False,False,False,False,False,False,False,False,False
+ORD1316,2025-11-12,West,Furniture,Distributor,14,4911.34,12.13,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1317,2025-11-13,East,Electronics,Distributor,16,3177.17,14.27,Refunded,3.0,False,False,False,False,False,False,False,False,False
+ORD1318,2025-11-14,South,Furniture,Online,1,87710.88,4.39,Paid,4.8,False,False,False,False,False,False,True,False,False
+ORD1319,2025-11-15,North,Clothing,Online,13,897.79,6.0,Paid,2.2,False,False,False,False,False,False,False,False,False
+ORD1320,2025-11-16,South,Clothing,Retail,13,1015.88,28.96,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1321,2025-11-17,West,Office Supplies,Retail,2,197.0,20.47,Pending,2.7,False,False,False,False,False,False,False,False,False
+ORD1322,2025-11-18,Central,Clothing,Distributor,4,2014.34,11.81,Pending,1.1,False,False,False,False,False,False,False,False,False
+ORD1323,2025-11-19,West,Furniture,Online,6,1038.0,28.1,Pending,4.8,False,False,False,False,False,False,False,False,False
+ORD1324,2025-11-20,North,Electronics,Online,5,2117.11,8.63,Failed,1.8,False,False,False,False,False,False,False,False,False
+ORD1325,2025-11-21,South,Electronics,Retail,3,4681.47,34.16,Paid,4.2,False,False,False,False,False,False,False,False,False
+ORD1326,2025-11-22,South,Electronics,Distributor,1,2209.65,12.07,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1327,2025-11-23,East,Electronics,Retail,4,4402.12,11.81,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1328,2025-11-24,North,Electronics,Online,2,3066.97,10.92,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1329,2025-11-25,West,Office Supplies,Online,5,1310.94,4.27,Pending,1.2,False,False,False,False,False,False,False,False,False
+ORD1330,2025-11-26,West,Electronics,Retail,3,1843.69,3.89,Paid,2.9,False,False,False,False,False,False,False,False,False
+ORD1331,2025-11-27,South,Electronics,Online,9,511.21,22.68,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1332,2025-11-28,South,Furniture,Retail,6,1733.97,30.63,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1333,2025-11-29,West,Furniture,Distributor,18,3419.95,27.67,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1334,2025-11-30,East,Office Supplies,Retail,6,453.34,4.94,Refunded,1.9,False,False,False,False,False,False,False,False,False
+ORD1335,2025-12-01,South,Furniture,Distributor,19,1106.47,19.1,Paid,1.8,False,False,False,False,False,False,False,False,False
+ORD1336,2025-12-02,West,Office Supplies,Online,12,1969.06,3.7,Paid,4.0,False,False,False,False,False,False,False,False,False
+ORD1337,2025-12-03,Central,Groceries,Retail,11,2696.42,1.59,Pending,2.0,False,False,False,False,False,False,False,False,False
+ORD1338,2025-12-04,East,Clothing,Retail,2,3945.82,22.97,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1339,2025-12-05,West,Groceries,Retail,15,3694.09,18.73,Paid,2.9,False,False,False,False,True,False,False,False,False
+ORD1340,2025-12-06,West,Electronics,Distributor,12,669.34,2.87,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1341,,East,Furniture,Online,12,3926.88,1.22,Paid,4.3,True,False,False,False,False,False,False,False,False
+ORD1342,2025-12-08,Unknown,Electronics,Retail,9,3947.82,34.64,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1343,2025-12-09,East,Clothing,Retail,2,3045.4,1.05,Refunded,4.6,False,False,False,False,False,False,False,False,False
+ORD1344,2025-12-10,North,Office Supplies,Distributor,3,4952.77,15.56,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1345,2025-12-11,East,Clothing,Retail,12,1693.74,17.66,Failed,1.7,False,False,False,False,False,False,False,False,False
+ORD1346,2025-12-12,North,Electronics,Online,16,4712.23,4.1,Refunded,1.0,False,False,False,False,False,False,False,False,False
+ORD1347,2025-12-13,East,Clothing,Distributor,1,2696.42,5.92,Failed,4.9,False,False,False,False,False,False,False,False,False
+ORD1348,2025-12-14,West,Electronics,Distributor,3,156.26,12.31,Refunded,4.6,False,False,False,False,False,False,False,False,False
+ORD1349,2025-12-15,West,Clothing,Online,2,2305.57,26.66,Unknown,1.2,False,False,False,False,False,False,False,False,False
+ORD1350,2025-12-16,North,Furniture,Retail,9,4887.81,17.75,Paid,4.3,False,False,False,False,False,False,False,False,False
+ORD1351,2025-12-17,West,Electronics,Distributor,19,605.29,22.33,Failed,2.8,False,False,False,False,False,False,False,False,False
+ORD1352,2025-12-18,South,Furniture,Distributor,15,2784.15,34.48,Refunded,2.0,False,False,False,False,False,False,False,False,False
+ORD1353,2025-12-19,South,Electronics,Retail,18,4896.89,26.88,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1354,2025-12-20,West,Electronics,Retail,11,2821.93,15.2,Failed,1.8,False,False,False,False,False,False,False,False,False
+ORD1355,2025-12-21,Unknown,Groceries,Online,16,1030.09,15.63,Unknown,4.8,False,False,False,False,False,False,False,False,False
+ORD1356,2025-12-22,North,Electronics,Online,-9,2952.7,21.66,Refunded,1.8,False,True,False,False,False,False,False,False,False
+ORD1357,2025-12-23,North,Office Supplies,Online,5,1101.76,23.29,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1359,2025-12-25,South,Clothing,Retail,11,462.81,22.57,Pending,3.2,False,False,False,False,False,False,False,False,False
+ORD1360,2025-12-26,East,Groceries,Retail,15,3066.87,0.82,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1361,2025-12-27,Unknown,Unknown,Online,3,2632.27,15.04,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1362,2025-12-28,South,Office Supplies,Retail,1,3726.79,9.76,Refunded,3.1,False,False,False,False,False,False,False,False,False
+ORD1363,2025-12-29,South,Unknown,Online,16,3190.43,4.52,Paid,2.9,False,False,False,False,False,False,False,False,False
+ORD1364,2025-12-30,North,Electronics,Online,2,2793.07,3.48,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1365,2025-12-31,North,Furniture,Online,2,3479.92,21.11,Paid,2.9,False,False,False,False,True,False,False,False,False
+ORD1366,2026-01-01,Unknown,Furniture,Online,3,805.32,18.33,Failed,2.3,False,False,False,False,False,False,False,False,False
+ORD1367,2026-01-02,South,Unknown,Online,8,3017.26,8.88,Pending,3.3,False,False,False,False,False,False,False,False,False
+ORD1368,2026-01-03,North,Unknown,Retail,15,943.34,16.48,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1369,2026-01-04,East,Furniture,Online,7,2696.42,17.23,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1370,2026-01-05,North,Clothing,Distributor,6,434.84,6.83,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1372,2026-01-07,West,Groceries,Online,1,3509.41,27.33,Refunded,2.8,False,False,False,False,False,False,False,False,False
+ORD1373,2026-01-08,North,Furniture,Retail,8,2344.31,27.7,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1374,2026-01-09,West,Clothing,Retail,3,551.27,21.09,Refunded,4.4,False,False,False,False,False,False,False,False,False
+ORD1375,2026-01-10,South,Electronics,Retail,4,2811.56,17.91,Paid,3.2,False,False,False,False,False,False,False,False,False
+ORD1376,2026-01-11,West,Furniture,Online,15,2696.42,2.14,Failed,1.3,False,False,False,False,False,False,False,False,False
+ORD1377,2026-01-12,West,Groceries,Retail,6,3548.58,10.07,Failed,1.9,False,False,False,False,False,False,False,False,False
+ORD1378,2026-01-13,South,Electronics,Retail,15,1928.97,3.26,Paid,1.7,False,False,False,False,False,False,False,False,False
+ORD1379,2026-01-14,North,Electronics,Online,3,2861.93,33.73,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1380,2026-01-15,South,Electronics,Retail,-6,2308.36,4.73,Failed,2.5,False,True,False,False,False,False,False,False,False
+ORD1381,2026-01-16,West,Office Supplies,Distributor,14,3393.07,5.31,Refunded,1.9,False,False,False,False,False,False,False,False,False
+ORD1382,2026-01-17,South,Furniture,Distributor,4,2959.43,31.14,Refunded,1.9,False,False,False,False,False,False,False,False,False
+ORD1383,2026-01-18,West,Electronics,Retail,12,2676.21,33.04,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1384,2026-01-19,Central,Furniture,Retail,-4,1322.67,26.8,Pending,1.1,False,True,False,False,False,False,False,False,False
+ORD1385,2026-01-20,Central,Office Supplies,Online,7,109.89,0.19,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1386,2026-01-21,West,Electronics,Distributor,9,953.0,0.05,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1387,2026-01-22,East,Furniture,Retail,3,673.62,13.23,Refunded,2.7,False,False,False,False,False,False,False,False,False
+ORD1388,2026-01-23,North,Electronics,Retail,13,2300.52,5.02,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1389,2026-01-24,South,Groceries,Retail,15,3100.06,0.64,Pending,1.6,False,False,False,False,False,False,False,False,False
+ORD1390,2026-01-25,South,Electronics,Online,18,1144.12,16.24,Pending,2.7,False,False,False,False,False,False,False,False,False
+ORD1391,2026-01-26,Unknown,Clothing,Distributor,19,4701.38,33.01,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1392,,East,Clothing,Retail,1,132.74,11.33,Paid,1.7,True,False,False,False,False,False,False,False,False
+ORD1393,2026-01-28,West,Furniture,Online,6,3884.27,23.14,Paid,1.0,False,False,False,False,False,False,False,False,False
+ORD1395,2026-01-30,East,Groceries,Online,14,-452.6,8.79,Pending,3.7,False,False,True,False,False,False,False,False,False
+ORD1397,2026-02-01,West,Electronics,Retail,14,3174.68,7.43,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1398,2026-02-02,South,Furniture,Retail,4,1989.51,4.27,Refunded,4.5,False,False,False,False,False,False,False,False,False
+ORD1399,2026-02-03,West,Clothing,Retail,8,4687.71,24.55,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1400,2026-02-04,Unknown,Office Supplies,Online,3,-1048.24,3.97,Refunded,1.9,False,False,True,False,False,False,False,False,False
+ORD1401,2026-02-05,West,Office Supplies,Online,19,4704.29,34.89,Paid,4.4,False,False,False,False,False,False,False,False,False
+ORD1402,2026-02-06,West,Electronics,Retail,14,1180.37,6.42,Pending,4.3,False,False,False,False,False,False,False,False,False
+ORD1403,2026-02-07,East,Electronics,Online,17,3656.06,20.79,Failed,2.8,False,False,False,False,False,False,False,False,False
+ORD1404,2026-02-08,South,Clothing,Online,8,2696.42,14.4,Pending,3.0,False,False,False,False,False,False,False,False,False
+ORD1405,2026-02-09,West,Groceries,Retail,14,3723.1,4.42,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1406,2026-02-10,West,Office Supplies,Online,6,1151.87,0.97,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1407,2026-02-11,South,Electronics,Distributor,16,3358.47,21.8,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1408,2026-02-12,West,Groceries,Online,-4,2540.4,28.24,Pending,1.4,False,True,False,False,False,False,False,False,False
+ORD1410,2026-02-14,South,Clothing,Online,19,1702.52,16.89,Paid,4.8,False,False,False,False,False,False,False,False,False
+ORD1411,2026-02-15,East,Electronics,Retail,3,-1352.03,27.21,Refunded,4.8,False,False,True,False,False,False,False,False,False
+ORD1412,2026-02-16,West,Office Supplies,Distributor,10,513.08,23.55,Failed,2.0,False,False,False,False,False,False,False,False,False
+ORD1413,2026-02-17,South,Groceries,Retail,19,4055.23,25.35,Refunded,3.5,False,False,False,False,False,False,False,False,False
+ORD1415,2026-02-19,East,Groceries,Online,13,4104.54,22.17,Paid,2.9,False,False,False,False,True,False,False,False,False
+ORD1416,2026-02-20,South,Office Supplies,Online,7,2612.36,28.19,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1417,2026-02-21,Central,Office Supplies,Online,14,2248.09,13.93,Failed,1.0,False,False,False,False,False,False,False,False,False
+ORD1418,2026-02-22,North,Electronics,Retail,9,-1587.36,28.21,Unknown,1.7,False,False,True,False,False,False,False,False,False
+ORD1419,2026-02-23,West,Furniture,Distributor,19,1222.94,20.72,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1420,2026-02-24,South,Electronics,Retail,15,2779.69,5.81,Refunded,2.3,False,False,False,False,False,False,False,False,False
+ORD1421,2026-02-25,Unknown,Clothing,Distributor,14,2696.42,0.86,Pending,4.2,False,False,False,False,False,False,False,False,False
+ORD1422,2026-02-26,North,Electronics,Retail,6,3534.25,12.7,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1423,2026-02-27,South,Groceries,Retail,4,1099.72,19.13,Refunded,2.2,False,False,False,False,False,False,False,False,False
+ORD1424,2026-02-28,East,Furniture,Retail,8,3304.57,29.39,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1425,2026-03-01,West,Unknown,Online,17,4110.01,4.46,Refunded,1.4,False,False,False,False,False,False,False,False,False
+ORD1426,2026-03-02,Central,Furniture,Online,9,345.09,28.01,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1427,2026-03-03,South,Furniture,Online,1,4566.45,30.21,Paid,4.7,False,False,False,False,False,False,False,False,False
+ORD1428,2026-03-04,West,Electronics,Retail,14,244.57,5.27,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1429,2026-03-05,South,Office Supplies,Online,11,1844.26,29.81,Pending,4.5,False,False,False,False,False,False,False,False,False
+ORD1430,2026-03-06,West,Groceries,Distributor,3,177.48,34.7,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1431,2026-03-07,South,Electronics,Online,9,478.01,25.44,Refunded,1.2,False,False,False,False,False,False,False,False,False
+ORD1432,2026-03-08,South,Electronics,Online,14,4564.72,27.47,Unknown,3.3,False,False,False,False,False,False,False,False,False
+ORD1433,2026-03-09,Central,Furniture,Online,9,1838.82,34.8,Paid,4.7,False,False,False,False,False,False,False,False,False
+ORD1434,2026-03-10,West,Furniture,Online,4,2181.38,21.19,Unknown,1.7,False,False,False,False,False,False,False,False,False
+ORD1435,2026-03-11,West,Furniture,Online,4,1155.19,10.78,Refunded,1.0,False,False,False,False,False,False,False,False,False
+ORD1436,2026-03-12,West,Electronics,Online,-4,3025.77,29.31,Unknown,4.2,False,True,False,False,False,False,False,False,False
+ORD1437,,West,Electronics,Distributor,2,3014.54,21.51,Pending,1.3,True,False,False,False,False,False,False,False,False
+ORD1438,2026-03-14,West,Electronics,Retail,9,1923.78,20.34,Paid,2.7,False,False,False,False,False,False,False,False,False
+ORD1439,2026-03-15,North,Unknown,Retail,14,1731.87,8.88,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1441,2026-03-17,South,Furniture,Retail,16,1978.09,2.86,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1442,2026-03-18,West,Furniture,Online,17,2518.15,32.35,Unknown,4.1,False,False,False,False,False,False,False,False,False
+ORD1443,2026-03-19,South,Electronics,Online,16,1488.19,11.4,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1444,2026-03-20,West,Groceries,Online,12,3955.17,4.47,Refunded,5.0,False,False,False,False,False,False,False,False,False
+ORD1445,2026-03-21,West,Unknown,Online,3,2047.5,15.48,Refunded,2.4,False,False,False,False,False,False,False,False,False
+ORD1446,2026-03-22,Unknown,Furniture,Online,11,2616.69,1.49,Failed,1.2,False,False,False,False,False,False,False,False,False
+ORD1447,2026-03-23,East,Office Supplies,Distributor,14,1341.45,23.96,Pending,3.9,False,False,False,False,False,False,False,False,False
+ORD1448,2026-03-24,South,Electronics,Retail,18,4939.53,31.59,Failed,3.1,False,False,False,False,False,False,False,False,False
+ORD1449,2026-03-25,North,Electronics,Online,5,1528.33,29.3,Refunded,1.9,False,False,False,False,False,False,False,False,False
+ORD1450,2026-03-26,South,Office Supplies,Retail,16,3876.64,4.46,Pending,4.1,False,False,False,False,False,False,False,False,False
+ORD1451,2026-03-27,South,Unknown,Retail,5,2194.73,4.42,Refunded,1.8,False,False,False,False,False,False,False,False,False
+ORD1452,2026-03-28,South,Office Supplies,Online,3,1110.47,28.47,Unknown,2.0,False,False,False,False,False,False,False,False,False
+ORD1453,2026-03-29,South,Furniture,Retail,12,4018.62,32.35,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1454,2026-03-30,South,Clothing,Online,1,1734.67,16.12,Pending,2.6,False,False,False,False,False,False,False,False,False
+ORD1455,2026-03-31,Central,Furniture,Retail,9,2696.42,17.46,Refunded,2.7,False,False,False,False,False,False,False,False,False
+ORD1456,2026-04-01,East,Furniture,Retail,9,4584.76,11.14,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1457,2026-04-02,South,Groceries,Online,4,4313.14,31.3,Pending,3.8,False,False,False,False,False,False,False,False,False
+ORD1458,2026-04-03,West,Electronics,Distributor,3,271.54,22.57,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1459,2026-04-04,East,Clothing,Retail,17,3958.13,10.09,Unknown,1.6,False,False,False,False,False,False,False,False,False
+ORD1460,2026-04-05,East,Electronics,Retail,2,2115.56,10.46,Refunded,1.2,False,False,False,False,False,False,False,False,False
+ORD1461,2026-04-06,North,Furniture,Distributor,1,2696.42,31.19,Pending,1.1,False,False,False,False,False,False,False,False,False
+ORD1462,2026-04-07,Central,Office Supplies,Retail,8,3225.98,0.48,Pending,1.6,False,False,False,False,False,False,False,False,False
+ORD1463,2026-04-08,South,Clothing,Online,13,4184.85,11.3,Refunded,3.6,False,False,False,False,False,False,False,False,False
+ORD1464,2026-04-09,South,Groceries,Online,15,2547.22,19.4,Refunded,3.9,False,False,False,False,False,False,False,False,False
+ORD1465,2026-04-10,West,Electronics,Distributor,8,2721.62,5.19,Failed,4.1,False,False,False,False,False,False,False,False,False
+ORD1466,2026-04-11,North,Electronics,Online,12,807.5,3.22,Pending,2.0,False,False,False,False,False,False,False,False,False
+ORD1467,2026-04-12,West,Electronics,Retail,12,3941.54,28.53,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1468,,South,Groceries,Online,14,2155.01,31.3,Paid,2.9,True,False,False,False,False,False,False,False,False
+ORD1469,2026-04-14,Central,Groceries,Retail,15,2550.39,28.83,Failed,1.3,False,False,False,False,False,False,False,False,False
+ORD1470,2026-04-15,West,Office Supplies,Retail,15,3946.98,31.46,Failed,3.4,False,False,False,False,False,False,False,False,False
+ORD1471,2026-04-16,Central,Furniture,Distributor,9,3034.34,19.36,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1472,2026-04-17,West,Electronics,Distributor,19,1085.38,28.43,Refunded,2.4,False,False,False,False,False,False,False,False,False
+ORD1473,2026-04-18,East,Electronics,Retail,8,2992.14,13.44,Failed,4.0,False,False,False,False,False,False,False,False,False
+ORD1474,2026-04-19,West,Clothing,Online,19,2097.4,23.32,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1475,2026-04-20,East,Electronics,Retail,6,2400.68,34.61,Failed,1.5,False,False,False,False,False,False,False,False,False
+ORD1476,2026-04-21,West,Furniture,Retail,19,238.73,7.9,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1477,2026-04-22,South,Unknown,Online,4,1129.14,13.65,Failed,2.2,False,False,False,False,False,False,False,False,False
+ORD1478,2026-04-23,West,Groceries,Distributor,7,1477.09,16.8,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1479,2026-04-24,South,Office Supplies,Retail,4,3593.5,4.83,Failed,3.5,False,False,False,False,False,False,False,False,False
+ORD1480,2026-04-25,West,Furniture,Online,12,156.31,2.84,Failed,4.4,False,False,False,False,False,False,False,False,False
+ORD1481,2026-04-26,West,Electronics,Online,13,2103.01,29.04,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1482,2026-04-27,South,Electronics,Retail,3,4627.73,34.19,Paid,2.6,False,False,False,False,False,False,False,False,False
+ORD1483,2026-04-28,Central,Electronics,Online,12,648.22,14.17,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1484,2026-04-29,South,Groceries,Retail,2,2630.48,3.07,Paid,4.3,False,False,False,False,False,False,False,False,False
+ORD1485,2026-04-30,Central,Furniture,Retail,2,3953.96,2.3,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1486,2026-05-01,South,Furniture,Online,9,4718.4,31.2,Failed,2.0,False,False,False,False,False,False,False,False,False
+ORD1487,2026-05-02,East,Clothing,Retail,1,3759.21,16.23,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1488,2026-05-03,West,Groceries,Retail,8,3630.77,11.2,Pending,1.6,False,False,False,False,False,False,False,False,False
+ORD1489,2026-05-04,South,Unknown,Online,6,4149.79,16.68,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1490,2026-05-05,Central,Furniture,Retail,-1,2286.39,11.14,Pending,1.1,False,True,False,False,False,False,False,False,False
+ORD1491,2026-05-06,West,Groceries,Retail,18,4048.64,17.12,Paid,3.6,False,False,False,False,False,False,False,False,False
+ORD1492,2026-05-07,Central,Groceries,Retail,17,139.03,30.08,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1493,2026-05-08,South,Groceries,Online,12,4630.35,20.73,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1494,2026-05-09,South,Furniture,Retail,6,2272.2,24.31,Failed,2.4,False,False,False,False,False,False,False,False,False
+ORD1495,2026-05-10,Central,Clothing,Distributor,8,2811.56,12.76,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1496,2026-05-11,North,Clothing,Retail,19,1348.92,25.85,Unknown,3.5,False,False,False,False,False,False,False,False,False
+ORD1497,2026-05-12,East,Groceries,Retail,10,3738.4,23.33,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1498,2026-05-13,West,Furniture,Retail,1,475.52,4.18,Failed,4.8,False,False,False,False,False,False,False,False,False
+ORD1499,2026-05-14,South,Unknown,Online,13,4375.92,20.04,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1500,2026-05-15,West,Furniture,Retail,17,4157.77,8.99,Pending,3.9,False,False,False,False,False,False,False,False,False
+ORD1501,2026-05-16,North,Office Supplies,Online,3,1158.69,28.14,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1502,2026-05-17,Central,Office Supplies,Online,8,4065.69,14.91,Refunded,2.9,False,False,False,False,True,False,False,False,False
+ORD1503,2026-05-18,Central,Clothing,Distributor,14,3953.15,34.81,Pending,1.1,False,False,False,False,False,False,False,False,False
+ORD1504,2026-05-19,West,Clothing,Online,3,2696.42,3.24,Unknown,3.8,False,False,False,False,False,False,False,False,False
+ORD1505,2026-05-20,North,Furniture,Online,16,1930.25,27.31,Pending,4.8,False,False,False,False,False,False,False,False,False
+ORD1506,2026-05-21,South,Office Supplies,Online,13,1430.34,23.58,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1507,2026-05-22,West,Office Supplies,Online,17,1235.74,26.86,Paid,2.7,False,False,False,False,False,False,False,False,False
+ORD1508,2026-05-23,East,Unknown,Distributor,13,1661.18,10.76,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1509,2026-05-24,West,Unknown,Retail,6,4527.44,17.22,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1510,2026-05-25,North,Office Supplies,Retail,-5,480.44,27.88,Paid,4.0,False,True,False,False,False,False,False,False,False
+ORD1511,2026-05-26,South,Electronics,Online,14,4161.47,8.14,Paid,4.0,False,False,False,False,False,False,False,False,False
+ORD1512,2026-05-27,North,Furniture,Retail,17,1809.56,7.91,Failed,1.6,False,False,False,False,False,False,False,False,False
+ORD1513,2026-05-28,North,Electronics,Online,8,2655.84,19.29,Unknown,4.5,False,False,False,False,False,False,False,False,False
+ORD1514,2026-05-29,South,Electronics,Retail,11,3992.98,18.32,Failed,2.1,False,False,False,False,False,False,False,False,False
+ORD1515,2026-05-30,North,Unknown,Retail,1,4433.45,9.88,Paid,4.9,False,False,False,False,False,False,False,False,False
+ORD1516,2026-05-31,East,Furniture,Online,-2,1789.43,10.43,Refunded,2.5,False,True,False,False,False,False,False,False,False
+ORD1517,2026-06-01,West,Furniture,Online,17,2363.03,9.72,Refunded,1.7,False,False,False,False,False,False,False,False,False
+ORD1518,2026-06-02,South,Electronics,Online,10,-176.41,27.0,Pending,2.4,False,False,True,False,False,False,False,False,False
+ORD1519,2026-06-03,West,Office Supplies,Online,11,164.93,22.82,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1520,2026-06-04,North,Clothing,Retail,9,1550.12,29.13,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1521,2026-06-05,West,Furniture,Online,9,2350.03,34.14,Pending,3.3,False,False,False,False,False,False,False,False,False
+ORD1522,2026-06-06,North,Groceries,Retail,5,2114.36,16.6,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1523,2026-06-07,South,Electronics,Retail,17,3637.45,2.33,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1524,2026-06-08,North,Furniture,Online,9,1985.54,1.68,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1525,2026-06-09,North,Electronics,Distributor,17,2497.94,10.35,Refunded,3.2,False,False,False,False,False,False,False,False,False
+ORD1526,2026-06-10,Unknown,Electronics,Online,19,2205.08,32.64,Pending,1.2,False,False,False,False,False,False,False,False,False
+ORD1527,2026-06-11,East,Furniture,Retail,7,3729.07,18.31,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1528,2026-06-12,North,Clothing,Retail,9,4328.56,9.51,Failed,1.2,False,False,False,False,False,False,False,False,False
+ORD1529,2026-06-13,North,Office Supplies,Online,7,2706.26,13.97,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1530,2026-06-14,North,Clothing,Distributor,13,3968.22,20.95,Refunded,3.8,False,False,False,False,False,False,False,False,False
+ORD1531,2026-06-15,South,Clothing,Retail,11,1554.25,22.85,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1532,2026-06-16,West,Clothing,Retail,14,2752.71,5.39,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1533,2026-06-17,South,Clothing,Retail,19,1791.63,34.2,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1534,2026-06-18,South,Groceries,Online,11,-1633.03,19.07,Pending,2.2,False,False,True,False,False,False,False,False,False
+ORD1535,2026-06-19,East,Groceries,Distributor,13,3688.83,4.75,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1536,2026-06-20,South,Furniture,Retail,14,4420.15,31.28,Failed,4.6,False,False,False,False,False,False,False,False,False
+ORD1537,2026-06-21,West,Furniture,Distributor,13,695.33,2.61,Failed,1.0,False,False,False,False,False,False,False,False,False
+ORD1538,2026-06-22,North,Electronics,Online,1,3209.73,31.77,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1539,2026-06-23,Unknown,Clothing,Online,8,2952.5,34.88,Refunded,3.9,False,False,False,False,False,False,False,False,False
+ORD1540,2026-06-24,North,Furniture,Retail,12,680.23,24.52,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1541,2026-06-25,North,Furniture,Online,19,1138.28,26.97,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1542,2026-06-26,North,Electronics,Online,12,1623.91,11.81,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1543,2026-06-27,East,Electronics,Retail,8,917.96,32.96,Failed,2.0,False,False,False,False,False,False,False,False,False
+ORD1544,2026-06-28,North,Office Supplies,Retail,8,1294.27,18.54,Refunded,4.3,False,False,False,False,False,False,False,False,False
+ORD1545,2026-06-29,South,Groceries,Distributor,13,1411.24,25.63,Paid,2.9,False,False,False,False,False,False,False,False,False
+ORD1546,2026-06-30,West,Electronics,Online,12,1744.8,32.34,Refunded,2.9,False,False,False,False,False,False,False,False,False
+ORD1547,2026-07-01,Central,Electronics,Retail,16,3772.01,34.13,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1548,2026-07-02,West,Electronics,Online,1,2902.37,29.16,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1549,2026-07-03,North,Office Supplies,Online,13,4932.61,10.61,Refunded,4.6,False,False,False,False,False,False,False,False,False
+ORD1550,2026-07-04,North,Furniture,Online,7,2132.21,33.83,Refunded,2.8,False,False,False,False,False,False,False,False,False
+ORD1551,2026-07-05,South,Electronics,Online,5,3793.94,21.98,Paid,1.6,False,False,False,False,False,False,False,False,False
+ORD1552,2026-07-06,West,Electronics,Distributor,8,4370.2,32.57,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1553,2026-07-07,Central,Groceries,Online,14,3426.99,23.66,Refunded,2.8,False,False,False,False,False,False,False,False,False
+ORD1554,2026-07-08,West,Groceries,Retail,13,2118.14,10.75,Paid,1.7,False,False,False,False,False,False,False,False,False
+ORD1555,2026-07-09,South,Furniture,Distributor,15,3792.61,12.95,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1556,2026-07-10,West,Electronics,Distributor,17,1097.97,19.27,Pending,1.2,False,False,False,False,False,False,False,False,False
+ORD1557,2026-07-11,West,Unknown,Retail,15,-1383.22,27.65,Pending,2.9,False,False,True,False,False,False,False,False,False
+ORD1558,2026-07-12,South,Electronics,Retail,18,2778.76,11.13,Paid,4.4,False,False,False,False,False,False,False,False,False
+ORD1559,2026-07-13,West,Furniture,Online,18,2919.51,20.29,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1560,2026-07-14,South,Electronics,Distributor,2,208.49,12.1,Paid,4.7,False,False,False,False,False,False,False,False,False
+ORD1561,2026-07-15,West,Electronics,Retail,4,4731.06,28.55,Refunded,1.5,False,False,False,False,False,False,False,False,False
+ORD1562,2026-07-16,East,Furniture,Retail,1,3513.47,16.34,Pending,2.5,False,False,False,False,False,False,False,False,False
+ORD1563,2026-07-17,Unknown,Unknown,Retail,4,74387.74,2.69,Pending,1.1,False,False,False,False,False,False,True,False,False
+ORD1564,2026-07-18,North,Furniture,Online,18,4672.32,5.81,Refunded,4.4,False,False,False,False,False,False,False,False,False
+ORD1565,2026-07-19,West,Office Supplies,Retail,5,2251.57,2.14,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1566,2026-07-20,North,Furniture,Retail,19,4904.13,17.48,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1568,2026-07-22,West,Furniture,Online,8,660.0,3.99,Pending,2.7,False,False,False,False,False,False,False,False,False
+ORD1569,2026-07-23,North,Electronics,Online,17,3847.52,32.94,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1570,2026-07-24,North,Groceries,Retail,1,3426.6,30.54,Pending,4.8,False,False,False,False,False,False,False,False,False
+ORD1571,2026-07-25,South,Electronics,Retail,12,3887.63,15.82,Paid,4.9,False,False,False,False,False,False,False,False,False
+ORD1572,2026-07-26,East,Furniture,Retail,19,54423.45,34.5,Refunded,2.2,False,False,False,False,False,False,True,False,False
+ORD1573,2026-07-27,South,Clothing,Online,15,3904.8,0.01,Pending,2.9,False,False,False,False,False,False,False,False,False
+ORD1574,,North,Electronics,Online,9,3095.55,21.49,Refunded,4.9,True,False,False,False,False,False,False,False,False
+ORD1575,2026-07-29,North,Groceries,Distributor,7,4300.81,21.57,Pending,1.0,False,False,False,False,False,False,False,False,False
+ORD1576,2026-07-30,South,Furniture,Retail,-5,3398.91,16.01,Pending,2.7,False,True,False,False,False,False,False,False,False
+ORD1577,2026-07-31,Central,Electronics,Online,9,2099.78,13.89,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1578,2026-08-01,South,Office Supplies,Distributor,10,4439.54,15.94,Pending,3.0,False,False,False,False,False,False,False,False,False
+ORD1579,2026-08-02,North,Furniture,Distributor,2,1187.31,14.52,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1580,2026-08-03,Unknown,Clothing,Retail,19,3601.74,25.57,Failed,2.6,False,False,False,False,False,False,False,False,False
+ORD1581,2026-08-04,South,Electronics,Retail,11,4419.66,4.74,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1582,2026-08-05,South,Furniture,Distributor,13,3683.45,6.92,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1583,2026-08-06,West,Office Supplies,Retail,10,3516.65,6.32,Failed,5.0,False,False,False,False,False,False,False,False,False
+ORD1584,2026-08-07,North,Electronics,Online,14,3787.93,9.19,Pending,4.2,False,False,False,False,False,False,False,False,False
+ORD1585,2026-08-08,South,Furniture,Online,18,2378.77,18.38,Paid,4.4,False,False,False,False,False,False,False,False,False
+ORD1586,2026-08-09,North,Furniture,Online,19,4383.44,3.89,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1587,2026-08-10,South,Furniture,Distributor,9,1096.84,30.39,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1588,2026-08-11,East,Office Supplies,Distributor,7,724.19,10.41,Paid,1.8,False,False,False,False,False,False,False,False,False
+ORD1590,2026-08-13,Central,Office Supplies,Retail,6,2704.73,23.65,Paid,2.5,False,False,False,False,False,False,False,False,False
+ORD1591,2026-08-14,South,Electronics,Retail,2,2601.75,1.33,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1592,2026-08-15,West,Office Supplies,Distributor,6,4120.93,21.7,Pending,3.8,False,False,False,False,False,False,False,False,False
+ORD1593,2026-08-16,Central,Office Supplies,Retail,3,2082.39,24.44,Refunded,2.2,False,False,False,False,False,False,False,False,False
+ORD1594,2026-08-17,West,Clothing,Retail,16,2473.29,7.52,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1595,2026-08-18,West,Office Supplies,Online,8,165.5,1.47,Refunded,5.0,False,False,False,False,False,False,False,False,False
+ORD1596,2026-08-19,West,Office Supplies,Retail,2,2107.72,12.73,Refunded,2.9,False,False,False,False,True,False,False,False,False
+ORD1597,2026-08-20,Central,Electronics,Online,17,3274.09,3.45,Pending,2.6,False,False,False,False,False,False,False,False,False
+ORD1598,2026-08-21,North,Electronics,Distributor,9,175.99,4.08,Failed,4.9,False,False,False,False,False,False,False,False,False
+ORD1599,,West,Furniture,Retail,12,1476.32,8.9,Pending,3.6,True,False,False,False,False,False,False,False,False
+ORD1600,2026-08-23,South,Clothing,Online,3,1118.99,10.34,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1601,2026-08-24,Central,Electronics,Distributor,11,305.73,18.55,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1602,2026-08-25,West,Groceries,Retail,1,2448.37,23.74,Refunded,1.5,False,False,False,False,False,False,False,False,False
+ORD1603,2026-08-26,West,Electronics,Online,13,990.44,20.75,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1605,2026-08-28,North,Groceries,Retail,5,4254.85,6.02,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1606,2026-08-29,East,Furniture,Online,17,2773.37,30.76,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1607,2026-08-30,North,Office Supplies,Retail,6,4910.37,19.54,Failed,1.5,False,False,False,False,False,False,False,False,False
+ORD1608,2026-08-31,West,Unknown,Online,11,2307.35,30.45,Pending,4.4,False,False,False,False,False,False,False,False,False
+ORD1609,2026-09-01,West,Furniture,Retail,18,2615.5,13.0,Paid,1.6,False,False,False,False,False,False,False,False,False
+ORD1610,2026-09-02,West,Clothing,Online,4,4947.17,21.5,Refunded,3.1,False,False,False,False,False,False,False,False,False
+ORD1611,2026-09-03,Central,Furniture,Distributor,3,1234.59,18.33,Pending,1.1,False,False,False,False,False,False,False,False,False
+ORD1612,2026-09-04,North,Groceries,Online,13,4718.48,11.17,Paid,1.3,False,False,False,False,False,False,False,False,False
+ORD1613,2026-09-05,West,Electronics,Retail,9,309.9,16.45,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1614,2026-09-06,North,Furniture,Retail,6,2287.3,17.59,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1615,2026-09-07,South,Electronics,Online,12,443.02,7.03,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1616,2026-09-08,East,Clothing,Retail,2,3673.25,11.03,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1617,2026-09-09,South,Electronics,Retail,3,3081.2,27.7,Paid,4.3,False,False,False,False,False,False,False,False,False
+ORD1618,2026-09-10,West,Electronics,Retail,3,3562.51,32.05,Paid,1.9,False,False,False,False,False,False,False,False,False
+ORD1619,2026-09-11,North,Clothing,Online,12,1934.95,12.59,Pending,3.2,False,False,False,False,False,False,False,False,False
+ORD1620,2026-09-12,East,Electronics,Online,15,1910.46,10.74,Refunded,4.9,False,False,False,False,False,False,False,False,False
+ORD1621,2026-09-13,West,Electronics,Online,9,322.06,6.83,Failed,2.9,False,False,False,False,True,False,False,False,False
+ORD1622,2026-09-14,North,Clothing,Online,8,1814.73,23.75,Failed,4.8,False,False,False,False,False,False,False,False,False
+ORD1623,2026-09-15,North,Furniture,Online,11,4653.51,11.31,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1624,2026-09-16,North,Groceries,Retail,-1,1958.21,34.57,Paid,3.3,False,True,False,False,False,False,False,False,False
+ORD1625,2026-09-17,Central,Electronics,Retail,4,4173.7,11.4,Pending,2.5,False,False,False,False,False,False,False,False,False
+ORD1626,2026-09-18,North,Furniture,Distributor,1,4227.39,13.79,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1627,2026-09-19,Central,Electronics,Retail,7,1928.88,21.12,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1628,2026-09-20,South,Groceries,Retail,2,-1875.28,28.06,Pending,2.6,False,False,True,False,False,False,False,False,False
+ORD1629,2026-09-21,North,Electronics,Online,5,567.32,16.43,Paid,4.9,False,False,False,False,False,False,False,False,False
+ORD1630,2026-09-22,North,Furniture,Online,7,608.03,14.79,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1631,2026-09-23,South,Office Supplies,Retail,4,338.42,34.85,Refunded,3.0,False,False,False,False,False,False,False,False,False
+ORD1632,2026-09-24,West,Office Supplies,Online,5,2946.97,0.37,Paid,2.0,False,False,False,False,False,False,False,False,False
+ORD1633,2026-09-25,Central,Office Supplies,Retail,1,2187.75,31.33,Pending,3.8,False,False,False,False,False,False,False,False,False
+ORD1634,2026-09-26,South,Electronics,Retail,-8,2785.36,5.22,Refunded,1.1,False,True,False,False,False,False,False,False,False
+ORD1635,2026-09-27,North,Electronics,Online,15,75109.31,27.51,Paid,1.2,False,False,False,False,False,False,True,False,False
+ORD1636,2026-09-28,North,Groceries,Retail,19,1815.99,21.63,Failed,3.4,False,False,False,False,False,False,False,False,False
+ORD1637,2026-09-29,South,Electronics,Retail,10,3419.62,11.96,Unknown,2.4,False,False,False,False,False,False,False,False,False
+ORD1638,2026-09-30,North,Unknown,Online,18,3816.66,30.59,Pending,4.8,False,False,False,False,False,False,False,False,False
+ORD1639,2026-10-01,North,Groceries,Retail,3,81838.93,0.45,Pending,4.6,False,False,False,False,False,False,True,False,False
+ORD1640,2026-10-02,West,Electronics,Distributor,11,2696.42,7.93,Refunded,3.9,False,False,False,False,False,False,False,False,False
+ORD1641,2026-10-03,South,Unknown,Retail,15,3594.86,19.84,Paid,4.3,False,False,False,False,False,False,False,False,False
+ORD1642,2026-10-04,South,Furniture,Online,11,1994.44,12.3,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1643,2026-10-05,West,Electronics,Retail,17,3346.17,21.36,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1644,2026-10-06,South,Electronics,Distributor,17,1800.12,0.84,Refunded,4.1,False,False,False,False,False,False,False,False,False
+ORD1645,2026-10-07,West,Office Supplies,Online,6,2014.7,4.08,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1646,2026-10-08,Central,Furniture,Online,5,877.53,4.45,Failed,2.3,False,False,False,False,False,False,False,False,False
+ORD1647,2026-10-09,Central,Furniture,Retail,8,1365.33,6.62,Pending,4.3,False,False,False,False,False,False,False,False,False
+ORD1648,2026-10-10,South,Furniture,Online,2,3066.52,16.08,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1649,2026-10-11,West,Electronics,Retail,16,2222.5,26.32,Unknown,4.4,False,False,False,False,False,False,False,False,False
+ORD1650,2026-10-12,Central,Clothing,Distributor,12,3894.08,31.69,Failed,1.9,False,False,False,False,False,False,False,False,False
+ORD1651,2026-10-13,North,Electronics,Online,6,4277.67,29.24,Pending,3.4,False,False,False,False,False,False,False,False,False
+ORD1652,2026-10-14,West,Furniture,Retail,1,2696.42,6.89,Failed,1.3,False,False,False,False,False,False,False,False,False
+ORD1653,2026-10-15,North,Electronics,Online,4,3815.51,15.44,Pending,3.6,False,False,False,False,False,False,False,False,False
+ORD1654,2026-10-16,Central,Electronics,Retail,17,1603.83,6.98,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1655,2026-10-17,South,Office Supplies,Retail,13,2133.36,9.26,Refunded,3.3,False,False,False,False,False,False,False,False,False
+ORD1656,2026-10-18,Central,Furniture,Online,18,3592.61,17.62,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1657,2026-10-19,North,Clothing,Distributor,5,1992.44,2.38,Unknown,1.1,False,False,False,False,False,False,False,False,False
+ORD1658,2026-10-20,East,Electronics,Online,3,2983.67,7.64,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1659,2026-10-21,West,Groceries,Retail,11,1008.33,32.74,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1660,2026-10-22,North,Furniture,Online,13,3038.88,16.31,Paid,4.7,False,False,False,False,False,False,False,False,False
+ORD1661,2026-10-23,West,Furniture,Retail,4,4321.42,15.59,Paid,1.8,False,False,False,False,False,False,False,False,False
+ORD1662,2026-10-24,East,Unknown,Online,14,4356.33,0.51,Pending,3.9,False,False,False,False,False,False,False,False,False
+ORD1663,2026-10-25,Central,Furniture,Retail,11,3649.29,8.66,Pending,4.5,False,False,False,False,False,False,False,False,False
+ORD1664,2026-10-26,South,Furniture,Distributor,10,3754.19,30.32,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1665,2026-10-27,South,Office Supplies,Online,19,2833.84,5.76,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1666,2026-10-28,Central,Electronics,Distributor,18,2964.87,14.53,Failed,4.3,False,False,False,False,False,False,False,False,False
+ORD1667,2026-10-29,South,Furniture,Retail,6,754.89,0.5,Paid,2.0,False,False,False,False,False,False,False,False,False
+ORD1668,2026-10-30,West,Clothing,Online,15,2274.91,16.74,Failed,2.2,False,False,False,False,False,False,False,False,False
+ORD1669,2026-10-31,Central,Electronics,Retail,10,2308.8,0.74,Pending,1.0,False,False,False,False,False,False,False,False,False
+ORD1670,2026-11-01,North,Furniture,Retail,5,4796.64,28.69,Failed,4.9,False,False,False,False,False,False,False,False,False
+ORD1671,2026-11-02,South,Furniture,Online,5,-582.98,28.87,Pending,4.7,False,False,True,False,False,False,False,False,False
+ORD1672,2026-11-03,South,Clothing,Online,10,2791.78,27.57,Pending,4.1,False,False,False,False,False,False,False,False,False
+ORD1673,,South,Furniture,Retail,5,2712.93,9.92,Refunded,1.3,True,False,False,False,False,False,False,False,False
+ORD1674,2026-11-05,South,Furniture,Distributor,3,3220.13,29.3,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1675,2026-11-06,West,Groceries,Retail,6,3766.34,19.0,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1676,2026-11-07,Central,Electronics,Retail,4,1202.71,13.08,Refunded,1.1,False,False,False,False,False,False,False,False,False
+ORD1677,2026-11-08,West,Electronics,Distributor,18,2690.75,21.89,Refunded,3.5,False,False,False,False,False,False,False,False,False
+ORD1678,2026-11-09,West,Furniture,Retail,9,4147.0,0.43,Pending,4.8,False,False,False,False,False,False,False,False,False
+ORD1679,2026-11-10,North,Office Supplies,Retail,17,2369.26,5.0,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1680,2026-11-11,North,Furniture,Online,13,2696.42,25.98,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1681,2026-11-12,West,Office Supplies,Online,15,-2243.46,8.55,Pending,1.4,False,False,True,False,False,False,True,False,False
+ORD1682,2026-11-13,Central,Furniture,Distributor,17,4136.46,20.93,Refunded,2.1,False,False,False,False,False,False,False,False,False
+ORD1683,2026-11-14,North,Groceries,Online,13,409.39,13.48,Pending,2.3,False,False,False,False,False,False,False,False,False
+ORD1684,2026-11-15,West,Electronics,Distributor,16,3906.27,29.92,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1685,2026-11-16,South,Electronics,Online,4,4126.07,33.33,Pending,4.2,False,False,False,False,False,False,False,False,False
+ORD1686,2026-11-17,South,Furniture,Retail,5,2361.46,30.92,Pending,2.5,False,False,False,False,False,False,False,False,False
+ORD1687,2026-11-18,South,Groceries,Retail,5,2696.42,9.47,Refunded,2.7,False,False,False,False,False,False,False,False,False
+ORD1688,2026-11-19,Central,Office Supplies,Retail,9,3954.87,6.8,Pending,1.2,False,False,False,False,False,False,False,False,False
+ORD1689,2026-11-20,North,Office Supplies,Online,17,3890.95,16.61,Refunded,2.2,False,False,False,False,False,False,False,False,False
+ORD1690,2026-11-21,North,Electronics,Retail,13,3764.41,0.26,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1691,2026-11-22,North,Clothing,Online,2,837.98,0.9,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1692,2026-11-23,South,Furniture,Online,13,2696.42,19.37,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1693,2026-11-24,Central,Furniture,Distributor,19,2373.55,18.22,Paid,4.4,False,False,False,False,False,False,False,False,False
+ORD1694,2026-11-25,West,Office Supplies,Online,3,1393.62,34.81,Failed,3.3,False,False,False,False,False,False,False,False,False
+ORD1695,2026-11-26,North,Electronics,Online,10,2134.68,7.06,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1696,2026-11-27,West,Electronics,Distributor,2,4453.47,9.03,Refunded,1.8,False,False,False,False,False,False,False,False,False
+ORD1697,2026-11-28,North,Office Supplies,Online,13,4139.2,3.97,Paid,2.9,False,False,False,False,False,False,False,False,False
+ORD1698,2026-11-29,North,Clothing,Online,19,3187.2,32.11,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1699,2026-11-30,North,Clothing,Retail,17,4304.79,27.22,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1700,2026-12-01,East,Groceries,Online,14,3940.48,28.78,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1701,2026-12-02,North,Electronics,Online,12,2202.03,31.6,Pending,3.3,False,False,False,False,False,False,False,False,False
+ORD1702,2026-12-03,West,Groceries,Retail,12,-964.32,18.37,Pending,4.2,False,False,True,False,False,False,False,False,False
+ORD1703,2026-12-04,South,Electronics,Online,11,2619.59,15.79,Refunded,2.4,False,False,False,False,False,False,False,False,False
+ORD1704,2026-12-05,West,Furniture,Retail,7,-201.69,11.56,Failed,4.2,False,False,True,False,False,False,False,False,False
+ORD1705,2026-12-06,Central,Furniture,Online,4,2238.46,20.62,Refunded,2.4,False,False,False,False,False,False,False,False,False
+ORD1706,2026-12-07,Central,Furniture,Distributor,19,3367.18,15.9,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1707,2026-12-08,West,Unknown,Retail,-9,562.2,15.8,Pending,3.2,False,True,False,False,False,False,False,False,False
+ORD1708,2026-12-09,West,Furniture,Retail,3,3765.22,32.79,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1709,2026-12-10,West,Furniture,Distributor,-4,4082.3,34.44,Refunded,4.7,False,True,False,False,False,False,False,False,False
+ORD1710,2026-12-11,West,Electronics,Online,15,3563.51,27.88,Failed,3.9,False,False,False,False,False,False,False,False,False
+ORD1711,2026-12-12,Unknown,Furniture,Retail,2,4839.59,26.49,Refunded,4.7,False,False,False,False,False,False,False,False,False
+ORD1712,2026-12-13,North,Groceries,Retail,11,4150.6,23.82,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1713,2026-12-14,South,Office Supplies,Distributor,4,4525.16,5.81,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1714,2026-12-15,West,Unknown,Retail,19,4674.5,2.07,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1715,2026-12-16,West,Office Supplies,Online,17,4026.61,24.18,Paid,3.2,False,False,False,False,False,False,False,False,False
+ORD1716,2026-12-17,West,Clothing,Retail,3,2696.42,25.51,Paid,4.9,False,False,False,False,False,False,False,False,False
+ORD1717,2026-12-18,East,Groceries,Online,18,128.02,1.64,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1718,2026-12-19,West,Clothing,Distributor,8,2382.55,32.48,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1719,2026-12-20,West,Furniture,Retail,19,2898.7,3.19,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1720,2026-12-21,Unknown,Furniture,Online,5,1589.75,10.01,Failed,1.7,False,False,False,False,False,False,False,False,False
+ORD1721,2026-12-22,North,Electronics,Online,7,1658.71,23.53,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1722,2026-12-23,East,Furniture,Retail,8,4809.68,5.95,Failed,1.8,False,False,False,False,False,False,False,False,False
+ORD1723,2026-12-24,Unknown,Groceries,Online,5,4469.38,1.94,Pending,3.8,False,False,False,False,False,False,False,False,False
+ORD1724,2026-12-25,South,Clothing,Retail,17,4260.98,11.59,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1725,2026-12-26,South,Office Supplies,Retail,5,2089.46,26.81,Refunded,2.2,False,False,False,False,False,False,False,False,False
+ORD1726,2026-12-27,Central,Furniture,Retail,4,167.12,14.48,Paid,1.3,False,False,False,False,False,False,False,False,False
+ORD1727,2026-12-28,East,Furniture,Online,19,493.09,22.85,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1728,2026-12-29,Unknown,Furniture,Retail,2,1629.76,20.29,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1729,2026-12-30,Central,Office Supplies,Online,11,177.14,0.78,Refunded,2.3,False,False,False,False,False,False,False,False,False
+ORD1730,2026-12-31,West,Furniture,Online,13,184.03,34.6,Refunded,2.1,False,False,False,False,False,False,False,False,False
+ORD1731,2027-01-01,East,Furniture,Online,15,4591.36,1.45,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1732,2027-01-02,South,Clothing,Online,12,3560.18,33.87,Unknown,3.0,False,False,False,False,False,False,False,False,False
+ORD1733,2027-01-03,South,Clothing,Online,11,1613.88,19.25,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1734,2027-01-04,West,Groceries,Distributor,7,749.96,33.71,Refunded,3.9,False,False,False,False,False,False,False,False,False
+ORD1736,2027-01-06,East,Electronics,Online,17,126.2,17.16,Refunded,3.7,False,False,False,False,False,False,False,False,False
+ORD1737,2027-01-07,West,Electronics,Distributor,9,4698.23,5.93,Paid,2.0,False,False,False,False,False,False,False,False,False
+ORD1738,2027-01-08,Central,Electronics,Retail,14,2132.59,1.78,Pending,3.0,False,False,False,False,False,False,False,False,False
+ORD1739,2027-01-09,Central,Furniture,Online,12,2071.44,21.61,Refunded,2.1,False,False,False,False,False,False,False,False,False
+ORD1740,2027-01-10,West,Groceries,Online,6,2013.91,7.27,Unknown,3.9,False,False,False,False,False,False,False,False,False
+ORD1741,2027-01-11,North,Clothing,Online,17,439.71,20.57,Unknown,4.8,False,False,False,False,False,False,False,False,False
+ORD1742,2027-01-12,South,Office Supplies,Online,19,3227.78,3.93,Failed,4.7,False,False,False,False,False,False,False,False,False
+ORD1743,2027-01-13,North,Clothing,Retail,19,3691.72,11.62,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1744,2027-01-14,Central,Furniture,Online,16,3413.01,27.36,Unknown,2.9,False,False,False,False,False,False,False,False,False
+ORD1745,2027-01-15,East,Electronics,Retail,12,778.33,15.3,Unknown,4.3,False,False,False,False,False,False,False,False,False
+ORD1746,2027-01-16,North,Clothing,Online,12,2936.32,21.97,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1747,2027-01-17,East,Electronics,Retail,6,2890.47,22.66,Paid,1.7,False,False,False,False,False,False,False,False,False
+ORD1748,2027-01-18,North,Furniture,Online,4,4355.21,29.53,Pending,4.3,False,False,False,False,False,False,False,False,False
+ORD1749,2027-01-19,South,Electronics,Online,6,1957.73,11.37,Paid,2.7,False,False,False,False,False,False,False,False,False
+ORD1751,2027-01-21,West,Electronics,Retail,1,3130.78,33.66,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1752,2027-01-22,Central,Furniture,Online,15,3202.06,25.56,Failed,2.1,False,False,False,False,False,False,False,False,False
+ORD1753,2027-01-23,North,Electronics,Online,11,2399.5,17.15,Pending,3.1,False,False,False,False,False,False,False,False,False
+ORD1754,2027-01-24,North,Furniture,Retail,19,2270.99,22.08,Pending,1.9,False,False,False,False,False,False,False,False,False
+ORD1755,2027-01-25,Unknown,Office Supplies,Retail,18,2521.32,25.89,Refunded,1.5,False,False,False,False,False,False,False,False,False
+ORD1756,2027-01-26,South,Electronics,Retail,17,4319.12,21.43,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1757,,North,Electronics,Online,19,2359.72,0.58,Paid,3.3,True,False,False,False,False,False,False,False,False
+ORD1758,2027-01-28,East,Electronics,Retail,14,4705.67,6.82,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1759,2027-01-29,South,Furniture,Retail,-9,2569.62,28.37,Paid,2.3,False,True,False,False,False,False,False,False,False
+ORD1760,2027-01-30,North,Groceries,Distributor,19,4751.08,9.54,Failed,1.1,False,False,False,False,False,False,False,False,False
+ORD1761,2027-01-31,West,Electronics,Online,15,4180.88,25.6,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1762,2027-02-01,North,Furniture,Online,15,1875.91,13.02,Failed,4.7,False,False,False,False,False,False,False,False,False
+ORD1763,2027-02-02,Central,Electronics,Online,4,4331.84,18.27,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1764,2027-02-03,North,Electronics,Distributor,7,71164.13,2.38,Pending,2.8,False,False,False,False,False,False,True,False,False
+ORD1765,2027-02-04,Central,Electronics,Distributor,13,4632.73,6.34,Paid,1.2,False,False,False,False,False,False,False,False,False
+ORD1766,2027-02-05,East,Office Supplies,Online,3,3195.05,33.5,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1767,2027-02-06,Central,Electronics,Retail,16,366.51,31.15,Failed,3.1,False,False,False,False,False,False,False,False,False
+ORD1768,2027-02-07,Unknown,Clothing,Online,9,3256.86,22.83,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1769,2027-02-08,West,Furniture,Retail,8,4873.81,16.09,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1770,2027-02-09,South,Furniture,Distributor,13,442.02,23.65,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1771,2027-02-10,Central,Groceries,Distributor,17,2817.97,21.65,Refunded,4.3,False,False,False,False,False,False,False,False,False
+ORD1772,2027-02-11,Central,Groceries,Online,17,3764.19,19.9,Pending,4.5,False,False,False,False,False,False,False,False,False
+ORD1773,2027-02-12,South,Furniture,Retail,17,4070.27,2.07,Refunded,3.4,False,False,False,False,False,False,False,False,False
+ORD1774,2027-02-13,West,Furniture,Online,1,2127.75,22.15,Pending,3.9,False,False,False,False,False,False,False,False,False
+ORD1775,,North,Groceries,Retail,8,1100.42,26.91,Refunded,1.5,True,False,False,False,False,False,False,False,False
+ORD1776,2027-02-15,Central,Office Supplies,Online,19,307.48,34.79,Paid,3.4,False,False,False,False,False,False,False,False,False
+ORD1777,2027-02-16,South,Electronics,Online,6,-208.04,0.39,Refunded,3.7,False,False,True,False,False,False,False,False,False
+ORD1778,2027-02-17,West,Furniture,Retail,-3,2319.26,25.56,Unknown,1.8,False,True,False,False,False,False,False,False,False
+ORD1779,2027-02-18,West,Groceries,Retail,5,86607.05,20.01,Refunded,4.5,False,False,False,False,False,False,True,False,False
+ORD1780,2027-02-19,East,Furniture,Retail,13,396.96,15.19,Paid,1.8,False,False,False,False,False,False,False,False,False
+ORD1781,2027-02-20,Unknown,Clothing,Distributor,15,3458.44,4.46,Failed,2.3,False,False,False,False,False,False,False,False,False
+ORD1782,2027-02-21,East,Electronics,Retail,-1,222.33,14.32,Paid,3.5,False,True,False,False,False,False,False,False,False
+ORD1783,2027-02-22,West,Electronics,Distributor,16,940.03,12.4,Paid,3.6,False,False,False,False,False,False,False,False,False
+ORD1784,2027-02-23,West,Furniture,Online,18,2322.54,10.6,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1785,2027-02-24,North,Electronics,Online,11,2696.42,25.58,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1786,2027-02-25,Unknown,Groceries,Retail,3,3459.93,24.53,Failed,4.4,False,False,False,False,False,False,False,False,False
+ORD1787,2027-02-26,North,Electronics,Distributor,10,4560.04,20.62,Failed,3.1,False,False,False,False,False,False,False,False,False
+ORD1788,2027-02-27,West,Electronics,Retail,10,3231.26,32.85,Pending,2.9,False,False,False,False,False,False,False,False,False
+ORD1789,2027-02-28,West,Furniture,Distributor,16,4772.32,12.24,Paid,4.9,False,False,False,False,False,False,False,False,False
+ORD1790,2027-03-01,North,Unknown,Retail,12,4419.92,8.53,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1791,2027-03-02,South,Furniture,Distributor,2,2964.05,22.96,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1792,2027-03-03,West,Groceries,Retail,-9,4185.58,6.96,Pending,4.0,False,True,False,False,False,False,False,False,False
+ORD1793,2027-03-04,Central,Furniture,Online,3,3248.63,11.03,Refunded,1.4,False,False,False,False,False,False,False,False,False
+ORD1794,2027-03-05,West,Electronics,Retail,15,484.93,7.86,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1795,2027-03-06,Unknown,Groceries,Retail,3,3728.77,2.42,Paid,2.6,False,False,False,False,False,False,False,False,False
+ORD1796,2027-03-07,North,Office Supplies,Online,19,565.05,28.96,Paid,5.0,False,False,False,False,False,False,False,False,False
+ORD1797,2027-03-08,Central,Electronics,Retail,18,3011.01,8.91,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1798,2027-03-09,North,Furniture,Online,8,3542.94,16.56,Refunded,3.7,False,False,False,False,False,False,False,False,False
+ORD1799,2027-03-10,South,Electronics,Retail,17,425.99,1.52,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1800,2027-03-11,East,Office Supplies,Online,8,1230.89,24.48,Refunded,3.9,False,False,False,False,False,False,False,False,False
+ORD1801,2027-03-12,South,Furniture,Online,7,4586.79,11.57,Refunded,3.0,False,False,False,False,False,False,False,False,False
+ORD1803,2027-03-14,South,Groceries,Retail,3,1306.8,14.43,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1804,2027-03-15,South,Electronics,Online,1,3484.33,6.85,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1805,2027-03-16,South,Groceries,Distributor,4,3024.2,17.96,Paid,5.0,False,False,False,False,False,False,False,False,False
+ORD1806,2027-03-17,West,Furniture,Distributor,5,2557.72,4.57,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1807,2027-03-18,West,Furniture,Online,1,4883.32,15.42,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1808,2027-03-19,South,Unknown,Online,15,3448.92,11.11,Failed,4.7,False,False,False,False,False,False,False,False,False
+ORD1809,2027-03-20,Unknown,Electronics,Retail,5,1939.66,31.92,Failed,1.1,False,False,False,False,False,False,False,False,False
+ORD1810,2027-03-21,Central,Furniture,Retail,13,4020.36,2.13,Failed,2.9,False,False,False,False,True,False,False,False,False
+ORD1811,2027-03-22,East,Groceries,Retail,8,4434.46,24.29,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1812,2027-03-23,East,Clothing,Retail,8,713.58,6.4,Pending,1.2,False,False,False,False,False,False,False,False,False
+ORD1813,2027-03-24,South,Electronics,Retail,5,1082.71,11.17,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1814,2027-03-25,West,Furniture,Online,9,1159.51,14.54,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1815,2027-03-26,West,Electronics,Online,1,3486.94,31.78,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1816,2027-03-27,Central,Furniture,Online,4,3054.89,8.49,Pending,3.6,False,False,False,False,False,False,False,False,False
+ORD1817,2027-03-28,South,Clothing,Retail,3,3133.06,3.2,Pending,2.2,False,False,False,False,False,False,False,False,False
+ORD1818,2027-03-29,East,Electronics,Online,2,4709.79,11.15,Unknown,2.8,False,False,False,False,False,False,False,False,False
+ORD1819,2027-03-30,West,Office Supplies,Online,8,3901.97,3.66,Refunded,2.1,False,False,False,False,False,False,False,False,False
+ORD1820,2027-03-31,South,Electronics,Online,9,726.89,4.5,Paid,2.5,False,False,False,False,False,False,False,False,False
+ORD1821,2027-04-01,North,Office Supplies,Retail,-1,1802.78,20.08,Failed,1.6,False,True,False,False,False,False,False,False,False
+ORD1822,2027-04-02,West,Groceries,Online,14,2233.43,2.13,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1823,2027-04-03,South,Clothing,Retail,14,2040.21,1.08,Refunded,1.0,False,False,False,False,False,False,False,False,False
+ORD1824,2027-04-04,North,Office Supplies,Retail,4,3379.61,25.0,Pending,4.5,False,False,False,False,False,False,False,False,False
+ORD1825,2027-04-05,West,Furniture,Online,6,4470.28,12.66,Paid,3.3,False,False,False,False,False,False,False,False,False
+ORD1826,2027-04-06,West,Groceries,Retail,11,1599.65,4.39,Pending,2.3,False,False,False,False,False,False,False,False,False
+ORD1827,2027-04-07,East,Groceries,Distributor,-4,2696.42,8.88,Failed,3.9,False,True,False,False,False,False,False,False,False
+ORD1828,2027-04-08,North,Office Supplies,Retail,8,3968.11,22.47,Failed,3.0,False,False,False,False,False,False,False,False,False
+ORD1829,2027-04-09,North,Office Supplies,Online,3,2139.47,9.64,Unknown,3.0,False,False,False,False,False,False,False,False,False
+ORD1830,2027-04-10,West,Clothing,Distributor,14,923.78,17.31,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1831,2027-04-11,Central,Electronics,Distributor,13,2427.26,4.26,Unknown,2.6,False,False,False,False,False,False,False,False,False
+ORD1832,2027-04-12,Central,Unknown,Retail,13,370.59,20.58,Pending,2.0,False,False,False,False,False,False,False,False,False
+ORD1833,2027-04-13,East,Furniture,Distributor,2,4717.68,11.06,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1834,2027-04-14,West,Office Supplies,Retail,13,466.62,21.94,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1835,2027-04-15,Unknown,Electronics,Retail,19,2696.42,28.29,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1836,2027-04-16,West,Furniture,Online,6,2696.42,21.41,Refunded,2.0,False,False,False,False,False,False,False,False,False
+ORD1837,2027-04-17,East,Furniture,Retail,16,4927.99,10.35,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1838,2027-04-18,Central,Furniture,Distributor,2,913.51,8.95,Refunded,1.4,False,False,False,False,False,False,False,False,False
+ORD1839,2027-04-19,West,Electronics,Retail,8,660.71,11.46,Pending,1.8,False,False,False,False,False,False,False,False,False
+ORD1840,2027-04-20,Central,Electronics,Retail,17,142.66,5.76,Refunded,5.0,False,False,False,False,False,False,False,False,False
+ORD1841,2027-04-21,North,Groceries,Online,2,862.3,6.34,Failed,1.0,False,False,False,False,False,False,False,False,False
+ORD1842,2027-04-22,West,Electronics,Distributor,10,1115.64,27.67,Pending,3.6,False,False,False,False,False,False,False,False,False
+ORD1844,2027-04-24,North,Clothing,Distributor,6,1176.56,15.26,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1845,2027-04-25,Central,Furniture,Retail,2,200.55,20.79,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1846,2027-04-26,Unknown,Clothing,Online,2,4150.43,20.64,Paid,4.8,False,False,False,False,False,False,False,False,False
+ORD1847,2027-04-27,North,Office Supplies,Online,-4,1891.42,2.36,Pending,3.4,False,True,False,False,False,False,False,False,False
+ORD1848,2027-04-28,North,Office Supplies,Distributor,15,2696.42,29.1,Refunded,1.0,False,False,False,False,False,False,False,False,False
+ORD1849,2027-04-29,North,Clothing,Online,2,1582.15,6.21,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1850,2027-04-30,South,Office Supplies,Online,7,4879.33,25.31,Refunded,3.1,False,False,False,False,False,False,False,False,False
+ORD1851,2027-05-01,North,Electronics,Online,3,933.57,27.04,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1852,2027-05-02,North,Electronics,Online,8,4501.37,25.02,Refunded,4.1,False,False,False,False,False,False,False,False,False
+ORD1853,2027-05-03,Central,Office Supplies,Online,14,3906.34,20.26,Refunded,4.7,False,False,False,False,False,False,False,False,False
+ORD1854,2027-05-04,East,Groceries,Retail,7,474.75,0.51,Pending,2.9,False,False,False,False,False,False,False,False,False
+ORD1855,2027-05-05,North,Office Supplies,Online,7,4934.97,12.61,Pending,2.3,False,False,False,False,False,False,False,False,False
+ORD1856,2027-05-06,Central,Furniture,Online,1,1429.69,21.17,Paid,4.2,False,False,False,False,False,False,False,False,False
+ORD1857,2027-05-07,East,Electronics,Retail,17,583.06,13.56,Refunded,3.7,False,False,False,False,False,False,False,False,False
+ORD1858,2027-05-08,East,Furniture,Online,9,4163.64,30.22,Refunded,2.9,False,False,False,False,True,False,False,False,False
+ORD1859,2027-05-09,North,Furniture,Online,13,3562.71,10.81,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1860,2027-05-10,North,Groceries,Online,19,80593.92,10.27,Paid,2.0,False,False,False,False,False,False,True,False,False
+ORD1861,,West,Electronics,Retail,19,864.31,9.31,Paid,2.9,True,False,False,False,True,False,False,False,False
+ORD1862,2027-05-12,South,Electronics,Retail,17,2444.63,11.65,Pending,1.4,False,False,False,False,False,False,False,False,False
+ORD1863,2027-05-13,North,Unknown,Online,10,3924.72,19.51,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1864,2027-05-14,North,Electronics,Retail,10,1587.76,24.75,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1865,2027-05-15,West,Electronics,Distributor,4,1627.28,23.19,Failed,3.3,False,False,False,False,False,False,False,False,False
+ORD1866,,South,Groceries,Distributor,8,115.39,28.27,Pending,1.1,True,False,False,False,False,False,False,False,False
+ORD1867,2027-05-17,Central,Office Supplies,Online,18,953.79,31.01,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1868,2027-05-18,South,Furniture,Retail,14,4389.49,28.56,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1869,2027-05-19,North,Electronics,Retail,18,-1811.34,0.66,Pending,2.6,False,False,True,False,False,False,False,False,False
+ORD1870,,South,Furniture,Retail,14,4922.75,25.76,Pending,4.2,True,False,False,False,False,False,False,False,False
+ORD1871,,Central,Office Supplies,Retail,15,2038.97,7.29,Refunded,2.5,True,False,False,False,False,False,False,False,False
+ORD1872,2027-05-22,West,Office Supplies,Distributor,4,3604.41,4.65,Refunded,1.2,False,False,False,False,False,False,False,False,False
+ORD1873,2027-05-23,North,Furniture,Retail,13,1481.4,22.35,Refunded,2.9,False,False,False,False,True,False,False,False,False
+ORD1874,2027-05-24,South,Groceries,Retail,8,1882.67,11.19,Refunded,4.8,False,False,False,False,False,False,False,False,False
+ORD1875,2027-05-25,North,Clothing,Retail,18,1034.56,2.0,Failed,1.3,False,False,False,False,False,False,False,False,False
+ORD1876,2027-05-26,East,Clothing,Retail,12,1800.61,4.82,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1877,2027-05-27,Unknown,Office Supplies,Retail,14,2781.46,0.03,Refunded,3.0,False,False,False,False,False,False,False,False,False
+ORD1878,2027-05-28,Unknown,Electronics,Online,2,4959.69,31.61,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1879,2027-05-29,Central,Electronics,Retail,18,3354.59,0.86,Refunded,1.0,False,False,False,False,False,False,False,False,False
+ORD1880,2027-05-30,Central,Unknown,Retail,2,1076.31,7.33,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1881,2027-05-31,Central,Clothing,Retail,11,320.31,14.57,Refunded,2.5,False,False,False,False,False,False,False,False,False
+ORD1882,2027-06-01,South,Office Supplies,Retail,9,719.15,12.48,Failed,4.9,False,False,False,False,False,False,False,False,False
+ORD1883,2027-06-02,East,Groceries,Retail,12,2856.52,31.91,Unknown,1.6,False,False,False,False,False,False,False,False,False
+ORD1884,2027-06-03,Unknown,Clothing,Retail,17,3849.29,1.41,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1885,2027-06-04,West,Office Supplies,Retail,15,4708.05,17.93,Paid,2.7,False,False,False,False,False,False,False,False,False
+ORD1886,2027-06-05,Central,Office Supplies,Retail,17,2696.42,23.82,Unknown,2.6,False,False,False,False,False,False,False,False,False
+ORD1887,2027-06-06,South,Electronics,Retail,18,2661.52,32.61,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1888,2027-06-07,South,Groceries,Retail,6,2407.25,21.71,Paid,1.9,False,False,False,False,False,False,False,False,False
+ORD1889,2027-06-08,West,Electronics,Online,17,3314.67,28.13,Paid,1.9,False,False,False,False,False,False,False,False,False
+ORD1890,2027-06-09,South,Furniture,Online,18,2841.94,2.93,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1891,2027-06-10,North,Electronics,Distributor,8,3466.49,13.51,Pending,3.0,False,False,False,False,False,False,False,False,False
+ORD1892,2027-06-11,Unknown,Furniture,Online,-5,3324.6,13.09,Pending,2.7,False,True,False,False,False,False,False,False,False
+ORD1893,2027-06-12,South,Unknown,Online,6,673.36,31.02,Pending,1.7,False,False,False,False,False,False,False,False,False
+ORD1894,,Central,Furniture,Distributor,5,4018.62,5.3,Pending,1.8,True,False,False,False,False,False,False,False,False
+ORD1895,2027-06-14,West,Clothing,Retail,12,703.84,5.32,Failed,1.0,False,False,False,False,False,False,False,False,False
+ORD1896,2027-06-15,West,Electronics,Online,11,3522.8,11.5,Refunded,1.4,False,False,False,False,False,False,False,False,False
+ORD1897,2027-06-16,South,Office Supplies,Retail,1,2139.11,1.91,Failed,3.2,False,False,False,False,False,False,False,False,False
+ORD1898,2027-06-17,West,Furniture,Retail,11,2617.87,6.39,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1899,2027-06-18,North,Groceries,Online,19,4526.16,33.78,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1900,2027-06-19,East,Electronics,Retail,9,4460.43,14.99,Refunded,2.3,False,False,False,False,False,False,False,False,False
+ORD1901,2027-06-20,Central,Furniture,Online,2,4107.5,22.12,Paid,1.5,False,False,False,False,False,False,False,False,False
+ORD1903,2027-06-22,South,Electronics,Retail,4,67605.77,12.84,Paid,1.1,False,False,False,False,False,False,True,False,False
+ORD1904,2027-06-23,North,Electronics,Distributor,4,2613.2,5.15,Pending,4.7,False,False,False,False,False,False,False,False,False
+ORD1905,2027-06-24,East,Electronics,Online,18,4361.07,7.23,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1906,2027-06-25,North,Furniture,Retail,15,2073.6,10.96,Paid,2.9,False,False,False,False,True,False,False,False,False
+ORD1907,2027-06-26,North,Electronics,Online,19,4854.15,22.26,Paid,4.5,False,False,False,False,False,False,False,False,False
+ORD1908,2027-06-27,East,Clothing,Retail,13,4668.38,13.94,Paid,2.9,False,False,False,False,False,False,False,False,False
+ORD1909,2027-06-28,North,Furniture,Retail,19,3733.85,0.24,Paid,3.1,False,False,False,False,False,False,False,False,False
+ORD1910,2027-06-29,South,Office Supplies,Retail,17,1469.14,18.32,Pending,2.9,False,False,False,False,True,False,False,False,False
+ORD1911,2027-06-30,East,Furniture,Retail,6,745.1,32.25,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1912,2027-07-01,Central,Electronics,Retail,16,4288.05,28.42,Pending,4.6,False,False,False,False,False,False,False,False,False
+ORD1913,2027-07-02,Central,Groceries,Online,12,909.98,28.88,Refunded,1.2,False,False,False,False,False,False,False,False,False
+ORD1914,,North,Furniture,Online,19,4285.88,27.83,Paid,4.5,True,False,False,False,False,False,False,False,False
+ORD1915,2027-07-04,West,Furniture,Online,5,2504.75,11.33,Pending,2.4,False,False,False,False,False,False,False,False,False
+ORD1917,2027-07-06,North,Furniture,Online,1,4525.63,5.01,Failed,4.8,False,False,False,False,False,False,False,False,False
+ORD1918,2027-07-07,West,Electronics,Online,10,3058.87,23.02,Refunded,3.7,False,False,False,False,False,False,False,False,False
+ORD1919,2027-07-08,West,Furniture,Retail,15,2925.41,22.45,Pending,3.7,False,False,False,False,False,False,False,False,False
+ORD1920,2027-07-09,West,Unknown,Online,11,2837.95,0.89,Paid,2.8,False,False,False,False,False,False,False,False,False
+ORD1921,2027-07-10,Central,Groceries,Retail,13,1918.73,27.58,Paid,4.3,False,False,False,False,False,False,False,False,False
+ORD1922,2027-07-11,North,Electronics,Online,5,3949.65,31.61,Pending,4.8,False,False,False,False,False,False,False,False,False
+ORD1923,2027-07-12,South,Furniture,Retail,1,1338.71,9.36,Paid,4.1,False,False,False,False,False,False,False,False,False
+ORD1924,2027-07-13,North,Furniture,Retail,12,4700.59,28.43,Pending,3.5,False,False,False,False,False,False,False,False,False
+ORD1925,2027-07-14,South,Electronics,Retail,11,-893.16,2.88,Paid,3.4,False,False,True,False,False,False,False,False,False
+ORD1926,2027-07-15,East,Furniture,Online,17,2696.42,21.0,Failed,4.4,False,False,False,False,False,False,False,False,False
+ORD1927,2027-07-16,Central,Groceries,Retail,4,3674.37,17.0,Paid,3.2,False,False,False,False,False,False,False,False,False
+ORD1928,2027-07-17,West,Furniture,Online,15,2908.79,19.11,Refunded,4.2,False,False,False,False,False,False,False,False,False
+ORD1929,2027-07-18,South,Electronics,Distributor,9,1754.48,32.42,Pending,3.0,False,False,False,False,False,False,False,False,False
+ORD1930,2027-07-19,South,Office Supplies,Retail,19,4943.76,30.5,Refunded,1.2,False,False,False,False,False,False,False,False,False
+ORD1931,2027-07-20,North,Furniture,Distributor,19,223.66,27.48,Pending,2.5,False,False,False,False,False,False,False,False,False
+ORD1932,2027-07-21,West,Office Supplies,Online,12,1337.97,9.58,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1933,2027-07-22,South,Furniture,Online,5,2648.36,31.91,Paid,1.6,False,False,False,False,False,False,False,False,False
+ORD1934,2027-07-23,Unknown,Groceries,Online,10,2657.57,3.41,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1935,,West,Furniture,Retail,17,70408.64,29.87,Pending,3.1,True,False,False,False,False,False,True,False,False
+ORD1936,2027-07-25,South,Furniture,Distributor,5,3783.21,11.49,Failed,1.3,False,False,False,False,False,False,False,False,False
+ORD1937,2027-07-26,South,Electronics,Retail,16,3155.04,1.88,Paid,2.2,False,False,False,False,False,False,False,False,False
+ORD1938,2027-07-27,Central,Clothing,Online,7,3041.38,23.43,Refunded,4.0,False,False,False,False,False,False,False,False,False
+ORD1939,2027-07-28,South,Furniture,Online,9,362.22,8.09,Pending,4.9,False,False,False,False,False,False,False,False,False
+ORD1940,2027-07-29,North,Office Supplies,Retail,3,1945.0,8.52,Refunded,3.9,False,False,False,False,False,False,False,False,False
+ORD1941,2027-07-30,West,Furniture,Retail,15,1237.07,10.71,Unknown,5.0,False,False,False,False,False,False,False,False,False
+ORD1942,2027-07-31,Central,Office Supplies,Online,16,1400.31,2.23,Pending,3.8,False,False,False,False,False,False,False,False,False
+ORD1943,2027-08-01,West,Furniture,Distributor,18,2816.25,6.2,Unknown,2.2,False,False,False,False,False,False,False,False,False
+ORD1944,2027-08-02,Central,Furniture,Online,14,1077.58,0.18,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1945,2027-08-03,Central,Electronics,Retail,3,1540.35,15.59,Refunded,3.8,False,False,False,False,False,False,False,False,False
+ORD1946,2027-08-04,North,Electronics,Distributor,12,2696.42,2.95,Paid,2.5,False,False,False,False,False,False,False,False,False
+ORD1947,2027-08-05,Central,Furniture,Distributor,9,4747.66,23.89,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1948,2027-08-06,West,Office Supplies,Online,7,4728.86,8.25,Pending,3.8,False,False,False,False,False,False,False,False,False
+ORD1949,2027-08-07,South,Clothing,Retail,9,3088.71,33.03,Pending,1.1,False,False,False,False,False,False,False,False,False
+ORD1950,2027-08-08,Central,Clothing,Online,13,4630.16,30.49,Paid,3.5,False,False,False,False,False,False,False,False,False
+ORD1951,2027-08-09,East,Groceries,Retail,18,3950.48,10.13,Paid,1.7,False,False,False,False,False,False,False,False,False
+ORD1952,2027-08-10,West,Furniture,Retail,5,2990.74,27.41,Failed,3.3,False,False,False,False,False,False,False,False,False
+ORD1953,2027-08-11,Central,Office Supplies,Online,13,131.53,28.11,Paid,3.0,False,False,False,False,False,False,False,False,False
+ORD1954,2027-08-12,West,Groceries,Distributor,4,3885.33,34.53,Paid,1.1,False,False,False,False,False,False,False,False,False
+ORD1955,,East,Office Supplies,Online,2,3542.19,20.92,Paid,2.5,True,False,False,False,False,False,False,False,False
+ORD1956,2027-08-14,East,Furniture,Distributor,16,3114.74,2.87,Failed,3.4,False,False,False,False,False,False,False,False,False
+ORD1957,2027-08-15,West,Furniture,Distributor,9,3826.08,22.64,Pending,4.4,False,False,False,False,False,False,False,False,False
+ORD1958,2027-08-16,South,Furniture,Online,9,2613.32,21.87,Paid,4.6,False,False,False,False,False,False,False,False,False
+ORD1959,2027-08-17,North,Clothing,Distributor,6,3550.01,22.34,Failed,2.9,False,False,False,False,False,False,False,False,False
+ORD1960,2027-08-18,North,Furniture,Distributor,11,4682.34,10.75,Paid,3.9,False,False,False,False,False,False,False,False,False
+ORD1961,2027-08-19,South,Furniture,Retail,1,1941.44,30.09,Failed,2.9,False,False,False,False,True,False,False,False,False
+ORD1962,2027-08-20,South,Electronics,Retail,4,3569.8,33.58,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1963,2027-08-21,South,Clothing,Retail,13,2430.87,7.62,Paid,1.8,False,False,False,False,False,False,False,False,False
+ORD1964,2027-08-22,North,Groceries,Retail,13,3404.56,3.09,Pending,3.2,False,False,False,False,False,False,False,False,False
+ORD1965,2027-08-23,North,Electronics,Online,13,3838.18,6.81,Paid,2.3,False,False,False,False,False,False,False,False,False
+ORD1966,2027-08-24,South,Unknown,Online,2,322.72,28.72,Refunded,1.3,False,False,False,False,False,False,False,False,False
+ORD1967,2027-08-25,Central,Groceries,Online,9,3268.34,23.68,Refunded,3.7,False,False,False,False,False,False,False,False,False
+ORD1968,2027-08-26,South,Furniture,Online,8,1211.03,22.26,Refunded,3.8,False,False,False,False,False,False,False,False,False
+ORD1969,2027-08-27,Unknown,Electronics,Retail,7,3383.16,14.06,Paid,2.4,False,False,False,False,False,False,False,False,False
+ORD1970,2027-08-28,East,Groceries,Retail,4,2394.82,20.22,Pending,1.3,False,False,False,False,False,False,False,False,False
+ORD1971,2027-08-29,West,Furniture,Distributor,18,3890.41,10.78,Paid,2.7,False,False,False,False,False,False,False,False,False
+ORD1972,2027-08-30,North,Clothing,Online,3,704.66,16.7,Pending,2.8,False,False,False,False,False,False,False,False,False
+ORD1973,2027-08-31,South,Electronics,Online,6,3168.98,27.76,Failed,3.7,False,False,False,False,False,False,False,False,False
+ORD1974,2027-09-01,East,Furniture,Online,12,1464.51,34.34,Paid,2.3,False,False,False,False,False,False,False,False,False
+ORD1975,2027-09-02,West,Furniture,Online,12,4279.61,32.64,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1976,2027-09-03,North,Office Supplies,Online,8,66539.89,32.69,Paid,4.5,False,False,False,False,False,False,True,False,False
+ORD1977,2027-09-04,West,Furniture,Online,1,4982.35,14.08,Paid,1.9,False,False,False,False,False,False,False,False,False
+ORD1978,2027-09-05,West,Furniture,Retail,4,4000.44,16.41,Paid,4.9,False,False,False,False,False,False,False,False,False
+ORD1979,2027-09-06,West,Electronics,Retail,11,3793.3,24.7,Paid,2.5,False,False,False,False,False,False,False,False,False
+ORD1980,2027-09-07,South,Office Supplies,Retail,3,1155.95,32.28,Pending,2.1,False,False,False,False,False,False,False,False,False
+ORD1981,2027-09-08,West,Furniture,Retail,13,1746.43,4.97,Failed,2.7,False,False,False,False,False,False,False,False,False
+ORD1982,2027-09-09,West,Groceries,Online,17,2381.84,10.65,Failed,1.4,False,False,False,False,False,False,False,False,False
+ORD1983,2027-09-10,West,Groceries,Online,10,3889.57,4.87,Pending,1.5,False,False,False,False,False,False,False,False,False
+ORD1984,,Central,Furniture,Distributor,12,4583.33,21.42,Pending,2.7,True,False,False,False,False,False,False,False,False
+ORD1985,2027-09-12,West,Office Supplies,Retail,15,1026.78,10.72,Pending,4.0,False,False,False,False,False,False,False,False,False
+ORD1986,2027-09-13,North,Office Supplies,Retail,10,4619.6,11.41,Failed,4.6,False,False,False,False,False,False,False,False,False
+ORD1987,2027-09-14,West,Furniture,Retail,14,3508.56,2.48,Refunded,3.7,False,False,False,False,False,False,False,False,False
+ORD1988,2027-09-15,West,Electronics,Online,13,3092.78,12.24,Paid,1.4,False,False,False,False,False,False,False,False,False
+ORD1989,2027-09-16,North,Clothing,Retail,5,1079.22,30.19,Paid,3.7,False,False,False,False,False,False,False,False,False
+ORD1990,2027-09-17,West,Groceries,Distributor,6,372.07,8.16,Failed,3.5,False,False,False,False,False,False,False,False,False
+ORD1991,2027-09-18,North,Electronics,Retail,2,2885.48,24.33,Pending,4.2,False,False,False,False,False,False,False,False,False
+ORD1992,2027-09-19,West,Electronics,Online,17,3292.43,22.04,Pending,4.3,False,False,False,False,False,False,False,False,False
+ORD1993,2027-09-20,North,Groceries,Retail,4,2696.42,30.22,Refunded,4.5,False,False,False,False,False,False,False,False,False
+ORD1994,2027-09-21,West,Electronics,Online,14,2826.64,4.63,Failed,2.7,False,False,False,False,False,False,False,False,False
+ORD1995,2027-09-22,Unknown,Groceries,Online,10,4296.82,34.22,Paid,3.8,False,False,False,False,False,False,False,False,False
+ORD1996,2027-09-23,Central,Clothing,Distributor,3,4191.82,20.39,Paid,2.1,False,False,False,False,False,False,False,False,False
+ORD1997,2027-09-24,South,Electronics,Online,3,4644.04,34.84,Pending,5.0,False,False,False,False,False,False,False,False,False
+ORD1998,2027-09-25,West,Clothing,Retail,15,1892.84,31.9,Paid,1.7,False,False,False,False,False,False,False,False,False
+ORD1999,2027-09-26,West,Furniture,Online,6,1658.44,7.75,Pending,1.0,False,False,False,False,False,False,False,False,False
+ORD2000,2027-09-27,East,Electronics,Retail,17,3772.19,1.97,Failed,1.6,False,False,False,False,False,False,False,False,False
