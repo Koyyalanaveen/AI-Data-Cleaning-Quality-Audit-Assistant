@@ -1,6 +1,8 @@
-import streamlit as st
-import pandas as pd
 import warnings
+
+import pandas as pd
+import streamlit as st
+
 
 st.set_page_config(
     page_title="AI Data Cleaning & Quality Audit Assistant",
@@ -8,7 +10,6 @@ st.set_page_config(
 )
 
 st.title("AI Data Cleaning & Quality Audit Assistant")
-
 st.write(
     "Upload a CSV file or use the default sample dataset to audit data quality, "
     "detect common issues, generate cleaning recommendations, and download cleaned data."
